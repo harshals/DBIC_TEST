@@ -22,7 +22,7 @@ sub add_base_columns {
 		
 		"created_on", { data_type => "DATETIME" ,set_on_create => 1 , is_base => 1}, 
 
-		"updated_on" , { data_type => "DATETIME" ,set_on_update => 1, is_base => 1},
+		"updated_on" , { data_type => "DATETIME" ,set_on_create => 1, set_on_update => 1, is_base => 1},
 	
 		"access_read" , { data_type => "TEXT" , is_csv => 1, is_base => 1},
 
@@ -108,8 +108,6 @@ sub get_expanded_columns {
 		$object{$key} = $self->data->{$key} unless exists $object{$key}
 	}
     }
-	## unpack the binary keys
-	$object{status} = { map { $_ => $self->$_ } @{ $self->column_info("status")->{bitfield} } };
 	
 	return \%object;
 }
@@ -161,8 +159,8 @@ sub save {
 	croak(" You do not have write permissions") 
 		unless $self->has_access("write", $user);
 
-	croak(" Object is dirty . Can't do much") 
-		if $self->dirty;
+	#croak(" Object is dirty . Can't do much") 
+	#	if $self->is_dirty;
 
 	foreach my $column ($self->columns ) {
 
@@ -176,7 +174,9 @@ sub save {
 		
 	}
 	$self->data(\%extra_data);
-	$self->insert_or_update;
+
+    ($self->id) ? $self->update : $self->insert;
+	#$self->insert_or_update;
 	
 }
 
@@ -188,7 +188,7 @@ sub remove {
 	croak(" You do not have write permissions") 
 		unless $self->has_access("write", $user);
 
-	$self->deleted(1);
+	#$self->deleted(1);
 
 	$self->insert_or_update;
 }
@@ -197,7 +197,7 @@ sub purge {
 
 	my $self = shift;
 
-	$self->dirty(1);
+	#$self->dirty(1);
 	$self->delete if $self->deleted;
 }
 

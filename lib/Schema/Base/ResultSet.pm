@@ -117,12 +117,9 @@ sub fetch_new {
 
 	my $object = $self->new({});
 
+    $object->status(1);
 	$object->grant_access("read", $user);
 	$object->grant_access("write", $user);
-
-	$object->active(1);
-	$object->log(1);
-
 
 	return $object;
 }
@@ -145,8 +142,8 @@ sub purge {
 
 	my $self = shift;
 
-	$self->search_bitfield( { deleted => 1} )->delete;
-
+	#$self->is_deleted->delete;
+    $self->delete;
 }
 
 sub is_valid {
@@ -154,10 +151,10 @@ sub is_valid {
 	my $self = shift;
 	my $alias = shift;
 
-
 	$alias ||= $self->current_source_alias;
+    
+    $self;
 	#$self->search( { "$alias.status" => { '!=' , 11 } });
-	$self->search_bitfield( { "$alias.deleted" => 0, "$alias.active" => 1});
 }
 
 sub is_deleted {
@@ -166,30 +163,16 @@ sub is_deleted {
 	my $alias = shift;
 
 	$alias ||= $self->current_source_alias;
-	return $self->search_bitfield( { "$alias.deleted" => 1 } );
+	#return $self->search_bitfield( { "$alias.deleted" => 1 } );
+	return $self;
 }
 sub look_for {
 	
 	my ($self, $search, $attributes) = @_;
 
-  ## do necessary user validation  
-	if ($self->result_class =~ m/Sale/) {
-		
-		$attributes->{prefetch}  = [qw/buyer consignee product excise vat /] ;
-
-	}elsif ($self->result_class =~ m/Purchase/) {
-		
-		$attributes->{ 'prefetch' }  = [qw/supplier manufacturer product excise vat /] ;
-	}
+    ## do necessary user validation  
 	
-	if ($search->{'is_deleted'}) {
-		
-		delete $search->{'is_deleted'};
-		return $self->has_access->is_deleted->search( $search, $attributes)->serialize_to_perl(1);
-	} else {
-
-		return $self->has_access->is_valid->search( $search, $attributes)->serialize_to_perl(1) ;
-	}
+	return $self->has_access->is_valid->search( $search, $attributes)->serialize_to_perl(1) ;
 
 }
 

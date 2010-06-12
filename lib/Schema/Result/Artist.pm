@@ -15,12 +15,12 @@ __PACKAGE__->add_base_columns;
 
 __PACKAGE__->set_primary_key("id");
 
-__PACKAGE__->add_unique_constraint([ qw/name/ ]);
+__PACKAGE__->add_unique_constraint([ qw/first_name/ ]);
 
 
 __PACKAGE__->has_many(
   "cds",
-  "Schema::Result::Cds",
+  "Schema::Result::Cd",
   { "foreign.artist_id" => "self.id" },
 );
 
