@@ -3,7 +3,10 @@ package Schema::Result::Cd;
 use strict;
 use warnings;
 
-use base qw/Schema::Base::Result/;
+use Moose;
+use namespace::clean -except => 'meta';
+#use base qw/Schema::Base::Result/;
+extends qw/Schema::Base::Result/;
 
 __PACKAGE__->table("cd");
 __PACKAGE__->add_columns(
@@ -40,4 +43,5 @@ sub extra_columns {
 # You can replace this text with custom content, and it will be preserved on regeneration
 
 
+__PACKAGE__->meta->make_immutable;
 1;

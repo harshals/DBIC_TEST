@@ -2,6 +2,8 @@ use aliased 'DBIx::Class::DeploymentHandler' => 'DH';
 use lib "lib";
 use Schema;
 
+`rm -f music.db`;
+
 my $s = Schema->connect("dbi:SQLite:music.db");
 
 $s->deploy;

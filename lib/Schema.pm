@@ -5,8 +5,8 @@ use warnings;
 
 use Moose;
 use namespace::clean -except => 'meta';
-use base 'DBIx::Class::Schema';
-
+#use base 'DBIx::Class::Schema';
+extends 'DBIx::Class::Schema';
 =head1 NAME
 
 SneakyCat::Controller::Ideas - Catalyst Controller
@@ -28,7 +28,10 @@ index just forwards to share.
 
 
 
-__PACKAGE__->load_namespaces;
+__PACKAGE__->load_namespaces(
+        result_namespace => 'Result',
+        resultset_namespace => 'ResultSet',
+        default_resultset_class => '+Schema::Base::ResultSet');
 
 has "user" => (isa => "Int", is => "rw", default => 1);
 # Created by DBIx::Class::Schema::Loader v0.04006 @ 2009-08-13 21:11:53
@@ -37,7 +40,7 @@ has "user" => (isa => "Int", is => "rw", default => 1);
 sub init_schema {
     my $self = shift;
 
-    my $schema = $self->connect("dbi:SQLite:sample.db") || die "Could no connec";
+    my $schema = $self->connect("dbi:SQLite:music.db") || die "Could no connec";
 
 	return $schema;
 }

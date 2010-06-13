@@ -3,7 +3,10 @@ package Schema::Result::Artist;
 use strict;
 use warnings;
 
-use base qw/Schema::Base::Result/;
+use Moose;
+use namespace::clean -except => 'meta';
+#use base qw/Schema::Base::Result/;
+extends qw/Schema::Base::Result/;
 
 __PACKAGE__->table("artist");
 __PACKAGE__->add_columns(
@@ -27,17 +30,19 @@ __PACKAGE__->has_many(
 # Created by DBIx::Class::Schema::Loader v0.04006 @ 2009-08-13 21:11:53
 # DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:obZUGgvkve3e6mzPk8GEEg
 
-sub extra_columns {
-
-	my $class = shift;
-	my @columns = $class->next::method(@_);
+around 'extra_columns' => sub {
+    
+    my $orig = shift;
+	my $self = shift;
+	my @columns = $self->orig(@_);
 
 	push @columns, (qw/dob address_1 address_2 city state zip country summary/);
 
 	return @columns;
-}
+};
 
 # You can replace this text with custom content, and it will be preserved on regeneration
 
 
+__PACKAGE__->meta->make_immutable;
 1;

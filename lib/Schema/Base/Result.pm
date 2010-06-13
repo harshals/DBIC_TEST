@@ -2,10 +2,13 @@ package Schema::Base::Result;
 
 use strict;
 use warnings;
+use Moose;
+use namespace::clean -except => 'meta';
 use Carp qw/croak confess/;
 
 use JSON::XS qw/to_json /;
-use base qw/DBIx::Class/;
+#use base qw/DBIx::Class/;
+extends qw/DBIx::Class/;
 
 __PACKAGE__->load_components(qw/InflateColumn::CSV InflateColumn::Serializer TimeStamp  Core/);
 
@@ -41,15 +44,17 @@ sub extra_columns {
 # Created by DBIx::Class::Schema::Loader v0.04006 @ 2009-08-13 21:11:53
 # DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:IEbbWr9Imbum+8sUaLrAAg
 
-sub table {
+=pod
+after 'table' => sub {
+
 	my $class = shift;
-	$class->next::method(@_);
-	my $source = $class->result_source_instance;
+	
+    my $source = $class->result_source_instance;
 	if ($source->resultset_class ne 'Schema::Base::ResultSet') {
 		$source->resultset_class("Schema::Base::ResultSet");
 	}
-}
-
+};
+=cut
 sub has_access {
 
 	my ($self, $permission, $user) = @_;
