@@ -10,7 +10,7 @@ use JSON::XS qw/to_json /;
 #use base qw/DBIx::Class/;
 extends qw/DBIx::Class/;
 
-__PACKAGE__->load_components(qw/InflateColumn::CSV InflateColumn::Serializer TimeStamp  Core/);
+__PACKAGE__->load_components(qw/InflateColumn::CSV FrozenColumns TimeStamp  Core/);
 
 
 sub add_base_columns {
@@ -31,14 +31,16 @@ sub add_base_columns {
 
 		"access_write" , { data_type => "TEXT" , is_csv => 1, is_base => 1},
 
-		"data" , { data_type => "VARCHAR" , 'serializer_class'   => 'JSON' , is_base => 1},
-
 		"status", { data_type => "INTEGER"}
     );
+	$self->add_json_columns(
+        data => $self->extra_columns 
+    );
+	
 }
 
 sub extra_columns {
-	return ();
+	return $self->frozen_columns_list;
 }
 
 # Created by DBIx::Class::Schema::Loader v0.04006 @ 2009-08-13 21:11:53
@@ -107,11 +109,9 @@ sub get_expanded_columns {
 
 
 	## thaw the frozen columns
-    if ($self->data) {
-	foreach my $key ($self->extra_columns ){
+    unless ($self->in_storage) {
 		
-		$object{$key} = $self->data->{$key} unless exists $object{$key}
-	}
+		%object = (%object, $self->frozen_columns);
     }
 	
 	return \%object;
@@ -175,10 +175,11 @@ sub save {
 	my %extra_data;
 	foreach my $column ($self->extra_columns ) {
 		
-		$extra_data{$column} = $data->{$column} if exists $data->{$column};
+	#	$extra_data{$column} = $data->{$column} if exists $data->{$column};
+		$self->$column($data->{$column}) if exists $data->{$column};
 		
 	}
-	$self->data(\%extra_data);
+	#$self->data(\%extra_data);
 
     ($self->id) ? $self->update : $self->insert;
 	#$self->insert_or_update;
