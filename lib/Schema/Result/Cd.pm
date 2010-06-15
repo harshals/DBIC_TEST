@@ -31,17 +31,13 @@ __PACKAGE__->belongs_to(
 # DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:obZUGgvkve3e6mzPk8GEEg
 
 sub extra_columns {
+    
+    my $self = shift;
 
-	my $class = shift;
-	my @columns = $class->next::method(@_);
-
-	push @columns, (qw/record_company summary/);
-
-	return @columns;
-}
-
+    return qw/record_company summary/;
+};
 # You can replace this text with custom content, and it will be preserved on regeneration
 
 
-__PACKAGE__->meta->make_immutable;
+__PACKAGE__->meta->make_immutable(inline_constructor => 0);
 1;

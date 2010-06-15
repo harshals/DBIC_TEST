@@ -16,7 +16,7 @@ my $artist = $artist_rs->fetch_new();
 
 $artist->save( { first_name => "Harshal",
                  last_name  => "Shah",
-                 dbo        => "1979-04-07",
+                 dob        => "1979-04-07",
                  address_1  => "A/13 Anand Nagar ",
                  address_2  => "Forjett Street",
                  city       => "Mumbai",

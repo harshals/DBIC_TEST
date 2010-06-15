@@ -10,7 +10,7 @@ use JSON::XS qw/to_json /;
 #use base qw/DBIx::Class/;
 extends qw/DBIx::Class/;
 
-__PACKAGE__->load_components(qw/InflateColumn::CSV FrozenColumns TimeStamp  Core/);
+__PACKAGE__->load_components(qw/FrozenColumns InflateColumn::CSV TimeStamp  Core/);
 
 
 sub add_base_columns {
@@ -31,17 +31,22 @@ sub add_base_columns {
 
 		"access_write" , { data_type => "TEXT" , is_csv => 1, is_base => 1},
 
-		"status", { data_type => "INTEGER"}
+		"status", { data_type => "INTEGER"},
+		
+        "data", { data_type => "VARCHAR"}
     );
-	$self->add_json_columns(
+	
+    $self->add_json_columns(
         data => $self->extra_columns 
     );
 	
 }
 
 sub extra_columns {
-	return $self->frozen_columns_list;
+    
+    return [];
 }
+
 
 # Created by DBIx::Class::Schema::Loader v0.04006 @ 2009-08-13 21:11:53
 # DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:IEbbWr9Imbum+8sUaLrAAg
@@ -170,13 +175,14 @@ sub save {
 	foreach my $column ($self->columns ) {
 
 		next if $self->result_source->column_info($column)->{"is_base"};
-		$self->$column($data->{$column}) if exists $data->{$column};
+		$self->set_column($column, $data->{$column}) if exists $data->{$column};
 	}
 	my %extra_data;
-	foreach my $column ($self->extra_columns ) {
+	foreach my $column ($self->frozen_columns_list){
+	#foreach my $column ($self->extra_columns ) {
 		
-	#	$extra_data{$column} = $data->{$column} if exists $data->{$column};
-		$self->$column($data->{$column}) if exists $data->{$column};
+		#$extra_data{$column} = $data->{$column} if exists $data->{$column};
+		$self->set_column( $column, $data->{$column}) if exists $data->{$column};
 		
 	}
 	#$self->data(\%extra_data);

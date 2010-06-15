@@ -29,20 +29,15 @@ __PACKAGE__->has_many(
 
 # Created by DBIx::Class::Schema::Loader v0.04006 @ 2009-08-13 21:11:53
 # DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:obZUGgvkve3e6mzPk8GEEg
-
-around 'extra_columns' => sub {
+sub extra_columns {
     
-    my $orig = shift;
-	my $self = shift;
-	my @columns = $self->orig(@_);
+    my $self = shift;
 
-	push @columns, (qw/dob address_1 address_2 city state zip country summary/);
-
-	return @columns;
+    return qw/dob address_1 address_2 city state zip country summary/;
 };
 
 # You can replace this text with custom content, and it will be preserved on regeneration
 
 
-__PACKAGE__->meta->make_immutable;
+__PACKAGE__->meta->make_immutable(inline_constructor => 0);
 1;
