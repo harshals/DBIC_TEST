@@ -1,0 +1,27 @@
+$HASH1 = {
+           access_read
+                   => ',1,',
+           access_write
+                   => ',1,',
+           address_1
+                   => 'A/13 Anand Nagar ',
+           address_2
+                   => 'Forjett Street',
+           city    => 'Mumbai',
+           country => 'India',
+           created_on
+                   => '2010-07-09 07:33:37',
+           data    => '{"dob":"1979-04-07","country":"India","city":"Mumbai","zip":400034,"summary":"Just a test","state":"Maharashtra","address_2":"Forjett Street","address_1":"A/13 Anand Nagar "}',
+           dob     => '1979-04-07',
+           first_name
+                   => 'Harshal',
+           id      => 1,
+           last_name
+                   => 'Shah',
+           state   => 'Maharashtra',
+           status  => 1,
+           summary => 'Just a test',
+           updated_on
+                   => '2010-11-16 07:18:20',
+           zip     => 400034
+         };

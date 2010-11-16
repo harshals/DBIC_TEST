@@ -27,6 +27,8 @@ __PACKAGE__->has_many(
   { "foreign.artist_id" => "self.id" },
 );
 
+#__PACKAGE__->result_class('DBIx::Class::ResultClass::HashRefInflator');
+
 # Created by DBIx::Class::Schema::Loader v0.04006 @ 2009-08-13 21:11:53
 # DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:obZUGgvkve3e6mzPk8GEEg
 sub extra_columns {

@@ -1,0 +1,13 @@
+{
+	"sets" : [
+		{
+			"class" : "Artist",
+			"quantity" : "all"
+		},
+		{
+			"class" : "Cd",
+			"quantity" : "all"
+
+		}
+	]
+}

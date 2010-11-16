@@ -99,6 +99,7 @@ sub fetch {
 	#my $object = $self->find($id)->has_access("read", $user);
 	my $attributes = {};
 
+	#my $object = $self->find($id, $attributes);
 	my $object = $self->has_access("read", $user)->find($id, $attributes);
 
 	croak("user object not found") unless $object;	
