@@ -121,6 +121,9 @@ sub fetch_new {
 	$object->grant_access("read", $user);
 	$object->grant_access("write", $user);
 
+	$object->active(1);
+	$object->log(1);
+
 	return $object;
 }
 

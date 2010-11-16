@@ -1,4 +1,3 @@
-use aliased 'DBIx::Class::DeploymentHandler' => 'DH';
 use lib "lib";
 use Schema;
 

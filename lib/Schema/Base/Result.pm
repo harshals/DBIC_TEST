@@ -6,11 +6,11 @@ use Moose;
 use namespace::clean -except => 'meta';
 use Carp qw/croak confess/;
 
-use JSON::XS qw/to_json /;
+use JSON::XS qw/encode_json /;
 #use base qw/DBIx::Class/;
 extends qw/DBIx::Class/;
 
-__PACKAGE__->load_components(qw/FrozenColumns InflateColumn::CSV TimeStamp  Core/);
+__PACKAGE__->load_components(qw/FrozenColumns BitField InflateColumn::CSV TimeStamp  Core/);
 
 
 sub add_base_columns {
@@ -31,7 +31,8 @@ sub add_base_columns {
 
 		"access_write" , { data_type => "TEXT" , is_csv => 1, is_base => 1},
 
-		"status", { data_type => "INTEGER"},
+	#	"status", { data_type => "INTEGER"},
+		"status", { data_type => "INTEGER", bitfield => [qw/active deleted dirty log/], is_base => 1},
 		
         "data", { data_type => "VARCHAR"}
     );
@@ -44,7 +45,7 @@ sub add_base_columns {
 
 sub extra_columns {
     
-    return [];
+    return ();
 }
 
 
@@ -111,7 +112,8 @@ sub get_expanded_columns {
 
 	my $self = shift;
 	my %object = $self->get_columns;
-
+	
+	delete $object{'data'};
 
 	## thaw the frozen columns
     unless ($self->in_storage) {
@@ -153,7 +155,11 @@ sub serialize_to_json{
 	## to process relationships upto level 1
 	$data = $self->serialize_to_perl(1) unless ref $data =~ /HASH/;
 
-	$json_str = to_json($data);
+	use Data::Dumper;
+
+	croak Dumper($data);
+
+	$json_str = encode_json($data);
 
 	#return (get_error_string) ? get_error_string : $json_str;
 	return $json_str;

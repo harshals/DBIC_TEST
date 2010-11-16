@@ -32,8 +32,11 @@ __PACKAGE__->has_many(
 sub extra_columns {
     
     my $self = shift;
+	my @columns = $self->next::method(@_);
 
-    return qw/dob address_1 address_2 city state zip country summary/;
+    push @columns, qw/dob address_1 address_2 city state zip country summary/;
+
+	return @columns;
 };
 
 # You can replace this text with custom content, and it will be preserved on regeneration
