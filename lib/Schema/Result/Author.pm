@@ -26,7 +26,7 @@ __PACKAGE__->has_many(
   { "foreign.author_id" => "self.id" },
 );
 
-__PACKAGE__->many_to_many( "books" => "author_books", "book");
+__PACKAGE__->many_to_many( "books" => "author_books"=> "book");
 
 __PACKAGE__->has_many(
   "author_affiliations",

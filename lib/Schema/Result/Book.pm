@@ -25,7 +25,7 @@ __PACKAGE__->has_many(
   "Schema::Result::AuthorBooks",
   { "foreign.book_id" => "self.id" },
 );
-__PACKAGE__->many_to_many("authors" => "author_books", "author"); 
+__PACKAGE__->many_to_many("authors" => "author_books"=> "author"); 
 
 __PACKAGE__->has_one(
 	"category",

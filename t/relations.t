@@ -1,7 +1,6 @@
 use warnings;
 use strict;
 use Test::More 'no_plan';
-use Text::CSV::Slurp;
 
 use Schema;
 
@@ -30,10 +29,14 @@ my $author_category_rs = $schema->resultset("AuthorCategories");
 
 use Data::Dumper;
 
-my $first_book = $book_rs->search_rs( { id => 1 } , { prefetch => [qw/authors/] });
+my $first_book = $book_rs->search_rs( { id => 1 } );
 
-#$first_book->result_class("Schema::Base::ResultClass");
+my $authors = $first_book->single->authors;
 
-diag( Dumper($first_book->all) );
+$first_book->result_class("Schema::Base::ResultClass");
+
+$authors->result_class("Schema::Base::ResultClass");
+
+diag( Dumper($authors->all) );
 
 1;
