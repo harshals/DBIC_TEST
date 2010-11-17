@@ -1,8 +1,6 @@
 use warnings;
 use strict;
-use Test::More tests => 3;
-
-use DBIx::Class::Fixtures;
+use Test::More 'no_plan';
 
 BEGIN { use_ok 'Schema' }
 
@@ -12,16 +10,24 @@ isa_ok($schema, 'DBIx::Class::Schema', "Schema initialised properly");
 
 $schema->user(1);
 
-ok($schema->user, "Schema User is set");
+$schema->deploy;
 
-my $fixtures = DBIx::Class::Fixtures->new({ 
-     config_dir => 't/etc' 
-});
+is($schema->user, 1, "Schema user set to 1 ");
 
-$fixtures->dump({
-   config => 'set_config.json',
-   schema => $schema,
-   directory => 't/etc/fixtures'
-});
+my $author_rs = $schema->resultset("Author");
+
+isa_ok($author_rs, 'Schema::ResultSet::Author');
+
+my $book_rs = $schema->resultset("Book");
+
+isa_ok($book_rs, 'Schema::Base::ResultSet');
+
+my $category_rs = $schema->resultset("Category");
+
+isa_ok($category_rs, 'Schema::Base::ResultSet');
+
+my $affiliate_rs = $schema->resultset("Affiliate");
+
+isa_ok($affiliate_rs, 'Schema::Base::ResultSet');
 
 

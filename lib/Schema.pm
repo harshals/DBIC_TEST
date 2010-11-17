@@ -39,8 +39,9 @@ has "user" => (isa => "Int", is => "rw", default => 1);
 
 sub init_schema {
     my $self = shift;
+	my $db = shift || ':memory:';
 
-    my $schema = $self->connect("dbi:SQLite:music.db") || die "Could no connec";
+    my $schema = $self->connect("dbi:SQLite:$db") || die "Could no connec";
 
 	return $schema;
 }

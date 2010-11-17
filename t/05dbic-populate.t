@@ -15,13 +15,16 @@ ok($schema->user, "Schema User is set");
 
 my $artist_rs = $schema->resultset("Artist")->has_access("read",1);
 
-$artist_rs->result_class('DBIx::Class::ResultClass::HashRefInflator');
+#$artist_rs->result_class('DBIx::Class::ResultClass::HashRefInflator');
 
-ok(my $artist = $artist_rs->find(1, {prefetch => [ qw/cds/  ]}) , "Found first Artist");
+ok(my $artist = $artist_rs->search_rs({ 'artist_id' => {'=',1} }, {prefetch => [ qw/cds/  ]}) , "Found first Artist");
+
+$artist->result_class('Schema::Base::ResultClass');
+
 #ok(my $artist = $artist_rs->has_access("read")->find(1, {prefetch => [ qw/cds/  ]}) , "Found first Artist");
 
 #$artist->grant_access("read", 2);
 
 #is($artist->country, "India", "Frozen Columns working fine");
 
-diag(Dumper($artist));
+diag(Dumper($artist->all));

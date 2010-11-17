@@ -10,7 +10,7 @@ use JSON::XS qw/encode_json /;
 #use base qw/DBIx::Class/;
 extends qw/DBIx::Class/;
 
-__PACKAGE__->load_components(qw/FrozenColumns BitField InflateColumn::CSV TimeStamp  Core/);
+__PACKAGE__->load_components(qw/FrozenColumns InflateColumn::CSV TimeStamp  Core/);
 
 
 sub add_base_columns {
@@ -31,13 +31,17 @@ sub add_base_columns {
 
 		"access_write" , { data_type => "TEXT" , is_csv => 1, is_base => 1},
 
-	#	"status", { data_type => "INTEGER"},
-		"status", { data_type => "INTEGER", bitfield => [qw/active deleted dirty log/], is_base => 1},
+		"active", { data_type => "INTEGER", is_base => 1 , is_nullable => 0},
+
+		"status", { data_type => "TEXT" , is_csv => 1, is_base => 1 , is_nullable => 0},
+	#	"status", { data_type => "INTEGER", bitfield => [qw/active deleted dirty log/], is_base => 1},
 		
-        "data", { data_type => "VARCHAR"}
+        "data", { data_type => "VARCHAR", is_nullable => 1}
     );
 	
-    $self->add_json_columns(
+    #$self->add_json_columns(
+	
+    $self->add_dumped_columns(
         data => $self->extra_columns 
     );
 	
@@ -107,7 +111,40 @@ sub grant_access {
 	$self->add_to_csv("access_$permission", $user);
 
 }
+sub has_status {
 
+	my ($self, $status) = @_;
+	
+	croak ("You do not have requisite permission") unless $self->has_access("write");
+	croak ("Unkown status type") unless $status =~ m/active|delete|dirty/;
+
+	## verify if the user exists and is active
+	
+	$self->find_in_csv("status", $status);
+}
+sub remove_status {
+
+	my ($self, $status) = @_;
+	
+	croak ("You do not have requisite permission") unless $self->has_access("write");
+	croak ("Unkown status type") unless $status =~ m/active|delete|dirty/;
+
+	## verify if the user exists and is active
+	
+	$self->remove_from_csv("status", $status);
+}
+sub set_status {
+
+	my ($self, $status) = @_;
+	
+	croak ("You do not have requisite permission") unless $self->has_access("write");
+	croak ("Unkown status type") unless $status =~ m/active|delete|dirty/;
+
+	## verify if the user exists and is active
+	
+	$self->add_to_csv("status", $status);
+
+}
 sub get_expanded_columns {
 
 	my $self = shift;
@@ -146,6 +183,7 @@ sub serialize_to_perl {
 	return $object;
 }
 
+	
 sub serialize_to_json{
 
 	my $self = shift;
@@ -206,7 +244,7 @@ sub remove {
 	croak(" You do not have write permissions") 
 		unless $self->has_access("write", $user);
 
-	#$self->deleted(1);
+	$self->active(0);
 
 	$self->insert_or_update;
 }
