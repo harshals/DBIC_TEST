@@ -41,7 +41,7 @@ sub add_base_columns {
 	
     #$self->add_json_columns(
 	
-    $self->add_dumped_columns(
+    $self->add_frozen_columns(
         data => $self->extra_columns 
     );
 	

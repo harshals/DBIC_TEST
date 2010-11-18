@@ -3,7 +3,7 @@ package Schema::Base::ResultSet;
 use strict;
 use warnings;
 
-use JSON::XS qw/to_json/;
+use JSON::XS qw/encode_json/;
 use base qw/DBIx::Class::ResultSet/;
 
 use Carp;
@@ -81,7 +81,8 @@ sub serialize_to_json{
 	my $self = shift;
 	my $json_str ;
 
-	$json_str = to_json($self->serialize_to_perl(1) );
+	$self->result_class("DBIx::Class::ResultClass::HashRefInflator");
+	$json_str = encode_json([$self->all]);
 
 	return $json_str;
 

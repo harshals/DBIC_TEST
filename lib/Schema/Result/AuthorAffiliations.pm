@@ -15,8 +15,7 @@ __PACKAGE__->add_columns(
 );
 
 
-__PACKAGE__->set_primary_key("author_id");
-__PACKAGE__->set_primary_key("affiliate_id");
+__PACKAGE__->set_primary_key(qw/author_id affiliate_id/);
 
 __PACKAGE__->belongs_to(
   "author",
