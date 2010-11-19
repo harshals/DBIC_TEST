@@ -1,13 +1,32 @@
 {
 	"sets" : [
 		{
-			"class" : "Artist",
+			"class" : "Book",
 			"quantity" : "all"
 		},
 		{
-			"class" : "Cd",
+			"class" : "Author",
 			"quantity" : "all"
-
+		},
+		{
+			"class" : "AuthorBooks",
+			"quantity" : "all"
+		},
+		{
+			"class" : "AuthorCategories",
+			"quantity" : "all"
+		},
+		{
+			"class" : "AuthorAffiliations",
+			"quantity" : "all"
+		},
+		{
+			"class" : "Affiliate",
+			"quantity" : "all"
+		},
+		{
+			"class" : "Category",
+			"quantity" : "all"
 		}
 	]
 }
