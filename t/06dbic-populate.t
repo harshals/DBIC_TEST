@@ -37,7 +37,9 @@ my %base = ( active => 1, access_read => ",$user," , access_write => ",$user,", 
 
 my $total_rows = scalar(@$data);
 
+
 ## override $total_rows
+$total_rows = 10;
 diag("inserting $total_rows rows just for kicks");
 
 foreach my $row  (splice( @$data, 0, $total_rows)) {

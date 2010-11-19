@@ -5,7 +5,7 @@ use Text::CSV::Slurp;
 
 use Schema;
 
-my $schema = Schema->init_schema("t/etc/large.db");
+my $schema = Schema->init_schema("t/etc/small.db");
 
 my $user = 1;
 

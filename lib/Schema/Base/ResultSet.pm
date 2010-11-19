@@ -58,6 +58,14 @@ sub grant_access {
 	return 1;
 }
 
+sub fetch_tree {
+	
+	my $self = shift;
+
+	return $self->search_rs(undef, undef);
+}
+
+
 
 #sub serialize_to_perl {
 #

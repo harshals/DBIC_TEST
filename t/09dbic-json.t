@@ -23,6 +23,7 @@ my $book1_rs = $book_rs->search_rs( { 'id' => 3 } );
 
 my $authors = $book1_rs->single->authors;
 
+diag(Dumper($authors->serialize));
 #$book1_rs->result_class('Schema::Base::ResultClass');
 #$authors->result_class('Schema::Base::ResultClass');
 
@@ -40,5 +41,5 @@ my $first_author = $book_rs->find(3)->authors->first;
 
 my $ret = $book_hash->{'authors'} = $authors_list;
 
-diag(Dumper($book_hash));
+#diag(Dumper($book_hash));
 is(scalar(@$authors_list), 5, "Found correct set of authors");

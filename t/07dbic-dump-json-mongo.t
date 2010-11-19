@@ -5,7 +5,7 @@ use JSON::XS qw/encode_json/;
 
 use Schema;
 
-my $schema = Schema->init_schema("t/etc/large.db");
+my $schema = Schema->init_schema("t/etc/small.db");
 
 my $user = 1;
 
@@ -15,9 +15,9 @@ foreach my $source ($schema->sources) {
 	
 	my $rs = $schema->resultset($source);	
 	my $table = $rs->result_source->from;
-	
+
 	my $json;
-	while my $row ($rs->next) {
+	foreach my $row  (@{$rs->fetch_tree->serialize }) {
 		
 		$json .= encode_json( $row ) . "\n";
 	}

@@ -5,7 +5,7 @@ use JSON::XS qw/encode_json/;
 
 use Schema;
 
-my $schema = Schema->init_schema("t/etc/large.db");
+my $schema = Schema->init_schema("t/etc/mongo.db");
 
 my $user = 1;
 

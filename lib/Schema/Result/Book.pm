@@ -41,6 +41,8 @@ sub extra_columns {
 
     return qw/subtitle description toc/;
 };
+
+
 # You can replace this text with custom content, and it will be preserved on regeneration
 
 
