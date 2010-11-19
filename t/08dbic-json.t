@@ -38,5 +38,7 @@ is(scalar(@$authors_list), 5, "Found correct set of authors");
 
 my $first_author = $book_rs->find(3)->authors->first;
 
-diag(Dumper($authors_list));
+my $ret = $book_hash->{'authors'} = $authors_list;
+
+diag(Dumper($book_hash));
 is(scalar(@$authors_list), 5, "Found correct set of authors");

@@ -5,7 +5,7 @@ use Text::CSV::Slurp;
 use Data::Dumper;
 use Schema;
 
-my $schema = Schema->init_schema("t/etc/small.db");
+my $schema = Schema->init_schema("populate.db");
 
 my $user = 1;
 
@@ -37,16 +37,19 @@ my %base = ( active => 1, access_read => ",$user," , access_write => ",$user,", 
 
 my $total_rows = scalar(@$data);
 
-diag("inserting 10 rows just for kicks");
+## override $total_rows
+diag("inserting $total_rows rows just for kicks");
 
-foreach my $row  (splice( @$data, 0, 10)) {
+foreach my $row  (splice( @$data, 0, $total_rows)) {
 	
 	next unless $row->{ISBN};
 
-	my ($category,$book);
+	my ($category,$book, $category_id);
 
 	$category = $category_rs->find_or_create({ category => $row->{'Discipline'} , %base}, { key => 'category_category' }) if $row->{Discipline};
 	
+	$category_id = (defined $category ) ? $category->id : ''; 
+
 	$book = $book_rs->find_or_create( {
 		isbn => $row->{ISBN},
 		classification => $row->{Classification},
@@ -57,7 +60,7 @@ foreach my $row  (splice( @$data, 0, 10)) {
 		subtitle => $row->{Subtitle},
 		description => $row->{Description},
 		toc => $row->{TOC},
-		category_id => $category->id,
+		category_id => $category_id,
 		%base
 	} , { key => 'book_isbn' }) ;
 
@@ -65,7 +68,7 @@ foreach my $row  (splice( @$data, 0, 10)) {
 		
 		next unless $row->{"AuthorFirst$author_id"};
 
-		my ($author, $affiliate);
+		my ($author, $affiliate );
 
 		$affiliate = $affiliate_rs->find_or_create( { affiliate => $row->{ "AuthorAffiliation$author_id" }, %base } , { key => 'affiliate_affiliate' } )
 						if $row->{ "AuthorAffiliation$author_id" };
@@ -92,9 +95,6 @@ foreach my $row  (splice( @$data, 0, 10)) {
 
 }
 
-ok($author_rs->first->id, 'Found the 1st artist');
 
-ok($book_rs->first->id, ' Found he 1st book');
-
-is($book_rs->count, 10, "Found 10 books");
+is($book_rs->count, $total_rows, "Found $total_rows books");
 1;

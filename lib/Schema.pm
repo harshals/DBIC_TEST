@@ -39,9 +39,10 @@ has "user" => (isa => "Int", is => "rw", default => 1);
 
 sub init_schema {
     my $self = shift;
-	my $db = shift || ':memory:';
+	my $name = shift || ':memory:';
+	my $db = shift || 'SQLite';
 
-    my $schema = $self->connect("dbi:SQLite:$db") || die "Could no connec";
+    my $schema = $self->connect("dbi:$db:dbname=$name") || die "Could no connect";
 
 	return $schema;
 }
