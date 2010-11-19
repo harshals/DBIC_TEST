@@ -181,6 +181,14 @@ sub look_for {
 
 }
 
+sub serialize {
+
+	my ($self ) = @_;
+
+	$self->result_class("Schema::Base::ResultClass");
+
+	return [ $self->all ];
+}
 
 sub recent {
 
