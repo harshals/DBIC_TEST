@@ -15,11 +15,12 @@ override 'fetch_tree' => sub {
 
 #join => [ { 'author_books' => 'author' }, 'category' ] ,
 
-	return $self->search_rs(undef, { join => [  'category' ] ,
-	
-									+select => [qw/ category._id/],
+	return $self->search_rs(undef, { join => [  'category' , { author_books=> 'author' }] ,
+									
+									include_columns => [qw/category.category author.first_name/],
 
-									+as => [qw/my_category_id/]
+
+
 	} );
 };
 

@@ -2,7 +2,7 @@ use warnings;
 use strict;
 use Test::More tests => 7;
 use JSON::XS qw/encode_json/;
-
+use Data::Dumper;
 use Schema;
 
 my $schema = Schema->init_schema("t/etc/small.db");
@@ -17,7 +17,12 @@ foreach my $source ($schema->sources) {
 	my $table = $rs->result_source->from;
 
 	my $json;
-	foreach my $row  (@{$rs->fetch_tree->serialize }) {
+
+	my $list = $rs->fetch_tree->serialize;
+
+	diag(Dumper($list)) if $table eq 'book';
+
+	foreach my $row  ( @$list ) {
 		
 		$json .= encode_json( $row ) . "\n";
 	}
