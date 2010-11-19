@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:03',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'New Frontiers in Science\',\'toc\' => \'Introduction: Causality Principle, Deterministic Laws and Chaos.- The Backbone of Fractals: Feedback and the Iterator.- Classical Fractals and Self-Similarity.- Limits and Self-Similarity.- Length, Area, and Dimension: Measuring Complexity and Scaling Pro\',\'description\' => \'The fourteen chapters of this book cover the central ideas and concepts of chaos and fractals as well as many related topics including: the Mandelbrot set, Julia sets, cellular automata, L-systems, percolation and strange attractors. This new edition has \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 323,
+           isbn     => '0387202293',
+           price    => 69.95,
+           publish_date
+                    => '2004-02-03',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Chaos and Fractals',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:03'
+         };

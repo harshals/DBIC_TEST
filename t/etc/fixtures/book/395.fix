@@ -1,0 +1,37 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 5,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:09',
+           data     => "\$VAR1 = bless( {'subtitle' => '','toc' => 'Pure Economic Loss: A Compara".
+	"tive Perspective (Willem H. van Boom).- Compensation for Pure Economic L".
+	"oss under French Law (Christophe Rad\303\251/Laurent Bloch).- Compensation for".
+	" Pure Economic Loss under Italian Law (Alessio Zaccaria).- Compensation ".
+	"for Pure Ec','description' => 'Today, pure economic loss is probably one".
+	" of the main problems in expanding tort law. In some countries, it is as".
+	"sociated with uncontrollable and unforeseeable floods of claims to which".
+	" there may be no end. In this book, leading authors shed light on the '}".
+	", 'DBIx::Class::FrozenColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 395,
+           isbn     => 3211005145,
+           price    => 89.95,
+           publish_date
+                    => '2004-02-17',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Pure Economic Loss',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:09'
+         };

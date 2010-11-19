@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:48',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Training and Teaching\',\'toc\' => \'M. Koch: Basic Statistics.- B. Wenclawiak: Glossary of Analytical Chemistry Terms (GAT).- B. Wenclawiak: Fit for Purpose - A customers view.- R. Kaus: Accreditation - ISO/IEC 17025.- E. Hadjicostas: ISO 9000: 2000 Quality Management System.- K.Tsimillis: \',\'description\' => \'This advanced EURACHEM textbook is designed for training, teaching and continuing studies providing an in-depth but easy to understand coverage of Quality Assurance in Chemical Measurement. The CD-ROM accompanying the book contains course materials of 10 \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 90,
+           isbn     => '354040578X',
+           price    => 69.95,
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Quality Assurance in Analytical Chemistry',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:48'
+         };

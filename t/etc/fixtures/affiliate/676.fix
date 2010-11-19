@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => 'P.P. Shirshov Institute of Oceanology, Moscow, Russia',
+           created_on
+                    => '2010-11-18 07:13:14',
+           data     => '',
+           id       => 676,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:13:14'
+         };

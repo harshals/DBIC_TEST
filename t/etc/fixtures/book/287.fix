@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 3,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:01',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Design and Optimization in Bulk and SOI Technologies\',\'toc\' => \'\',\'description\' => \'Power reduction is a central priority in battery-powered medical implantable devices, particularly pacemakers, to either increase battery lifetime or decrease size using a smaller battery. <em>Low Power</em> <em>Analog CMOS for Cardiac Pacemakers</em> pro\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 287,
+           isbn     => '140207719X',
+           price    => '115.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Low Power Analog CMOS for Cardiac Pacemakers',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:01'
+         };

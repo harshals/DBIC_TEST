@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:05',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P> 1. Introduction; 2. Quantum Information; 3. Devices for Computation; 4. Fast Factorization; 5. Finding the Hidden Subgroup; 6. Grover\\\'s Search Algorithm; 7. Complexity Lower Bounds for Quantum Circuits; Appendix A: Quantum Physics; Appendix B: Mathema\',\'description\' => \'<P>This book is devoted to quantum computing, a new, multidisciplinary research area crossing quantum mechanics, theoretical computer science and mathematics. It contains an introduction to quantum computing as well as the most important recent results on\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 348,
+           isbn     => 3540407049,
+           price    => 54.95,
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Quantum Computing',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:05'
+         };

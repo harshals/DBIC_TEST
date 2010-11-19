@@ -1,0 +1,4 @@
+$HASH1 = {
+           affiliate_id => 50,
+           author_id    => 72
+         };

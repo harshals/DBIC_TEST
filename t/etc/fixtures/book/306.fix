@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:03',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'<em>Dynamic Reconfiguration: Architectures and Algorithms</em> offers a comprehensive treatment of dynamically reconfigurable computer architectures and algorithms for them. The coverage is broad starting from fundamental algorithmic techniques, ranging a\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 306,
+           isbn     => '0306481898',
+           price    => '159.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Dynamic Reconfiguration: Architectures and Algorithms',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:03'
+         };

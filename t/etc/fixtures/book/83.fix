@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:47',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Lectures Given at the C.I.M.E. Summer School Held in Cetraro, Italy, September 5-12, 1999\',\'toc\' => \'Exact Solutions of Nonlinear Partial Differential Equations by Singularity Analysis.- The Method of Poisson Pairs in the Theory of Nonlinear PDEs.- Nonlinear Superposition Formulae of Integrable Partial Differential Equations by the Singular Manifold Meth\',\'description\' => \'Many physical phenomena are described by nonlinear evolution equation. Those that are integrable provide various mathematical methods, presented by experts in this tutorial book, to find special analytic solutions to both integrable and partially integrab\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 83,
+           isbn     => 3540200878,
+           price    => 59.95,
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Direct and Inverse Methods in Nonlinear Evolution Equations',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:47'
+         };

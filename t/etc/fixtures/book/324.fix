@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:04',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'What is Virtual Reality? The Benefits of Virtual Reality 3D Computer Graphics Human Factors VR Hardware VR Software VR Applications Conclusion\',\'description\' => \'During the last decade the word virtual became one of the most exposed words in the English language. Today we have virtual universities, virtual offices, virtual pets, virtual actors, virtual museums, virtual doctors - and all because of virtual reality.\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 324,
+           isbn     => 1852337397,
+           price    => 59.95,
+           publish_date
+                    => '2004-02-06',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Introduction to Virtual Reality',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:04'
+         };

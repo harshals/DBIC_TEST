@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:08',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Control, Implementation and Clinical Application\',\'toc\' => \'<P>The Early History of Myoelectric Control of Prosthetic Limbs (1945-1970).- The Origins and Nature of the Myoelectric Signal.- Signals and Signalling Processing for Myoelectric Control.- Commercial Hardware for the Implementation of Myoelectric Control.\',\'description\' => \'<P> Powered Upper Limb Prostheses deals with the concept, implementation and clinical application of utilizing inherent electrical signals within normally innervated residual muscles under voluntary control of an upper limb amputee, amplifying these signa\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 383,
+           isbn     => 3540404066,
+           price    => '159.00',
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Powered Upper Limb Prostheses',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:08'
+         };

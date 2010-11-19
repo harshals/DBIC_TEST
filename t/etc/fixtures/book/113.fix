@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:50',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Numerical Methods and Diffpack Programming\',\'toc\' => \'X. Cai, E. Acklam, H. P. Langtangen, A. Tveito: Parallel Computing.- X. Cai: Overlapping Domain Decomposition Methods.- K.-A. Mardal, G. W. Zumbusch, H. P. Langtangen: Software Tools for Multigrid Methods.- K.-A. Mardal, H. P. Langtangen: Mixed Finite Ele\',\'description\' => \'The book is suitable for readers with a background in basic finite element and finite difference methods for partial differential equations who wants gentle introductions to advanced topics like parallel computing, multigrid methods, and special methods f\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 113,
+           isbn     => 3540014381,
+           price    => '99.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Advanced Topics in Computational Partial Differential Equations',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:50'
+         };

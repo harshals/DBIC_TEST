@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:55',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'11th Protuguese Conference on Artificial Intelligence, EPIA 2003, Beja, Portugal, December 4-7, 2003, Proceedings\',\'toc\' => \'\',\'description\' => \'This book constitutes the refereed proceedings of the 11th Portuguese Conference on Artificial Intelligence, EPIA 2003, held in Beja, Portugal in December 2003. The 29 revised full papers and 20 revised short papers presented were carefully reviewed and s\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 203,
+           isbn     => 3540205896,
+           price    => '81.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Progress in Artificial Intelligence',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:55'
+         };

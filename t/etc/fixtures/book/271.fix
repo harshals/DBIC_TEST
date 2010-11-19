@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:00',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 271,
+           isbn     => 1402014783,
+           price    => '229.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2003,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Role of Interfaces in Environmental Protection',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:00'
+         };

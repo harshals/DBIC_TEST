@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:45',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'1) Indications, Contraindications, Initial Ocular Examination and the Selection of Contact Lenses 2) The Importance of Tear Film Evacuation in the Contact Lens Candidate 3) Contact Lens Anatomy and Terminology 4) Keratometry and Corneal Topography 5) How \',\'description\' => \'Even with the advances in intraocular lens technology and the growing diversity of refractive surgery techniques, the role of contact lenses in ophthalmic practice has only increased. This is due in part to the great strides in materials, technology, expa\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 46,
+           isbn     => '0387404007',
+           price    => 49.95,
+           publish_date
+                    => '2004-01-09',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Contact Lenses in Ophthalmic Practice',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:45'
+         };

@@ -1,0 +1,36 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 10,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:50',
+           data     => "\$VAR1 = bless( {'subtitle' => 'Origin, Monitoring & Remediation','toc' =".
+	"> 'Part I:   Soil - Its Nature and Origin\n\nPart II:  Soil Pollution\n\nPar".
+	"t III: Monitoring of Soil Pollution\n\nPart IV: Modeling of Soil Pollution".
+	"\n\nPart V: Remediation of Polluted Soil','description' => 'Unique among t".
+	"he soil literature, this graduate-level text and reference treats the su".
+	"bjects related to the interdisciplinary fields soil pollution and remedi".
+	"ation. After a thorough and comprehensible introduction to the relevant ".
+	"fundamentals of the miner'}, 'DBIx::Class::FrozenColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 120,
+           isbn     => 3540401431,
+           price    => '109.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Soil Pollution',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:50'
+         };

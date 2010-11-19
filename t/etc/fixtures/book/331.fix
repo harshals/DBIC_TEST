@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:04',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Introduction; Part I-The Basics; Introduction to Regular Expressions; Patterns- The Syntax of the Language; Operations; Advanced Regular Expressions; Greedy Qualifiers; More on Grouping; Putting Regular Expressions Together; Differences from Perl; FAQs; P\',\'description\' => \'"Real World Regular Expressions with Java 1.4" is the only book to use the Java library to process regular expressions. It is appealing because it has so many examples.  Regular Expressions books are not so much "studied" as they are "looked through" and \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 331,
+           isbn     => 1590591070,
+           price    => 39.99,
+           publish_date
+                    => '2004-02-11',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Java Regular Expressions: Taming the java.util.regex Engine',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:04'
+         };

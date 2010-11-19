@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:59',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Introduction.- Astronomy Basics.- Overview of the NexStar Line.- Alignment.- Basic Operation.- Expanding Your Horizons - Choosing Objects to View.- Using the Software Included with Little NexStars - The Sky and NexStar Observer List.- Accessories and Modi\',\'description\' => \'Celestron\\\'s NexStar telescopes were introduced in 1999, beginning with their first computer controlled "go to" model, a 5-inch. More models appeared in quick succession, and Celestron\\\'s new range made it one of the two dominant manufacturers of affordable\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 252,
+           isbn     => 1852337141,
+           price    => 29.95,
+           publish_date
+                    => '2004-01-23',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'The NexStar User Guide',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:59'
+         };

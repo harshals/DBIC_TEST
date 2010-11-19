@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 5,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:09',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Information and Communication Technologies for Knowledge Management\',\'toc\' => \'<P>&nbsp;Introduction: Motivation.- Goals.- Procedure, Methods and Overview.- Concepts and Theories: Foundation of Knowledge Management Systems.- Strategy.- Organization.- Contents and Systems.- Economics.- Summary and Critical Reflection.- State of Pract\',\'description\' => \'<P>&nbsp;Information and knowledge have fundamentally transformed the way&nbsp;businesses and social institutions work. Knowledge management promises concepts and instruments that help organizations to create an environment supportive of knowledge creatio\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 403,
+           isbn     => 3540205470,
+           price    => '124.00',
+           publish_date
+                    => '2004-02-20',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Knowledge Management Systems',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:09'
+         };

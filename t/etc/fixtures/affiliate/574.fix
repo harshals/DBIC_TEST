@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => "Universitario Gregorio Maran\342\211\244n, Madrid, Spain",
+           created_on
+                    => '2010-11-18 07:13:08',
+           data     => '',
+           id       => 574,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:13:08'
+         };

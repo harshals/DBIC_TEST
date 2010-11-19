@@ -1,0 +1,17 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => "D\303\251pt. de math\303\251matiques et de statistique, Universit\303\251 de Montr\303\251al, QC".
+	", Canada",
+           created_on
+                    => '2010-11-18 07:13:14',
+           data     => '',
+           id       => 683,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:13:14'
+         };

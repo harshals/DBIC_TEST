@@ -1,0 +1,34 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:00',
+           data     => "\$VAR1 = bless( {'subtitle' => '','toc' => '','description' => 'This book".
+	" represents the Proceedings of the 37th European Marine Biology Symposiu".
+	"m, held in Reykjav\303\255k, Iceland, 5-9 August 2002. The main themes of the ".
+	"symposium were Migrations and Dispersal of Marine Organisms. These theme".
+	"s are highly relevant today. Th'}, 'DBIx::Class::FrozenColumns::Dumped' ".
+	");",
+           description
+                    => undef,
+           id       => 265,
+           isbn     => 1402017367,
+           price    => '99.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Migrations and Dispersal of Marine Organisms',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:00'
+         };

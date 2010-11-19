@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:04',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'A Primer for Health and Biomedical Professionals\',\'toc\' => \'\',\'description\' => \'For the new edition of Biostatistics and Epidemiology, Dr. Wassertheil-Smoller has included several new chapters (genetic statistics, molecular epidemiology, scientific integrity and research ethics) and a new appendix on the basic concepts of genetics an\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 329,
+           isbn     => '0387402926',
+           price    => 34.95,
+           publish_date
+                    => '2004-02-11',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Biostatistics and Epidemiology',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:04'
+         };

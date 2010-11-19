@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 10,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:12',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Physical Foundations\',\'toc\' => \'Scientific and applied rationales of remote sensing study - Spectral regions of electromagnetic waves.- Random (noise) signals and fields.- Noise signal measurements.- Thermal fluctuations.- Main characteristics of the emission field - Spectral intensity \',\'description\' => \'This book represents the most comprehensive description of the physical foundations of methods and instruments in the fields of passive remote sensing applied to investigations of the Earth, Solar system bodies and space. Emphasis is placed on the physica\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 433,
+           isbn     => 3540439463,
+           price    => '225.00',
+           publish_date
+                    => '2004-02-20',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Passive Microwave Remote Sensing of the Earth',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:12'
+         };

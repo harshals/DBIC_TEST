@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 5,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:54',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Time and Uncertainty\',\'toc\' => \'Time and Uncertainty in General Equilibrium Theory: Consumers and Economies - A Review.- Economies over Time.- Assets and Income Transfers.- Economies with Uncertainty.- Existence and Determinacy.- Optimality and Incomplete Markets. Overlapping Generation\',\'description\' => \'The developments in economic theory in the 1950s served to pinpoint important underlying assumptions in the study of market institutions. The conflict between observed institutions - spot markets for commodities, financial markets - and the benchmark inte\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 192,
+           isbn     => 3540002650,
+           price    => 69.95,
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Economic Dynamics and General Equilibrium',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:54'
+         };

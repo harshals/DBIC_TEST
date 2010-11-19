@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:57',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P>General Topics: Why is it Logical to Admit Several Logics?- Does Metaphysics Need a Non-Classical Logic?- Logic and the Philosophical Interpretation of Science.- How Set Theory Impinges on Logic.- Geometries and Arithmetics.- Remarks on Criteria of Tru\',\'description\' => \'Initially proposed as rivals of classical logic, alternative logics have become increasingly important in sciences such as quantum physics, computer science, and artificial intelligence. The contributions collected in this volume address and explore the q\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 228,
+           isbn     => 3540407448,
+           price    => '119.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Alternative Logics:Do Sciences Need Them?',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:57'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 3,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:42',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Single Layer Modelling and Effective Stiffness Estimations of Laminated Plates (H. Altenbach, J. Meenen).- Accurate Stress Analysis of Laminated Composite Structures (K.P. Soldatos).- Aspects of Application: Free Edges, Laminate Holes, and Optimal Topolog\',\'description\' => \'The aim of the book is to give a clear picture of some new modern trends in composite mechanics and to give a presentation of the current state-of-the-art of the theory and application of composite laminates. The book addresses the basics as well as recen\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 6,
+           isbn     => 3211203028,
+           price    => '99.00',
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Modern Trends in Composite Laminates Mechanics',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:42'
+         };

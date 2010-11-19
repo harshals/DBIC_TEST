@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => 'Harvard Medical School, Boston, MA',
+           created_on
+                    => '2010-11-18 07:12:46',
+           data     => '',
+           id       => 97,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:12:46'
+         };

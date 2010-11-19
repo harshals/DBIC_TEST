@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:59',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Complete Guide and Reference\',\'toc\' => \'<P>Chapter 1 ? Introduction to Flash Extensibility; Chapter 2 ? Commands; Chapter 3 ? Tools;&nbsp; Chapter 4 ? Timeline Effects; Chapter 5 ? XML to UI; Chapter 6 ? Behaviors; Chapter 7 ? Using JSFL within SWFs; Chapter 8 ? FlashCommand; Chapter 9 ? DOM Ch\',\'description\' => \'<P>Flash MX 2004 and Flash MX Professional 2004 introduce a new Extensibility architecture. This is not an upgrade to an existing feature, but a brand new concept that nobody using an earlier version of Flash has seen or used before. With the extensibilit\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 261,
+           isbn     => 1590593049,
+           price    => 49.99,
+           publish_date
+                    => '2004-01-28',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Extending Macromedia Flash MX 2004: Complete Guide and Reference',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:59'
+         };

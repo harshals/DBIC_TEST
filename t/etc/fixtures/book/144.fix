@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:52',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'OTM Confederated International Conferences, CoopIS, DOA, and ODBASE 2003, Catania, Sicily, Italy, November 3-7, 2003\',\'toc\' => \'\',\'description\' => \'This book constitutes the joint refereed proceedings of the three confederated conferences, CoopIS 2003, DOA 2003, and ODBASE 2003, held in Catania, Sicily, Italy, in November 2003. The 95 revised full papers presented were carefully reviewed and selected\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 144,
+           isbn     => 3540204989,
+           price    => '159.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'On The Move to Meaningful Internet Systems 2003: CoopIS, DOA, and ODBASE',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:52'
+         };

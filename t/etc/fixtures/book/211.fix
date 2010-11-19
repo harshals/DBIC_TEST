@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:56',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Squeezed States: Basic Principles.- Communication and Measurement with Squeezed States.- Nonlinear Dielectrics.- Input Output Theory.- Squeezing with Nonlinear Optics.- Einstein-Podolsky-Rosen Correlations, Entanglement and Schrodinger\\\'s Cat.- Squeezing a\',\'description\' => \'The subject of this book is the new field of squeezing in quantum fields. This general area includes all types of systems in which quantum fluctuations are reduced below those in the normal vacuum state. The book covers the main currently known techniques\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 211,
+           isbn     => 3540659897,
+           price    => 89.95,
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Quantum Squeezing',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:56'
+         };

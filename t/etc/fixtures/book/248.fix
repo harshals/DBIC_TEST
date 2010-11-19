@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:59',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'M.W. Wong: Quantum Chemical Calculations of Sulfur-Rich Compounds.- B. Eckert, R. Steudel: Molecular Spectra of Sulfur Molecules and Solid Sulfur Allotropes.- R. Steudel: Inorganic Polysulfanes H2Sn.- R. Steudel: Inorganic Polysulfides Sn2- and Radical An\',\'description\' => \'\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 248,
+           isbn     => 3540403787,
+           price    => '229.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Elemental Sulfur and Sulfur-Rich Compounds II',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:59'
+         };

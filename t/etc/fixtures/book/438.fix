@@ -1,0 +1,37 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:12',
+           data     => "\$VAR1 = bless( {'subtitle' => '','toc' => '<P><B>Part 1: Current Drugs</".
+	"B>.- Inflammatory Mechanisms.- \303\237-Adrenoceptor Agonists. Anticholinergic".
+	" Bronchodilators.- Theophylline in the Treatment of Respiratory Disease.".
+	"- Corticosteroids.- Mediator Antagonists and Anti-Allergic Drugs.- <B>Pa".
+	"rt 2: Futur','description' => '<P>The aim of the book is to provide an i".
+	"n-depth review of our current understanding of the pathogenesis of both ".
+	"asthma and COPD. This volume also discusses the promising new options fo".
+	"r pharmacological intervention of these diseases. Each chapter is exte'}".
+	", 'DBIx::Class::FrozenColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 438,
+           isbn     => 3540004645,
+           price    => '349.00',
+           publish_date
+                    => '2004-02-20',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Pharmacology and Therapeutics of Asthma and COPD',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:12'
+         };

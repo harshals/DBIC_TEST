@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 3,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:58',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Artificial Neural Networks.- Evolutionary Computing.- Fuzzy Systems.- Hybrid and Intelligent Systems.- Soft Computing Applications.\',\'description\' => \'The book covers the theory and application of soft computing techniques; namely neural networks, fuzzy logic, evolutionary computing and complex systems. The book is a collection of selected, edited papers presented at the 4th conference RACS Recent Advan\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 241,
+           isbn     => 3540408568,
+           price    => '169.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Applications and Science in Soft Computing',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:58'
+         };

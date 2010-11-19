@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:53',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Introducing GCC and The GCC Book; 1. Building GCC; 2. Installing GCC on DOS and Windows Platforms; 3. Basic GCC Usage; 4. Advanced GCC Usage; 5. Optimizing Code with GCC; 6. Performing Code Analysis with GCC; 7. Using Autoconf and Automake; 8. Using Libto\',\'description\' => \'"The GCC Book" is a comprehensive tutorial and guide to using the newest version of GCC, the "Gnue Compiler Collection". GCC is quite simply the most used and most powerful tool for programmers on the planet. It goes beyond just command line invocations a\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 163,
+           isbn     => 1590591097,
+           price    => 49.99,
+           publish_date
+                    => '2004-01-14',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'The Definitive Guide to GCC',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:53'
+         };

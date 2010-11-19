@@ -1,0 +1,4 @@
+$HASH1 = {
+           author_id   => 334,
+           category_id => 3
+         };

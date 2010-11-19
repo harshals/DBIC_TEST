@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:54',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'An Introduction with Stochastic Processes\',\'toc\' => \'\',\'description\' => \'This book offers a mathematical introduction to non-life insurance and, at the same time, to a multitude of applied stochastic processes. It gives detailed discussions of the fundamental models for claim sizes, claim arrivals, the total claim amount, and \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 187,
+           isbn     => 3540406506,
+           price    => 64.95,
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Non-Life Insurance Mathematics',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:54'
+         };

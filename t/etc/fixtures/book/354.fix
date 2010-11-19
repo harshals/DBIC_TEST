@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:05',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'9th IMA International Conference, Cirencester, UK, December 16-18, 2003, Proceedings\',\'toc\' => \'\',\'description\' => \'<P>This book constitutes the refereed proceedings of the 9th IMA International Conference on Cryptography and Coding, held in Cirencester, UK in December 2003.</P> <P>The 25 revised full papers presented together with 4 invited contributions were carefull\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 354,
+           isbn     => 3540206639,
+           price    => '64.00',
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Cryptography and Coding',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:05'
+         };

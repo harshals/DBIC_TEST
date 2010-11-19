@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:48',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'First International Workshop on Multimedia Interactive Protocols and Systems, MIPS 2003, Napoli, Italy, November 18-21, 2003, Proceedings\',\'toc\' => \'\',\'description\' => \'This book constitutes the refereed proceedings of the First International Workshop on Multimedia Interactive Protocols and Systems, MIPS 2003, held in Napoli, Italy in November 2003. MIPS continues the form IDMS/PROMS Workshop series. The 34 revised full \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 92,
+           isbn     => 3540205349,
+           price    => '71.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Interactive Multimedia on Next Generation Networks',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:48'
+         };

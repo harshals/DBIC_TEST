@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:59',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Papers in Honour of Eviator Nevo\',\'toc\' => \'\',\'description\' => \'This book is in honour of the 75<sup>th</sup> birthday of Professor Eviatar Nevo, a leading world evolutionary biologist, and consists of contributions from friends and colleagues of Professor Nevo, who are all world-leading researchers conducting active \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 262,
+           isbn     => '140201693X',
+           price    => '154.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Evolutionary Theory and Processes: Modern Horizons',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:59'
+         };

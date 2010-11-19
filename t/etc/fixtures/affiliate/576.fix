@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => 'Unviersity of Osaka, Japan',
+           created_on
+                    => '2010-11-18 07:13:09',
+           data     => '',
+           id       => 576,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:13:09'
+         };

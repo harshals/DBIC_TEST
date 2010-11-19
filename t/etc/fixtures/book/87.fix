@@ -1,0 +1,38 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:48',
+           data     => "\$VAR1 = bless( {'subtitle' => 'Cardiosurgical Techniques, Anesthesia Man".
+	"agement','toc' => 'From the contents:\n\nOPCAB:\n\nStabilizing concepts.\n\nHe".
+	"modynamic monitoring and devices for assessment of hemodynamics while OP".
+	"CAB.\n\nAtrial pacing for improvement of hemodynamics while OPCAB surgery.".
+	"\n\nSurgical techniques for off-pump coronary artery bypass ','description".
+	"' => 'In the early days of cardiac surgery, but also in the following fo".
+	"ur decades, median sternotomy and cardiopulmonary bypass were nearly alw".
+	"ays included in cardiac surgical procedures. Less invasive surgical tech".
+	"niques were developed with the aim of reducin'}, 'DBIx::Class::FrozenCol".
+	"umns::Dumped' );",
+           description
+                    => undef,
+           id       => 87,
+           isbn     => 3798513996,
+           price    => 64.95,
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Beating Heart Bypass Surgery and Minimally Invasive Conduit Harvesting',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:48'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:13',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'<P>Carabid ground beetles, sometimes called ?walking Jewels?, are among the most thoroughly investigated insects in the world. This book presents the results of molecular phylogenetic analyses of 2000 specimens, including 350 species and that cover more t\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 449,
+           isbn     => 4431004874,
+           price    => '179.00',
+           publish_date
+                    => '2004-02-26',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Molecular Phylogeny and Evolution of Carabid Ground Beetles',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:13'
+         };

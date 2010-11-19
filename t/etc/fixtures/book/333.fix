@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:04',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'From Novice to Professional\',\'toc\' => \'<P>J2EE Esssentials.- Getting Set.- JavaServer Pages.- Advanced JSP Topics.- Servlets.- Working with Databases.- Advanced Topics in JDBC.- EJB Fundamentals.- Entity Beans.- More EJB Topics.- Design Patterns and Message-driven Beans.- Web Services and JAX-\',\'description\' => \'<P>This book is aimed at programmers who have learned the basics of Java from, for example, <STRONG>Beginning Java 1.4: From Novice to Professional</STRONG>, and are now ready to learn how to use Java in the real world, with J2EE. But, J2EE is a big spec,\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 333,
+           isbn     => 1590593413,
+           price    => 49.99,
+           publish_date
+                    => '2004-02-11',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Beginning J2EE 1.4: From Novice to Professional (2nd printing)',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:04'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:43',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'An introduction to SAP .-Using Function Modules .-BASIS Routines .-ChConversion Routines .-Date and Time Routines .-File and Directory Routines .-Lists Routines .-Long Texts Routines .-Number Ranges Routines .-Office Integration Routines .-Popup Dialog Ro\',\'description\' => \'R/3 is a business system that has gained global prominence. However, the SAP R/3 has 237,000 function modules. Quite often the programmer is unaware that a module exists which can be of help in their programs. This convenient resource is a collection of t\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 10,
+           isbn     => 1852337753,
+           price    => 49.95,
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Common SAP R/3 Functions Manual',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:43'
+         };

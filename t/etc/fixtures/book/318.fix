@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:03',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Volume 3: Quality Handling and Evaluation\',\'toc\' => \'\',\'description\' => \'An effective food quality assurance system is essential throughout during harvest and retail display to provide a consistently good quality supply of fresh food crops to the consumers and to protect the reputation of a given marketing label. This book cov\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 318,
+           isbn     => 1402017006,
+           price    => '286.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Production Practices and Quality Assessment of Food Crops',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:03'
+         };

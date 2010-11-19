@@ -1,0 +1,37 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:10',
+           data     => "\$VAR1 = bless( {'subtitle' => 'Mathematics and Politics in Turbulent Tim".
+	"es','toc' => '1. Origin and the formative years.- 2. Academic Career in ".
+	"Germany.- 3. The Asia Minor Project.- 4. A Scholar of World Reputation.-".
+	" 5. National Socialism and War.- 6. The Last years ','description' => 'C".
+	"onstantin Carath\303\251odory (Berlin 1873-1950 Munich)- Mathematics and Polit".
+	"ics in Turbulent Times is a biography of a mathematician who became famo".
+	"us during his life but has hithero been ignored by historians for half a".
+	" century after his death. \n\nIn a though'}, 'DBIx::Class::FrozenColumns::".
+	"Dumped' );",
+           description
+                    => undef,
+           id       => 414,
+           isbn     => 3540442588,
+           price    => '99.00',
+           publish_date
+                    => '2004-02-20',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => "Constantin Carath\316\230odory",
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:10'
+         };

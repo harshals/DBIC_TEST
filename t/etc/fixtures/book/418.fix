@@ -1,0 +1,37 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:11',
+           data     => "\$VAR1 = bless( {'subtitle' => '','toc' => 'From the contents: \n\nMetaboli".
+	"c Networks and Engineering.- Intracellular Signal Transduction.- Cellula".
+	"r Materials: Mechanics and Motility.- Complex Network Dynamics in Biolog".
+	"ical Cells.- Interacting Cell Systems.- How Cells Construct an Organism:".
+	" Experimen','description' => 'Current biological research demands the ex".
+	"tensive use of sophisticated mathematical methods and computer-aided ana".
+	"lysis of experiments and data. This highly interdisciplinary volume focu".
+	"ses on structural, dynamical and functional aspects of cellular syste'},".
+	" 'DBIx::Class::FrozenColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 418,
+           isbn     => 3764369256,
+           price    => '119.00',
+           publish_date
+                    => '2004-02-20',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Function and Regulation of Cellular Systems: Experiments and Models',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:11'
+         };

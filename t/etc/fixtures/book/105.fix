@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:49',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'11th International Conference, DGCI 2003, Naples, Italy, November 19-21, 2003, Proceedings\',\'toc\' => \'\',\'description\' => \'This book constitutes the refereed proceedings of the 11th International Conference on Discrete Geometry for Computer Imagery, DGCI 2003, held in Naples, Italy, in November 2003. The 49 revised full papers presented together with 3 invited papers were car\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 105,
+           isbn     => 3540204997,
+           price    => '87.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Discrete Geometry for Computer Imagery',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:49'
+         };

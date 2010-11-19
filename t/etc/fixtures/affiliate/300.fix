@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => "Humboldt-Universit\303\244t zu Berlin, Germany",
+           created_on
+                    => '2010-11-18 07:12:55',
+           data     => '',
+           id       => 300,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:12:55'
+         };

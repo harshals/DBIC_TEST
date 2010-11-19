@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:54',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'From the contents: The Variable Use of Survival as an Outcome for ICU Patients. Morbidity and Functional Limitations in Survivors of ARDS. Health-related Quality of Life. The Neuropsychological Consequences of Intensive Care. The Burden of Caregiving on F\',\'description\' => \'For many years, intensive care has focused on avoiding immediate death from acute, life-threatening conditions. However, there are increasing reports of a number of lingering consequences for those who do indeed survive intensive care. Examples include on\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 179,
+           isbn     => 3540441492,
+           price    => 49.95,
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Surviving Intensive Care',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:54'
+         };

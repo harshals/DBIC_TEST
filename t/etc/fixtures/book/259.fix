@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:59',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Proceedings of the 12th International Symposium, Hakone, Japan, November 10-13, 2002\',\'toc\' => \'General Review.- Imaging.- Experimental Global Ischemia.- Experimental Focal Ischemia.- Clinical Ischemia.- Experimental Trauma.- Clinical Trauma.- Spinal Cord Trauma.- Intracerebral and Subarachnoid Hemorrhage.- Tumor.- Hydrocephalus.- Blood Brain Barrie\',\'description\' => \'Brain edema is a simple phenomenon - an abnormal increase of brain tissue volume by the increase of brain tissue water content. However the etiology is not simple and relating to a wide variety of neurological disorders including ischemia, trauma, tumor, \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 259,
+           isbn     => 3211009191,
+           price    => '259.00',
+           publish_date
+                    => '2004-01-27',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Brain Edema XII',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:59'
+         };

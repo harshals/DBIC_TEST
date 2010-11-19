@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:56',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'9th International Conference on the Theory and Application of Cryptology and Information Security, Taipei, Taiwan, November 30 - December 4, 2003, Proceedings\',\'toc\' => \'\',\'description\' => \'This book constitutes the refereed proceedings of the 9th International Conference on the Theory and Application of Cryptology and Information Security, ASIACRYPT 2003, held in Taipei, Taiwan in November/December 2003. The 32 revised full papers presented\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 212,
+           isbn     => 3540205926,
+           price    => '95.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Advances in Cryptology - ASIACRYPT 2003',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:56'
+         };

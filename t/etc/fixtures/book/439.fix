@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:12',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Building Office 2003 Solutions\',\'toc\' => \'<P>SharePoint Business Solutions.- SharePoint Technologies Overview.- SharePoint Services and Microsoft Office 2003.- SharePoint Portal Server Basics.- SharePoint Content Development.- SharePoint Security.- Basic Web Part Development.- Advanced Web Part D\',\'description\' => \'<P>This book provides guidance to readers who want to design and deploy business solutions based on Microsoft SharePoint technologies. In this book, Hillier will define the business case and scenarios for Microsoft SharePoint technologies. Hillier will al\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 439,
+           isbn     => 1590593383,
+           price    => 59.99,
+           publish_date
+                    => '2004-02-26',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Microsoft SharePoint: Building Office 2003 Solutions (4th printing)',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:12'
+         };

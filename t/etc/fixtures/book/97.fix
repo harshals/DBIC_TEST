@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:48',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'The 2002 IFCC-Roche Diagnostics Award\',\'toc\' => \'From the contents: Hypoxia.- Ischaemia.- Blood Gases.- Electrolytes.- Trace Elements.- Cardiology.- Haemodynamics.- Stroke.- Nephrology.- Haematology.- Haemostasis.- New Technology.- Methods.- Organizational Aspects.- Miscellaneous.\',\'description\' => \'Advances in Critical Care Testing contains clinical and laboratory studies related to critically ill patients involving new technology, therapy, and application or interpretation of new tests. The subject matter of the book is of interest to both clinicia\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 97,
+           isbn     => 3540407529,
+           price    => '75.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Advances in Critical Care Testing',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:48'
+         };

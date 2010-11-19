@@ -1,0 +1,37 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:57',
+           data     => "\$VAR1 = bless( {'subtitle' => '','toc' => '1.  Surface Reconstruction an".
+	"d Interpolation\n\n    Marietta E. Cameron, Kenneth R. Sloan, and Ying Sun".
+	":    \n    Reconstruction from Unorganized Point Sets using Gamma Shapes\n".
+	"\n    Ingrid Hotz and Hans Hagen:    \n    Isometric embedding for a discr".
+	"ete metric','description' => 'Geometric Modeling and Scientific Visualiz".
+	"ation are both established disciplines, each with their own series of wo".
+	"rkshops, conferences and journals. But clearly both disciplines overlap;".
+	" this observation led to the idea of composing a book on Geometric Mo'},".
+	" 'DBIx::Class::FrozenColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 226,
+           isbn     => 3540401164,
+           price    => '109.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Geometric Modeling for Scientific Visualization',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:57'
+         };

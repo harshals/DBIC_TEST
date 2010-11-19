@@ -1,0 +1,38 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 5,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:42',
+           data     => "\$VAR1 = bless( {'subtitle' => 'International Criminal Justice at the Cro".
+	"ssroads','toc' => 'Contents: \nIntroduction\nThe developing idea and pract".
+	"ice of international criminal justice in the context of state sovereignt".
+	"y and individual responsibility\n* Preliminary remarks\n* The rationale of".
+	" universal jurisdiction\n* The dilemma of international cri','description".
+	"' => 'The evolving concept of universal jurisdiction, the modern doctrin".
+	"e of humanitarian intervention, and the challenges faced by legal theory".
+	" in addressing issues of international terrorism are subjects of this pr".
+	"ofound study. The author\302\264s main intention is '}, 'DBIx::Class::FrozenCo".
+	"lumns::Dumped' );",
+           description
+                    => undef,
+           id       => 8,
+           isbn     => 3211007954,
+           price    => 49.95,
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Global Justice or Global Revenge?',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:42'
+         };

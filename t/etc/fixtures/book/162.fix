@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:53',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Preface.- Organization and Usage.- Terms of XML Technologies and the Semantic Web.- List of annotated web resources.- List of W3C Technical Reports.- Bibliography\',\'description\' => \'The emerging Second-Generation Web is based entirely on XML and related technologies. This new version of the Web introduces a multitude of novel concepts, terms, and acronyms. The goal of this dictionary is not just to define the meaning of new words but\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 162,
+           isbn     => 1852337680,
+           price    => 49.95,
+           publish_date
+                    => '2004-01-14',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Dictionary of XML Technologies and the Semantic Web',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:53'
+         };

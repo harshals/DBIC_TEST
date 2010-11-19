@@ -1,0 +1,17 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => "Kandilli Observatory and Earthquake Research Institute, Bogammaazi\303\247i Un".
+	"iversity, Istanbul, Turkey",
+           created_on
+                    => '2010-11-18 07:13:13',
+           data     => '',
+           id       => 663,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:13:13'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:58',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Rational Western Therapy, Ayurvedic and Other Traditional Usage, Botany\',\'toc\' => \'A-Z of Indian medicinal plants and their application in the therapeutic process. Each entry contains details of classical nomenclature and usage, dosage, pharmacological principles and potential for Western medicine.\',\'description\' => \'This volume brings together information from myriad sources, including German Commission E monographs and the WHO, to form a highly structured and clear encyclopedia.Entries for each medicinal plant describe classical uses and properties, together with th\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 236,
+           isbn     => 3540010262,
+           price    => '149.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Indian Herbal Remedies',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:58'
+         };

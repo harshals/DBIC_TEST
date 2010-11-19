@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:44',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Preface - Band Structures, Optical Transitions, Optical Waveguides, Optical Resonators, Fundamentals of Semiconductor Lasers, Dynamic Single Mode LDs, Quantum Well LDs Control of Spontaneous Emission, Appendicies: Cyclotron Resonance&nbsp;, Time-Independe\',\'description\' => \'Fundamentals of Semiconductor Lasers explains the physics and fundamental characteristics of semiconductor lasers with regard to systems applications. The detailed and comprehensive presentation is unique in that it encourages the reader to consider diffe\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 31,
+           isbn     => '0387408363',
+           price    => '119.00',
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Fundamentals of Semiconductor Lasers',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:44'
+         };

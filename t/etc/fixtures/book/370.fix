@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 5,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:07',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'<P>This book offers a new explanation why venture capital in investments differ substantially between countries. Recent literature has attributed these differences to differences in the financial architecture and tax regulations. By contrast, this book sh\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 370,
+           isbn     => 3540407103,
+           price    => 89.95,
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Dynamic Efficiency and Path Dependencies in Venture Capital Markets',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:07'
+         };

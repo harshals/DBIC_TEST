@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:55',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'10th Anniversary Colloquium of UNU/IIST, the International Institute for Software Technology of The United Nations University, Lisbon, Portugal, March 18-20, 2002, Revised Papers\',\'toc\' => \'\',\'description\' => \'This volume is devoted to the 10th Anniversary Colloquium of UNU/IISI, the International Institute for Software Technology of the United Nations University, as well as to the memory of Armando Haeberer, who passed away while he was working on the preparat\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 195,
+           isbn     => 3540205276,
+           price    => '74.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Formal Methods at the Crossroads. From Panacea to Foundational Support',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:55'
+         };

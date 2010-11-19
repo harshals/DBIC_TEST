@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:58',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Preface.- 1. Measures on General Spaces and Inequalities.- 2. Gaussian Processes.- 3. Limit Theorems.- 4. Local Times.- 5. Large and Small Deviations.- 6. Density Estimation.- 7. Statistics via Empirical Process Theory.\',\'description\' => \'The title High Dimensional Probability  is used to describe the many tributaries of research on Gaussian processes and probability in Banach spaces that started in the early 1970s. Many of the problems that motivated researchers at that time were solved. \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 238,
+           isbn     => 3764321873,
+           price    => '149.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'High Dimensional Probability III',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:58'
+         };

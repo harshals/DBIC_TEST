@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 3,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:13',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Materials to VLSI\',\'toc\' => \'\',\'description\' => \'<em>Silicon-on-Insulator Technology: Materials to VLSI, Third Edition</em>, retraces the evolution of SOI materials, devices and circuits over a period of roughly twenty years. Twenty years of progress, research and development during which SOI material f\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 457,
+           isbn     => 1402077734,
+           price    => '125.00',
+           publish_date
+                    => '2004-02-29',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Silicon-on-Insulator Technology',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:13'
+         };

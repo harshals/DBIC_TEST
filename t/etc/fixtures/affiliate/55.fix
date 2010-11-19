@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => 'Parmly Hearing Institute, Loyola University of Chicago, IL',
+           created_on
+                    => '2010-11-18 07:12:44',
+           data     => '',
+           id       => 55,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:12:44'
+         };

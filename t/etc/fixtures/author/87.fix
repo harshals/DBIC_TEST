@@ -1,0 +1,25 @@
+$HASH1 = {
+           access_read
+                   => ',1,',
+           access_write
+                   => ',1,',
+           active  => 1,
+           country => undef,
+           created_on
+                   => '2010-11-18 07:12:45',
+           data    => "\$VAR1 = bless( {'country' => 'USA','review' => '<P>\342\200\234As preparation for".
+	" the arguments back and forth about the choice between flying just the m".
+	"ind, or its wetware too, Expedition Mars is a good launch pad for a surv".
+	"ey of the technology we have and what we need to make the expedition a r".
+	"eality. He tackle','url' => ''}, 'DBIx::Class::FrozenColumns::Dumped' );",
+           first_name
+                   => 'Martin J.L.',
+           id      => 87,
+           last_name
+                   => 'Turner',
+           review  => undef,
+           status  => ',active,',
+           updated_on
+                   => '2010-11-18 07:12:45',
+           url     => undef
+         };

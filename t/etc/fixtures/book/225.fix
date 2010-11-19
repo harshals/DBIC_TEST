@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:57',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'<P>This volume contains the proceedings of the twelfth conference of the European Consortium for Mathematics in Industry. The contributions illustrate the breadth of applications and the variety of mathematical and computational techniques that are embrac\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 225,
+           isbn     => '354040113X',
+           price    => '109.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Progress in Industrial Mathematics at ECMI 2002',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:57'
+         };

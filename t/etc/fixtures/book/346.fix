@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:05',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'<P>Restricted-orientation convexity is the study of geometric objects whose intersections with lines from some fixed set are connected. This notion generalizes standard convexity and several types of nontraditional convexity. We explore the properties of \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 346,
+           isbn     => 3540668152,
+           price    => 49.95,
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Restricted-Orientation Convexity',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:05'
+         };

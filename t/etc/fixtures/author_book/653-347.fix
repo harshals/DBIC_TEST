@@ -1,0 +1,4 @@
+$HASH1 = {
+           author_id => 653,
+           book_id   => 347
+         };

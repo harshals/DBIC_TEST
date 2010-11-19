@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:09',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Chapter 1: Normal Bone Marrow; Chapter 2: Anemias; Chapter 3: Infectious Disorders; Chapter 4: Inherited Defects of the Hematopoiesis; Chapter 5: Acute Lymphoblastic Leukemia and Lymphomas; Chapter 6: Acute Myelogenous Leukemia; Chapter 7: Down Syndrome a\',\'description\' => \'No other book covers as extensively the pathology of the bone marrow in children. It provides a wide background for the understanding of bone marrow disease in children and its difference from that of the adult population. It illustrates the morphology of\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 391,
+           isbn     => 3540442057,
+           price    => '225.00',
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Pediatric Bone Marrow',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:09'
+         };

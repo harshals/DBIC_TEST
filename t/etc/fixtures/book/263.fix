@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 3,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:00',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'During the 1980s, functional organic devices were born. For nearly twenty years, organic semiconductor technology has largely been the domain of traditional players within the microelectronics world, involving semiconductor companies, research laboratorie\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 263,
+           isbn     => 1402077076,
+           price    => '185.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Printed Organic and Molecular Electronics',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:00'
+         };

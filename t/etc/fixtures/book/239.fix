@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:58',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'List of contributors.- Preface.- An outline of arachidonate remodeling and its biological significance.- Phospholipase A2 and remodeling in inflammatory cells.- Effects of secretory phospholipase A2 in the pathophysiology of inflammatory diseases.- Contro\',\'description\' => \'Arachidonic acid (AA) and other 20 or 22-carbon polyunsaturated fatty acids (PUFAs) are precursors of lipid mediators of inflammation known as eicosanoids. These mediators are critical in disease processes and in regulating normal cell function. Remodelin\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 239,
+           isbn     => 3764369485,
+           price    => '159.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Arachidonate Remodeling and Inflammation',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:58'
+         };

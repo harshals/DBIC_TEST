@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:12',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'The Complete Reference\',\'toc\' => \'Preface.- Introduction - Basic Techniques.- Statistical Methods.- Dictionary Methods.- Image Compression.- Wavelet Methods.- Video Compression.- Audio Compression.- Other Methods.- Bibliography.- Glossary. - Joining the Data Compression Community.- Index.\',\'description\' => \'Data compression is one of the most important fields and tools in modern computing. This third edition of "Data Compression" provides a comprehensive, authoritative, and accessible reference for the many different types and methods of compression. Include\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 444,
+           isbn     => '0387406972',
+           price    => 69.95,
+           publish_date
+                    => '2004-02-26',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Data Compression',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:12'
+         };

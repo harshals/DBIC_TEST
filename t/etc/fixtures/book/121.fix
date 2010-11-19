@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 5,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:50',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Introduction: Notation; Support Methodology.- Analysis of Decision Making: Multicriteria Decision Making; Games Against Nature; Game Theory.- Location and Layout Decisions: Fundamental of Location and Layout Problems; Location Models on Network; Continuou\',\'description\' => \'The book presents a unified treatment of decision analysis, location theory and scheduling, with topics ranging from multicriteria decision-making, multiattribute utility theory, classical decision analysis and game theory, to location and layout planning\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 121,
+           isbn     => 3540403388,
+           price    => '119.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Decision Analysis, Location Models, and Scheduling Problems',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:50'
+         };

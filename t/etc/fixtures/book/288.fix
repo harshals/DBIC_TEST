@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:01',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'Modern circuits may contain up to several hundred million transistors. In the meantime it has been observed that verification becomes the major bottleneck in design flows, i.e. up to 80% of the overall design costs are due to verification. This is one of \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 288,
+           isbn     => 1402077211,
+           price    => '115.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Advanced Formal Verification',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:01'
+         };

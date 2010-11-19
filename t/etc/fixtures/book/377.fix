@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:07',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P>Introduction.- Group Extensions, Simple Algebras.- Classifying spaces and Group Cohomology.- Modular Invariant Theory.- Spectral Sequences and Detection Theorems.- G-Complexes and Equivariant Cohomology.- The Cohomology of Symmetric Groups.- Finite Gro\',\'description\' => \'<P>The cohomology of groups has, since its beginnings in the 1920s and 1930s, been the stage for significant interaction between algebra and topology and has led to the creation of important new fields in mathematics, like homological algebra and algebrai\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 377,
+           isbn     => 3540202838,
+           price    => '109.00',
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Cohomology of Finite Groups',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:07'
+         };

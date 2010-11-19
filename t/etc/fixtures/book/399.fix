@@ -1,0 +1,37 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:09',
+           data     => "\$VAR1 = bless( {'subtitle' => '','toc' => 'Forewords by Neal Lane and Ja".
+	"mes R. Heath\nIntroduction to Nanotechnology\nNanostructures, Micro/Nanofa".
+	"brication, and Micro/Nanodevices\nNanomaterials Synthesis and Application".
+	"s: Molecule Based Devices \342\227\217 Introduction to Carbon Nanotubes \342\227\217 Nanow".
+	"ires \342\227\217 Introdu','description' => '\342\200\234Professor Bhushan has harnessed h".
+	"is own knowledge and experience, gained in several industries and univer".
+	"sities, and has assembled about 100 internationally recognized authors f".
+	"rom three continents to write more than 40 chapters. The authors come fr".
+	"om bo'}, 'DBIx::Class::FrozenColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 399,
+           isbn     => 3540012184,
+           price    => '199.00',
+           publish_date
+                    => '2004-02-17',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Springer Handbook of Nanotechnology',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:09'
+         };

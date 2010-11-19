@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:52',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Anatomy and Physiology (Olle Ekberg); Evaluation of Symptoms (Doris Maria Denk); Imaging Techniques and Principles of Interpretation (Olle Ekberg); Pharynx: Oral and Pharyngeal Function (Olle Ekberg ); Pharyngeal Morphology (Stephen Rubesin); Pharyngeal M\',\'description\' => \'This book considers in detail all aspects of radiology of the pharynx and esophagus. It covers anatomy, physiology, and examination techniques and describes all relevant disease entities. However, it also considers endoscopic and manometric aspects of int\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 147,
+           isbn     => 3540415092,
+           price    => '169.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Radiology of the Pharynx and the Esophagus',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:52'
+         };

@@ -1,0 +1,37 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:04',
+           data     => "\$VAR1 = bless( {'subtitle' => 'Understanding the Java Management Extensi".
+	"ons','toc' => '1. Introduction; 2. The Three-Level Model; 3. Management ".
+	"Resources; 4. Agents; 5. MBean Servers; 6. JMX Managers; 7. JMX Connecto".
+	"rs; 8. JMX Agent Discovery; 9. MBean Interceptors; 10. Stackable MBean S".
+	"ervers; 11. JMX Clients; 12. Conclusion\n','description' => '\"Connecting ".
+	"JMX Clients and Servers\" discusses the complete JMX architecture includi".
+	"ng the JMX Remoting 1.2 release.  Offered are leading-edge examples of J".
+	"MX integration with distributed applications, including sequence diagram".
+	"s and sample code.  The boo'}, 'DBIx::Class::FrozenColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 330,
+           isbn     => 1590591011,
+           price    => 34.99,
+           publish_date
+                    => '2004-02-11',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Pro JMX: Java Management Extensions',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:04'
+         };

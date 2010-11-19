@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => "\303\211cole Polytechnique, Palaiseau, France",
+           created_on
+                    => '2010-11-18 07:13:05',
+           data     => '',
+           id       => 514,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:13:05'
+         };

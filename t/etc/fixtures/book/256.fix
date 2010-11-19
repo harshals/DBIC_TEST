@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:59',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Astronomy for Binoculars and Richest-Field Telescopes\',\'toc\' => \'From the Table of Contents: Introduction: The Stars; Stellar Groups; Nebulae; Galaxies.- Stars.- Open Clusters: Introduction; Summer Constellations; Autumn Constellations; Winter Constellations.- Globular Clusters.- Bright Nebulae: Introduction; Summer Co\',\'description\' => \'This book is primarily a practical guide for observers with normal or giant binoculars, or \\\'richest-field\\\' telescopes, who wish to get the most out of their instruments. Apart from that, it is also a readable, well-illustrated book for \\\'arm-chair observer\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 256,
+           isbn     => 3211008519,
+           price    => 69.95,
+           publish_date
+                    => '2004-01-27',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Sky Vistas',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:59'
+         };

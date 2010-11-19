@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:58',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'From the contents: Gastrointestinal inflammation: etiology and pathogenesis.- Pharmacotherapy of Helicobacter-pylori associated gastritis.- Pharmacotherapy of Inflammatory Bowel Disease.- Pharmacotherapy of hepatitis.- Probiotics in the treatment of gastr\',\'description\' => \'In recent years, the area of pharmacotherapy of GI inflammation has witnessed important progresses with new drugs and therapeutic approaches being introduced. The volume reviews the pharmacotherapy of selected gastrointestinal inflammatory conditions chos\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 232,
+           isbn     => 3764369108,
+           price    => '129.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Pharmacotherapy of Gastrointestinal Inflammation',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:58'
+         };

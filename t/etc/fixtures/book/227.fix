@@ -1,0 +1,38 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:57',
+           data     => "\$VAR1 = bless( {'subtitle' => 'International Conference in Algebraic Top".
+	"ology, Isle of Skye, Scotland, June 2001','toc' => 'Preface.- Contributi".
+	"ons by J. Aguad\303\251 / C. Broto / L. Saumell, M.F. Anton, S. Betley, D. Bla".
+	"nc, R.L. Cohen / J.D.S. Jones / J. Yan, F.R. Cohen / J. Wu, D.M. Davis, ".
+	"P. Goerss / H.-W. Henn / M. Mahowald, M. Golas\303\255nski / D.L. Gon\303\247alves, ".
+	"L. Hodgkin / P.A. \303\230stv','description' => 'The book consists of articles".
+	"&nbsp;at the frontier of current research in Algebraic Topology. It pres".
+	"ents recent results by top notch experts, and is intended primarily for ".
+	"researchers and graduate students working in the field of algebraic topo".
+	"logy. Incl'}, 'DBIx::Class::FrozenColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 227,
+           isbn     => 3764304006,
+           price    => '119.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Categorical Decomposition Techniques in Algebraic Topology',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:57'
+         };

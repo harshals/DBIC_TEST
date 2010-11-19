@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 5,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:10',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P>Matrix-based Methods for College Football Rankings.- Who`s the Best? Data Envelopment Analysis and Ranking Players in the National Football League.- Dynamic Programming and Time Related Strategies in Sports.- Using Statistics to Predict Scores in Engli\',\'description\' => \'<P>&nbsp;This book presents the up-to-date research developments in economics, management and optimization applied to sports, which would be of interest to researchers and practitioners in sports industry, and could be used as supplementary reading in rel\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 415,
+           isbn     => 3540207120,
+           price    => '99.00',
+           publish_date
+                    => '2004-02-20',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Economics, Management and Optimization in Sports',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:10'
+         };

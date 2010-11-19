@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:54',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Prefaces.- 1. Some General Mathematical Concepts and Notation.- 2. The Real Numbers.- 3. Limits.- 4. Continuous Functions.- 5. Differential Calculus.- 6. Integration.- 7. Functions of Several Variables.- 8. Differential Calculus in Several Variables.- Som\',\'description\' => \'This two-volume work presents a thorough first course in analysis, leading from real numbers to such advanced topics as differential forms on manifolds, asymptotic methods, Fourier, Laplace, and Legendre transforms, elliptic functions and distributions. E\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 191,
+           isbn     => 3540403868,
+           price    => 69.95,
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Mathematical Analysis I',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:54'
+         };

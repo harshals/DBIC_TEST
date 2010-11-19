@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 10,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:08',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'<P>&nbsp;</P>This book reviews the lectures given at the European Commissions\\\'s Advances Study Course on\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 384,
+           isbn     => 3540421998,
+           price    => '169.00',
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Natural Disasters and Sustainable Development',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:08'
+         };

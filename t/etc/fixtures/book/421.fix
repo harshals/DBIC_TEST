@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 5,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:11',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'<P>This book provides a full-scale presentation of all methods and techniques available for the solution of the knapsack problem. This most basic combinatorial optimization problem appears explicitly or as a subproblem in a wide range of optimization mode\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 421,
+           isbn     => 3540402861,
+           price    => '129.00',
+           publish_date
+                    => '2004-02-20',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Knapsack Problems',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:11'
+         };

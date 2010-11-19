@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:02',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Volume 4: Postharvest Treatment and Technology\',\'toc\' => \'\',\'description\' => \'Fresh fruits and vegetables are susceptible to a number of postharvest diseases and disorders. Postharvest operations are predominately aimed at maintaining the harvest quality. The challenge facing industries is to produce food of good quality with few c\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 305,
+           isbn     => 1402017014,
+           price    => '151.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Production Practices and Quality Assessment of Food Crops',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:02'
+         };

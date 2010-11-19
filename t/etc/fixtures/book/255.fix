@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:59',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'A Practical Guide\',\'toc\' => \'Preparation and Maintenance of Instrument; Samples: Selection, Preparation; Optimisation of Source and Analytical Parameters; Calibration; Calibration for Bulk Analysis; Calibration for Compositional Depth Profiling; Drift Correction; Bulk Analysis; Quali\',\'description\' => \'Glow discharge optical emission spectroscopy (GDOES) is an essential technique for the direct analysis of bulk solids, for elemental surface analysis and for the depth profiling of thin films and industrial coatings. The technique has shown rapid growth i\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 255,
+           isbn     => '085404521X',
+           price    => '249.00',
+           publish_date
+                    => '2004-01-23',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Glow Discharge Optical Emission Spectroscopy',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:59'
+         };

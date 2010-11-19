@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:09',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P>Chapter 1- Web Graphics and the Fireworks Interface; Chapter 2- Creating Content Tools and Colors; Chapter 3- Object Properties; Chapter 4- Object Behavior- Interactivity; Chapter 5- Optimization and Exporting; Chapter 6- Animation; Chapter 7- Working \',\'description\' => \'<P>Macromedia?s Fireworks MX 2004 enables you to design, optimize, and add basic interactivity to your graphics and is mainly used for designing and optimizing web graphics, then exporting them to website creation programs like Dreamweaver or Flash.</P> <\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 394,
+           isbn     => 1590593065,
+           price    => 34.99,
+           publish_date
+                    => '2004-02-17',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Macromedia Fireworks MX 2004 Zero to Hero',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:09'
+         };

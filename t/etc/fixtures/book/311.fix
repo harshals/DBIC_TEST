@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:03',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'The Life and Work of Edward B. Lewis\',\'toc\' => \'\',\'description\' => \'Edward B. Lewis\\\' science is the bridge linking experimental genetics as conducted in the first half of the 20th century, and the powerful molecular genetic approaches that revolutionized the field in its last quarter. His Nobel Prize winning studies found\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 311,
+           isbn     => '140207591X',
+           price    => '190.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Genes, Development and Cancer',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:03'
+         };

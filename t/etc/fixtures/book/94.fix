@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 5,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:48',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Dynamic Decision Problems under Uncertainty: Modeling Aspects.- Dynamic Stochastic Optimization in Finance.- Optimal Control Under Stochastic Uncertainty.- Tools for Dynamic Stochastic Optimization\',\'description\' => \'This volume considers optimal stochastic decision processes from the viewpoint of stochastic programming. It focuses on theoretical properties and on approximate or numerical solution techniques for time-dependent optimization problems with random paramet\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 94,
+           isbn     => 3540405062,
+           price    => '73.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Dynamic Stochastic Optimization',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:48'
+         };

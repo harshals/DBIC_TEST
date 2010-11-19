@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:45',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Contents: Introduction, Diagnosis, Partial Tears of the ACL, Treatment Options, Graft Selection, Hamstring Graft Reconstruction Techniques, Patellar Tendon Graft Technique, Rehabilitation, Complications, Results, references\',\'description\' => \'ACL Made Simple is a book/CD-ROM combination that educates orthopedic residents, athletic trainers, and various medical support staff about the fundamentals of ACL injuries. The content is both thorough and practical. Readers benefit from comprehensive di\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 53,
+           isbn     => '0387401466',
+           price    => 89.95,
+           publish_date
+                    => '2004-01-09',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'ACL Made Simple',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:45'
+         };

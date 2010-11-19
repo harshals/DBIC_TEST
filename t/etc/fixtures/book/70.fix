@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:46',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Cartoons from the Daily Routine in Medicine\',\'toc\' => \'\',\'description\' => \'<P> </P> <P>This books caricatures clinical medicine systematically. And almost every speciality ? from anesthesiology to urology ? serves as a target.</P> <P>Volker Lange knows how to disclose the perhaps intentionally overlooked parts of the medical pro\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 70,
+           isbn     => 3798514313,
+           price    => '25.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Medicynical',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:46'
+         };

@@ -1,0 +1,37 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:54',
+           data     => "\$VAR1 = bless( {'subtitle' => '','toc' => 'Preface to the Second Russian".
+	" Edition.- 1. The General Theory to one First-Order Equation.- 2. The Ge".
+	"neral Theory to one First-Order Equation (Continued).- 3. Huygens\342\200\230 Pri".
+	"nciple in the Theory of Wave Propagation.- 4. The Vibrating String (d\342\200\231".
+	"Alembert\342\200\231s Met','description' => 'Like all of Vladimir Arnold\\'s books".
+	", this book is full of geometric insight. Arnold illustrates every princ".
+	"iple with a figure. This book aims to cover the most basic parts of the ".
+	"subject and confines itself largely to the Cauchy and Neumann problems f".
+	"or t'}, 'DBIx::Class::FrozenColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 178,
+           isbn     => 3540404481,
+           price    => 49.95,
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Lectures on Partial Differential Equations',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:54'
+         };

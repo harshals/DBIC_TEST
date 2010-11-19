@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => "Universidad de la Rep\302\267blica and CCC S.A., Montevideo, Uruguay",
+           created_on
+                    => '2010-11-18 07:13:01',
+           data     => '',
+           id       => 432,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:13:01'
+         };

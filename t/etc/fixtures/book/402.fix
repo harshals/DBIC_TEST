@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:09',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P>&nbsp;</P> <P>The Analyst\',\'description\' => \'<P>&nbsp;</P> <P>Chemometrics in Analytical Spectroscopy 2nd Edition provides a tutorial approach to the development of chemometric techniques and their application to the interpretation of analytical spectroscopic data. From simple descriptive statistics\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 402,
+           isbn     => '0854045953',
+           price    => '299.00',
+           publish_date
+                    => '2004-02-18',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Chemometrics in Analytical Spectroscopy',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:09'
+         };

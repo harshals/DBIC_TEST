@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:16',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'This book develops a new physical/mathematical model for the functioning of the human brain, based, not on the modern Newton-Einstein view of physical reality, but on \\\'information reality\\\'. The work is devoted to the physical-mathematical modeling of (con\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 497,
+           isbn     => 1402018681,
+           price    => '149.00',
+           publish_date
+                    => '2004-02-29',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Information Dynamics in Cognitive, Psychological, Social, and Anomalous Phenomena',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:16'
+         };

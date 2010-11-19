@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:46',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Volume 19\',\'toc\' => \'\',\'description\' => \'\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 66,
+           isbn     => 1898298793,
+           price    => '210.00',
+           publish_date
+                    => '2004-01-09',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Biotechnology & Genetic Engineering Reviews',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:46'
+         };

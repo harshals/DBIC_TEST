@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:03',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'1. Gross and Arthroscopic Anatomy of the Foot; 2. Gross and Arthroscopic Anatomy of the Ankle; 3. Examination and Differential Diagnosis of the Foot and Ankle for Arthroscopic-Endoscopic Surgery; 4. Imaging Techniques; 5. Set-up, Distraction, and Instrume\',\'description\' => \'Drs. Guhl, Parisien, and Boynton have prepared a third edition of this successful volume, heretofore published by Slack (who no longer publishes books on orthopaedic surgery, only journals). The editors have invited a prestigious group of contributors, in\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 322,
+           isbn     => '0387985115',
+           price    => '259.00',
+           publish_date
+                    => '2004-02-02',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Foot and Ankle Arthroscopy',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:03'
+         };

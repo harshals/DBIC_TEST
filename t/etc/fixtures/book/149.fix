@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:52',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'A Volume of Advances in Partial Differential Equations\',\'toc\' => \'Contributions: Nonlinear PDE. Singularities, Propagation, Applications (P.R. Popivanov).- From Wave to Klein-Gordon Type Decay Rates (F. Hirosawa and M. Reissig).- Local Solutions to Quasilinear Qeakly Hyperbolic Differential Equations (M. Dreher).- S(M,g\',\'description\' => \'This volume focuses on recent developments in non-linear and hyperbolic equations.  In the first contribution, the singularities of the solutions of several classes of non-linear partial differential equations are investigated. Applications concern the Mo\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 149,
+           isbn     => 3764321687,
+           price    => '169.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Nonlinear Hyperbolic Equations, Spectral Theory, and Wavelet Transformations',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:52'
+         };

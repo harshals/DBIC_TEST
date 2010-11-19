@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 10,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:08',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Environmental Data and Facts\',\'toc\' => \'\',\'description\' => \'<P>This data- and factbook contains state-of-the-art information on the environmental aspects of 2,500 chemicals currently used in the textile industry worldwide. The auhors have worked closely with industrial practitioners and managers of textile plans t\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 386,
+           isbn     => 3540408150,
+           price    => '199.00',
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Textile Chemicals',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:08'
+         };

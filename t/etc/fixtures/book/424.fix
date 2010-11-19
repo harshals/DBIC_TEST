@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 3,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:11',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P>Web Intelligence.- Fuzzy Logic and Rank Aggregation for the World Wide Web.- Automatic Learning of Multiple Extended Boolean Queries by Multiobjective GA-P Algorithms.- An Approximate Querying Environment for XML Data.- Information Gathering on the Int\',\'description\' => \'<P>The unrestrainable explosion of the world wide web is not bereft of troubles and drawbacks, especially for inexpert users. Therefore there is a strong need of new research approaches in term of theories and systems. The main objective of this book is t\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 424,
+           isbn     => 3540201807,
+           price    => '139.00',
+           publish_date
+                    => '2004-02-20',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Fuzzy Logic and the Internet',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:11'
+         };

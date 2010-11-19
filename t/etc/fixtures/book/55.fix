@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 5,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:45',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Chapter 1. Towards a New Framework for Economic Integration in East Asia, Dr. Kim Young-Ho, Professor, Kyungpook National University; Former Minister of Commerce, Industry and Energy, Korea.- Chapter 2. Regional Cooperation in East Asia: With Special Refe\',\'description\' => \'Until the currency crisis of 1997, East Asia was hailed around the world as a model of economic growth and development. However, when the crisis struck, East Asian countries found themselves struggling without the regional cooperation frameworks that had \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 55,
+           isbn     => 4431401261,
+           price    => '99.00',
+           publish_date
+                    => '2004-01-09',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Co-Design for a New East Asia after Crisis',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:45'
+         };

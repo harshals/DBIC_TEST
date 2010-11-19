@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:07',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Geometry, Mechanism, and Motion\',\'toc\' => \'<P> </P> <P>1) Introduction</P> <P>2) Overview of Spatial Reasoning and Planning Techniques</P> <P>3) Interesting Problems in Spatial Reasoning and Planning</P> <P>4) How to Represent Qualitative Spatial Relationships</P> <P>5) Methodology of Spatial Reas\',\'description\' => \'<P>Spatial reasoning and planning is a core constituent in robotics, graphics, computer-aided design, and geographic information systems.</P> <P></P> <P>After a review of previous work in the related areas, Liu and Daneshmend present here a unified framew\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 368,
+           isbn     => 3540406700,
+           price    => 89.95,
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Spatial Reasoning and Planning',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:07'
+         };

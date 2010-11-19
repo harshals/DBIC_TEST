@@ -1,0 +1,30 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:54',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'8th Asian Computing Science Conference, Mumbai, India, December 10-14, 2003, Proceedings\',\'toc\' => \'\',\'description\' => \'This book constitutes the refereed proceedings of the 8th Asian Computing Science Conference, ASIAN 2003, held in Mumbai, India in December 2003.The 16 revised full papers presented together with 2 invited papers were carefully reviewed and selected form \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 184,
+           isbn     => 3540206329,
+           price    => '58.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => "Advances in Computing Science - ASIAN 2003\nProgramming Languages and Dis".
+	"tributed Computation",
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:54'
+         };

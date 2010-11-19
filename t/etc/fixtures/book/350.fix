@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:05',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P>Introduction.- Background on Differential Geometry.- Asymptotic Expansion of the Heat Kernel.- Clifford Modules and Dirac Operators.- Index Density of Dirac Operators.- The Exponential Map and the Index Density.- The Equivariant Index Theorem.- Equivar\',\'description\' => \'<P>In the first edition of this book, simple proofs of the Atiyah-Singer Index Theorem for Dirac operators on compact Riemannian manifolds and its generalizations (due to the authors and J.-M. Bismut) were presented, using an explicit geometric constructi\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 350,
+           isbn     => 3540200622,
+           price    => 59.95,
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Heat Kernels and Dirac Operators',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:05'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:50',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Technological, Economic, Legal and Political Aspects\',\'toc\' => \'\',\'description\' => \'The content industries consider Digital Rights Management (DRM) to contend with unauthorized downloading of copyrighted material, a practice that costs artists and distributors massively in lost revenue. Based on two conferences that brought together high\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 119,
+           isbn     => 3540404651,
+           price    => '109.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Digital Rights Management',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:50'
+         };

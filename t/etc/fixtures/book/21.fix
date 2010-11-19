@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:44',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'Cellular therapy with liver stem cells and their progeny, including bone marrow cells, is a promising new approach that will contribute significantly to the treatment of liver diseases. The existence of the liver stem cell had long been debated, but it no\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 21,
+           isbn     => 4431401997,
+           price    => '79.00',
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Stem Cell and Liver Regeneration',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:44'
+         };

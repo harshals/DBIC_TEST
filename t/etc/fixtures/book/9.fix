@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:43',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Epigraph.- Preface.- Acknowledgements.- Guiding the Reader.- Table of Notations.- Introduction.- How Many Prime Numbers Are There?- How to Recognize Whether a Natural Number is a Prime.- Are There Functions Defining Prime Numbers?- How Are the Prime Numbe\',\'description\' => \'A deep understanding of prime numbers is one of the great challenges in mathematics. In this new edition, fundamental theorems, challenging open problems, and the most recent computational records are presented in a language without secrets. The impressiv\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 9,
+           isbn     => '0387201696',
+           price    => 49.95,
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'The Little Book of Bigger Primes',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:43'
+         };

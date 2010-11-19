@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => 'Nethergate Brewing Company, UK',
+           created_on
+                    => '2010-11-18 07:13:04',
+           data     => '',
+           id       => 481,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:13:04'
+         };

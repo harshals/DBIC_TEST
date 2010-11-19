@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 5,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:49',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Economic and Financial Market Consequences of Global Ageing: Global Demographic Trends and Forecasts 1950 - 2050; How Is Ageing Likely to Impact Economically over the Next 50 Years: What Are the Main Transmission Mechanisms; Global Capital Market Developm\',\'description\' => \'Many countries will be confronted with ageing populations in the coming decades. This will crucially affect the economic outlook for the economy. Population changes directly affect the size of the labour force and consequently potential employment and out\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 112,
+           isbn     => 3540405410,
+           price    => '99.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'The Economic and Financial Market Consequences of Global Ageing',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:49'
+         };

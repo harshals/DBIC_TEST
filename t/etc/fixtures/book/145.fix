@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:52',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'M. Schwartz: The brain and the mind - can the immune system help?- C. Woiciechowsky and H.-D. Volk: Influence of brain-derived cytokines on the immune response.- S. Hong and P.J. Mills: Physical stress / Exercise and immune response.- G.G. Page: Pain and \',\'description\' => \'This volume deals with the various interactions between the central nervous system and the immune system in inflammatory conditions. The emphasis is on the origin of pain and stress and their treatment. The book is divided into four parts: central nervous\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 145,
+           isbn     => 3764369183,
+           price    => '159.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Mind over Matter: Regulation of Peripheral Inflammation by the CNS',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:52'
+         };

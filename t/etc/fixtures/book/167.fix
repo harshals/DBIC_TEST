@@ -1,0 +1,38 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:53',
+           data     => "\$VAR1 = bless( {'subtitle' => 'Time-Resolved Chemsitry: From Structure t".
+	"o Function','toc' => '1. Introductory Lecture: Time Resolved Chemistry a".
+	"t Atomic Resolution, 2. The Realization of sub-nanosecond pump and probe".
+	" experiments at the ESRF 3. Femtosecond mid infrared spectroscopy of con".
+	"densed phase hydrogen bonded systems as a probe of structural','descript".
+	"ion' => 'This collection of papers is from A General Discussion on Time-".
+	"Resolved Chemistry that was held at the University of Manchester, UK on ".
+	"24th, 25th, and 26th June, 2002.\n\nTime resolved studies covering techniq".
+	"ue developments, signal transduction and photo-i'}, 'DBIx::Class::Frozen".
+	"Columns::Dumped' );",
+           description
+                    => undef,
+           id       => 167,
+           isbn     => '0854049967',
+           price    => '298.00',
+           publish_date
+                    => '2004-01-14',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Faraday Discussions Vol. 122',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:53'
+         };

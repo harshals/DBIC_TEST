@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:03',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Volume 1: Common Defects\',\'toc\' => \'1.1 Total anomalous pulmonary venous connection 1.2 Partial anomalous pulmonary venous connection 1.3 Atrial septal defect 1.4 Unroofed coronary sinus  1.5 Atrioventricular septal defect 1.6 Ventricular septal defect  1.7 Tetralogy of Fallot 1.8 Tetralogy\',\'description\' => \'Expressly created to assist with decision-making for surgical treatment of congenital heart defects, this new reference covers all relevant aspects.The congenital heart defects are presented with each chapter devoted to a single malformation, with inciden\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 320,
+           isbn     => 3798514151,
+           price    => '129.00',
+           publish_date
+                    => '2004-02-02',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Congenital Heart Defects. Decision Making for Cardiac Surgery',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:03'
+         };

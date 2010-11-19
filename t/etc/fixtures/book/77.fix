@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:47',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'From the contents::... and then a Miracle Occurs.- A Quantum Theory of Conciousness.- The Copenhagen Interpretation.- Quantum Propensities and the Brain-Mind Interface.- Mind, Matter, and Pauli.- A Quantum Conception of Man.- Neuroscience, Atomic Physics,\',\'description\' => \'Scientists other than quantum physicists often fail to comprehend the enormity of the conceptual change wrought by quantum theory in our basic conception of the nature of matter,\\\' writes Henry Stapp. Stapp is a leading quantum physicist who has given part\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 77,
+           isbn     => 3540407618,
+           price    => 49.95,
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Mind, Matter and Quantum Mechanics',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:47'
+         };

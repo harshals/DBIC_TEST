@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:44',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'1. Hand-Assisted Laparoscopic Radical Nephrectomy for Renal Cancer.- 2. Laparoscopic Radical Nephrectomy.- 3. Radiofrequency Treatment of Renal Tumors.- 4. Laparoscopic Partial Nephrectomy: Current Status.- 5. Laparoscopic Partial Nephrectomy for Renal Ce\',\'description\' => \'In the 5 years since the publication of Urologic Laparoscopy by the Japanese Society of Endourology and ESWL, the field has moved on apace, particularly technologically. It is with an eye on the need to disseminate the latest information on this progress \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 32,
+           isbn     => 4431012192,
+           price    => '129.00',
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'New Challenges in Laparoscopic Urologic Surgery',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:44'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:46',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Lectures given at the C.I.M.E. Summer School held in Martina Franca, Italy, September 9-15, 2001\',\'toc\' => \'Preface.- A. Cohen: Theoretical Applied and Computational Aspects of Nonlinear Approximation.- W. Dahmen: Multiscale and Wavelet Methods for Operator Equations.- J. H. Bramble: Multilevel Methods in Finite Elements.\',\'description\' => \'This volume aims to disseminate a number of new ideas that have emerged in the last few years in the field of numerical simulation, all bearing the common denominator of the "multiscale" or "multilevel" paradigm. This covers the presence of multiple relev\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 72,
+           isbn     => 3540200991,
+           price    => 44.95,
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Multiscale Problems and Methods in Numerical Simulations',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:46'
+         };

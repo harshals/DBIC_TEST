@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:54',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'5th International Workshop, IWLCS 2002, Granada, Spain, September 7-8, 2002, Revised Papers\',\'toc\' => \'\',\'description\' => \'This book constitutes the refereed proceedings of the 5th International Workshop on Learning Classifier Systems, IWLCS 2003, held in Granada, Spain in September 2003 in conjunction with PPSN VII. The 10 revised full papers presented together with a compre\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 176,
+           isbn     => 3540205446,
+           price    => '47.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Learning Classifier Systems',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:54'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:54',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Controlling, Managing, Organizing\',\'toc\' => \'On mathematical methods in pre-industrial technology and machines.- B. van der Pol and the birth of non-linear dynamics.- Formal and mathematical tools inorder to conceptualize the technical and social action.- The origins of the modern technological thou\',\'description\' => \'This collection of historical research studies covers the evolution of technology as knowledge, the emergence of an autonomous engineering science in the Industrial Age, the idea of scientific managment of production and operation systems, and the interac\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 193,
+           isbn     => '376436940X',
+           price    => 69.95,
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Technological Concepts and Mathematical Models in the Evolution of Modern Engineering Systems',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:54'
+         };

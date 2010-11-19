@@ -1,0 +1,30 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:42',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'The Complete Language ANSI/ISO Compliant, Third Edition\',\'toc\' => \'Chapter 1: Basic Ideas; Chapter 2: Basic Data Types and Calculations; Chapter 3: More on Handling Basic Data Types; Chapter 4: Choices and Decisions; Chapter 5: Loops; Chapter 6: Arrays and Strings; Chapter 7: Pointers; Chapter 8: Programming with Functio\',\'description\' => \'Ivor Horton\\\'s Beginning C++: The Complete Language ANSI/ISO Compliant , Third Edition is comprehensive ground-up tutorial on the complete ANSI C++ language. No prior knowledge of any particular programming language is assumed and only an appreciation of e\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 4,
+           isbn     => 1590592271,
+           price    => 59.99,
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => "Ivor Horton\302\271s Beginning ANSI C++: The Complete Language, Third Edition ".
+	"(2nd printing)",
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:42'
+         };

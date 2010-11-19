@@ -1,0 +1,38 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:53',
+           data     => "\$VAR1 = bless( {'subtitle' => 'Non-Equilibrium Behaviour of Colloidal Di".
+	"spersions','toc' => '1. Rideal Lecture 2. The nature of colloidal glass ".
+	"transition 3. Real space fluorescence recovery after photo bleaching of ".
+	"concentrated suspensions of hard colloidal spheres 4. Ergodic and non er".
+	"godic phase transitions in globular protein suspensions 5. E','descripti".
+	"on' => 'Recent developments in the multi-disciplinary field of colloidal".
+	" systems are discussed. The topics considered include: \n\n- Long-lived no".
+	"n-equilibrium states; colloidal aggregates, glasses, and gels \n\n- Relaxa".
+	"tion to equilibrium; phase transition kinetics;'}, 'DBIx::Class::FrozenC".
+	"olumns::Dumped' );",
+           description
+                    => undef,
+           id       => 168,
+           isbn     => '0854049622',
+           price    => '298.00',
+           publish_date
+                    => '2004-01-14',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Faraday Discussions Vol. 123',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:53'
+         };

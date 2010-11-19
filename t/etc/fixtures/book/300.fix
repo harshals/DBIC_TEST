@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:02',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'Dorothy Wertz and John Fletcher pioneered the first international study of ethical and social issues in genetics in 18 nations. This book reports and discusses their second and more representative study in 36 nations. The survey focused on actual situatio\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 300,
+           isbn     => 1402017685,
+           price    => '143.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Genetics and Ethics in Global Perspective',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:02'
+         };

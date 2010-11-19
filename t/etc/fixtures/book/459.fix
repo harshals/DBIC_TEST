@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:13',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'The <em>Journal of Fluorescence</em>\\\'s <em>Who\\\'s Who in Fluorescence 2004</em> directory is a comprehensive guide of the fluorescence community, covering academic, industry and government workers alike. It provides the names, complete contact details, key\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 459,
+           isbn     => '0306484234',
+           price    => '20.00',
+           publish_date
+                    => '2004-02-29',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Who\'s Who in Fluorescence 2004',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:13'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:43',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Applications and Strategies in Cyber Health Care\',\'toc\' => \'1. The Collaborative Edge: Population Management and Patient Empowerment for Vulnerable Populations * 2. Patient-Centered Communication * 3. Supporting Patients as Co-Producers of Quality * 4. A Clinic in Every Home * 5. Secure Computerized Patient Record\',\'description\' => \'This comprehensive volume explores the evolving fields of consumer informatics and telemedicine as envisioned by the Institute of Medicine in its landmark reports on the electronic medical record, patient safety, and quality care. Each chapter describes t\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 20,
+           isbn     => '0387404147',
+           price    => 69.95,
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Consumer Informatics',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:43'
+         };

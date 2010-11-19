@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:53',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Chapter 1- Flash Movie Essentials; Chapter 2- The Flash Tools Panel; Chapter 3- Flash Symbols and Libraries; Chapter 4- Managing Content; Chapter 5- Enhancing Your Appearance; Chapter 6- Motion Tweening; Chapter 7- Shape Tweening; Chapter 8- Masks and Mas\',\'description\' => \'If you\\\'ve never used Flash before and you\\\'re looking for a book that will give you a rock solid grounding in Flash MX 2004, then this is the title for you. This book uses a series of structured exercises to give you the broad, solid foundation knowledge y\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 160,
+           isbn     => 1590593030,
+           price    => 29.99,
+           publish_date
+                    => '2004-01-14',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Foundation Macromedia Flash MX 2004 (2nd printing)',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:53'
+         };

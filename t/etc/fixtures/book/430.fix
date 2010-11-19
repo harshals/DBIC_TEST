@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:12',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P>&nbsp;</P> <P>Introduction.-</P> <P>DNA Hydrolysis: Mechanism and Reactivity.-</P> <P>Active Site of Ribonuclease A.-</P> <P>Structural Considerations Concerning Cleavage of RNA.-</P> <P>Cleavage of RNA by Imidazole.-</P> <P>Principles of Nucleic Acid \',\'description\' => \'<P>The development of agents capable of cleaving RNA and DNA has attracted considerable attention of researchers in the last few years, because of their application in biotechnology and pharmacology.&nbsp;Artificial nucleases are rationally designed to im\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 430,
+           isbn     => 3540201122,
+           price    => '189.00',
+           publish_date
+                    => '2004-02-20',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Artificial Nucleases',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:12'
+         };

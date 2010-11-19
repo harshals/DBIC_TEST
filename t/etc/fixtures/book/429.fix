@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:12',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'During the past decade research into the pharmacology of cognition, particularly regarding learning and memory, has supported the concept that many potential neural targets exist for the development of cognitive-enhancing drugs. Whereas the main impetus f\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 429,
+           isbn     => 3764369825,
+           price    => '169.00',
+           publish_date
+                    => '2004-02-20',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Cognitive Enhancing Drugs',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:12'
+         };

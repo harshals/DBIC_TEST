@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:55',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'The Epidemiology of Occupational Contact Dermatitis.- Barrier Function and Skin Reactivity in Occupational Dermatoses.- Measurement of Dermal Exposure.- Contact Dermatitis.- Occupational Skin Granulomas.- Occupational Dermatitis Artefacta.- Occupational A\',\'description\' => \'Due to changes in modern life, occupational dermatoses are increasing. This completely revised and comprehensive edition provides the concise information needed in dealing with patients in the field of occupational dermatology. It combines a highly practi\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 200,
+           isbn     => 3540443487,
+           price    => 79.95,
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Condensed Handbook of Occupational Dermatology',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:55'
+         };

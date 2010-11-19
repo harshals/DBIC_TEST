@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:44',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Introduction.- Vectors and Moments.- Kinematics.- Dynamics of Particles.- Dynamics of Systems.- Inertia.- Rigid Body Dynamics.- Advanced Topics in Rigid Body Dynamics.- Appendix A: Linear Algebra.- Appendix B: Linkages.- Appendix C: Properties of Inertia.\',\'description\' => \'A translation of the highly acclaimed text by Roberto Tenenbaum (originally published in Portuguese). Tenenbaum\\\'s DYNAMICS covers the full range of topics included in a complete basic course designed for undergraduate students in engineering. Requiring no\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 26,
+           isbn     => '038700887X',
+           price    => 89.95,
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Fundamentals of Applied Dynamics',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:44'
+         };

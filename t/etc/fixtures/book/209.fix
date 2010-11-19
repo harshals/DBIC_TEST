@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 3,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:56',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Foundation of the wave finite element method.- Simulation of simple one-dimensional wave processes.- Wave propagation in an inelastic rod.- Coupled longitudinal-tosional waves in a pretwisted rod.- Bending waves in a beam.- One-dimensional wave propagatio\',\'description\' => \'This monograph presents in detail the novel \\\'wave\\\' approach to finite element modeling of transient processes in solids. Strong discontinuities of stress, deformation, and velocity wave fronts as well as a finite magnitude of wave propagation speed over e\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 209,
+           isbn     => 3540416382,
+           price    => 89.95,
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'The Wave Finite Element Method',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:56'
+         };

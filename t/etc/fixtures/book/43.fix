@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:45',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'A Practical Guide for the Pathologist\',\'toc\' => \'Introduction.- Theory and Operation of the American Legal System.- Impact of Law on Pathology Practice - Everyday Occurrences.- Impact of Law on Practice of Pathology - Malpractice.- Expert Witness Testimony.- Natural History of a Legal Suit.- Quality Ass\',\'description\' => \'Almost all pathologists face legal issues when dealing with the specimens they work with on a day-to-day basis, whether it involves quality control and assurance in handling the specimens, facing the possibility of malpractice suits, or serving as an expe\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 43,
+           isbn     => '0387200355',
+           price    => 39.95,
+           publish_date
+                    => '2004-01-09',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Pathology and Law',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:45'
+         };

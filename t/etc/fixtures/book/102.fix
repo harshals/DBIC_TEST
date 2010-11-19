@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:49',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Introduction.- The CMOS Optical Receiver.- Integrated CMOS Optical Receivers.- Full Integration of a Standard CMOS Optical Transmitter.- Electrical Interference in Mixed-Mode Integrated Circuits.- Conclusions\',\'description\' => \'This book presents several circuits that are required for the full integration of an optical transmitter in standard CMOS. The main emphasis is placed on high-speed receivers with a bitrate of up to 1 Gb/s. The possibility of including the photodiode in a\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 102,
+           isbn     => 3540202099,
+           price    => 79.95,
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Integrated CMOS Circuits for Optical Communications',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:49'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:07',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P>Prologue: Towards the concept of a cortical control of voluntary movements.- Materials and methods.- Results.- Discussion.- Epilogue.</P>\',\'description\' => \'<P>Over the last years, numerous studies have provided new insights into the structural and functional organization of the human cortical motor system. The data reviewed in this book indicate that striking similarities have been found between humans and n\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 372,
+           isbn     => 3540402284,
+           price    => '99.00',
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'The Microstructural Border Between the Motor and the Cognitive Domain in the Human Cerebral Cortex',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:07'
+         };

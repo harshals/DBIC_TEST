@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:02',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'The last few years have seen enormous progress in terms of our understanding of the etiology and pathogenesis of cervical cancer (particularly with respect to the role of human papillomaviruses), and this has opened up new avenues for prevention. Addition\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 294,
+           isbn     => 1402014104,
+           price    => '127.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Cervical Cancer: From Etiology to Prevention',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:02'
+         };

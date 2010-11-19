@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:51',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'With Applications to Aerospace Materials\',\'toc\' => \'NDE for corrosion protective coatings and corrosion under coatings.- NDE for localized corrosion.- NDE for quantification of corrosion processes.- Characterization of crack initiation and propagation.- Surface topographic methods for characterization of m\',\'description\' => \'With an emphasis on aircraft materials, this book describes techniques for the material characterization to detect and quantify degradation processes such as corrosion and fatigue. It introduces readers to these techniques based on x-ray, ultrasonic, opti\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 132,
+           isbn     => 3540405178,
+           price    => '129.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Nondestructive Materials Characterization',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:51'
+         };

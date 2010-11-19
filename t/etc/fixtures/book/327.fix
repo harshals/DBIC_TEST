@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:04',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'History of lymphoma classification.- Current lymphoma classification.- Statistical data.- Nodal B-cell lymphomas; Nodal and leukemic T-cell lymphomas.- Extranodal lymphomas: Lymphomas of the GI tract; Lymphomas of the upper aerodigestive tract; Lymphomas \',\'description\' => \'During the 10 years since the last edition of Histopathology of Non-Hodgkin\\\'s Lymphomas, based on the updated Kiel classification, our knowledge on malignant lymphomas, especially on extra-nodal lymphomas, has increased. This volume - Histopathology of No\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 327,
+           isbn     => 3540638016,
+           price    => '169.00',
+           publish_date
+                    => '2004-02-09',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Histopathology of Nodal and Extranodal Non-Hodgkin\'s Lymphomas',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:04'
+         };

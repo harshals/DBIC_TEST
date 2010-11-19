@@ -1,0 +1,37 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:43',
+           data     => "\$VAR1 = bless( {'subtitle' => '','toc' => '* Introduction and overview *".
+	" Finite field arithmetic * Elliptic curve arithmetic * Cryptographic pro".
+	"tocols * Implementation issues * Parameter generation * Appendixes: Samp".
+	"le parameters; ECC standards; Software tools * Index','description' => '".
+	"After two decades of research and development, elliptic curve cryptograp".
+	"hy now has widespread exposure and acceptance.  Industry, banking, and g".
+	"overnment standards are in place to facilitate extensive deployment of t".
+	"his efficient public-key mechanism.  \n\n'}, 'DBIx::Class::FrozenColumns::".
+	"Dumped' );",
+           description
+                    => undef,
+           id       => 15,
+           isbn     => '038795273X',
+           price    => 59.95,
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Guide to Elliptic Curve Cryptography',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:43'
+         };

@@ -1,0 +1,21 @@
+$HASH1 = {
+           access_read
+                   => ',1,',
+           access_write
+                   => ',1,',
+           active  => 1,
+           country => undef,
+           created_on
+                   => '2010-11-18 07:13:02',
+           data    => '$VAR1 = bless( {\'country\' => \'Ghana\',\'review\' => \'\',\'url\' => undef}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           first_name
+                   => 'Maria T.',
+           id      => 571,
+           last_name
+                   => 'Pavlova',
+           review  => undef,
+           status  => ',active,',
+           updated_on
+                   => '2010-11-18 07:13:02',
+           url     => undef
+         };

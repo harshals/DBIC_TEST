@@ -1,0 +1,15 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category => 'Science General',
+           created_on
+                    => '2010-11-18 07:12:56',
+           data     => '',
+           id       => 13,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:12:56'
+         };

@@ -1,0 +1,37 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:52',
+           data     => "\$VAR1 = bless( {'subtitle' => '','toc' => 'Irun R. Cohen, Francisco J. Q".
+	"uintana, Gabriel Nussbaum, Michal Cohen, Alexandra Zanin and Ofer Lider\n".
+	"HSP60 and the regulation of inflammation: Physiological and pathological".
+	" \n\nWillem van Eden, Liesbeth Paul and Ruurd van der Zee\nHeat shock prote".
+	"ins and su','description' => 'Heat shock proteins have received ample in".
+	"terest by immunologists over recent years. Initially they were found to ".
+	"be dominantly immunogenic microbial antigens. The connection to inflamma".
+	"tion was established when it was uncovered that T-cells reactive to H'},".
+	" 'DBIx::Class::FrozenColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 148,
+           isbn     => 3764369329,
+           price    => '169.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Heat Shock Proteins and Inflammation',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:52'
+         };

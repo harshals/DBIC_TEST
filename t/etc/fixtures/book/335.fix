@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:04',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P><STRONG>Introduction</STRONG>: Why is laser scanning ophthalmoscopy needed? Technical background. Stereometric parameters of the HRT.- <STRONG>Healthy optic discs</STRONG>: Natural variety of optic discs. Regular shapes. Micropapillas. Megalopapillas. \',\'description\' => \'<P> Glaucoma remains one of the leading causes of blindness. Laser scanning tomography has gained an indispensable role in the ophthalmologic diagnosis, especially in the long-term follow-up of glaucoma. Confocal laser scanning ophthalmoscopy provides key\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 335,
+           isbn     => 3540018689,
+           price    => '99.00',
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Atlas of Laser Scanning Ophthalmoscopy',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:04'
+         };

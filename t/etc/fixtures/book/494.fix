@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:16',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'This book shows the deep interaction between two important theories: Fredholm and local spectral theory. A particular emphasis is placed on the applications to multipliers and in particular to convolution operators. The book also presents some important p\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 494,
+           isbn     => 1402018304,
+           price    => '143.00',
+           publish_date
+                    => '2004-02-29',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Fredholm and Local Spectral Theory, with Applications to Multipliers',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:16'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 11,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:58',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Theoretical and Practical Possibilities in Human Embryo Experimentation.- Adult and Embryonic Stem Cells: Clinical Perspectives.- The Regulation of Embryo Research in Europe: Situation and Prospects.- Attitudes and Knowledge on Biotechnology, Cloning and \',\'description\' => \'Recent advances in techniques and understanding in the fields of genetics, embryology and reproductive biology have opened up new ways to treat a wide range of medical problems. They range from new options for infertility treatment and pre-implantation ge\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 231,
+           isbn     => 3540203796,
+           price    => '129.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Embryo Research in Pluralistic Europe',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:58'
+         };

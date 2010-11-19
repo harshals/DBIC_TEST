@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:46',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Percutaneous Techniques in Malignant Biliary Obstruction; Interventional Radiology in Oesophageal Cancer; Stents in Gastrointestinal Cancer; Interventional Radiology in Breast Cancer; Stents in Malignant Venous Obstruction; Central Venous Access for Chemo\',\'description\' => \'Interventional radiology is playing an increasingly significant role in the clinical management of patients with cancer, replacing more invasive traditional methods and making it possible to deal with previously untreatable conditions. This state-of-the-a\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 68,
+           isbn     => 3540418733,
+           price    => '169.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Interventional Radiology in Cancer',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:46'
+         };

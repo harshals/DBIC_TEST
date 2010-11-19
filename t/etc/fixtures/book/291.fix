@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:02',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'This book contains discussions of some of the most exciting subjects in the intimately related fields of integrability and partial solvability. It presents a wide variety of advanced topics, such as the symmetry approach to integrability and partial solva\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 291,
+           isbn     => 1402018355,
+           price    => '121.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'New Trends in Integrability and Partial Solvability',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:02'
+         };

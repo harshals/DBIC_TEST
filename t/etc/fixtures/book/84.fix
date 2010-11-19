@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:47',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Automated Reasoning and Practical Applications\',\'toc\' => \'Preface.- Basic Notions and Results.- Gentzen Systems for n-valued Logical Calculi.- Multisequential Systems of Takahashi and Rousseau for Finitely-Valued Logics.- The Resolution Principle in n-valued Logics.- Minimization Problems in Resolution Proof Sys\',\'description\' => \'Many-valued logics are becoming increasingly important in many branches of science. This is the second volume of a comprehensive two-volume handbook on many-valued logics by two leading members of the famous Polish school of logic. While the first volume \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 84,
+           isbn     => 3540645071,
+           price    => 59.95,
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Many-Valued Logics 2',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:47'
+         };

@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => 'Earth Engineering Research Institute, Osaka, Japan',
+           created_on
+                    => '2010-11-18 07:12:46',
+           data     => '',
+           id       => 88,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:12:46'
+         };

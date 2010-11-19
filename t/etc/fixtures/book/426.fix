@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:11',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Preface.- List of contributors.- Genetics of COPD.- The pathology of COPD.- Lung function in COPD.- Computed tomography (CT) scans in COPD.- Oxidative stress in COPD.- Proteinases in COPD.- Mucus hypersecretion in COPD.- Induced sputum and BAL analysis in\',\'description\' => \'Chronic obstructive pulmonary disease (COPD) ranges amongst the commonest diseases in the world. The relentless progression of the disease causes a pressing need for a better understanding of and therapies for COPD. This volume provides state-of-the-art i\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 426,
+           isbn     => 3764369140,
+           price    => '169.00',
+           publish_date
+                    => '2004-02-20',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Recent Advances in Pathophysiology of COPD',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:11'
+         };

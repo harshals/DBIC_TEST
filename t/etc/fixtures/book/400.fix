@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 3,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:09',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Introduction Basic Notions of Systems and Signals State-space Models Dynamic Process Models Input-output Models and Realization Theory Controllability and Observability Stability: The Lyapunov Method Passivity and the Hamiltonian View State Feedback Contr\',\'description\' => \'Almost all process systems are nonlinear in nature. Nonlinear control is traditionally an area of interest in process systems engineering which is of great practical importance. These facts notwithstanding, many process engineers have difficulty with the \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 400,
+           isbn     => 1852336005,
+           price    => 59.95,
+           publish_date
+                    => '2004-02-18',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Analysis and Control of Non-linear Process Systems',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:09'
+         };

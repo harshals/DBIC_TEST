@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 10,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:04',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'From the content: Plate Tectonics.- Magma.- Rheology - Magmatic Gas and Formation of Vesicules.- Mid-oceanic ridges.- Seamounts and Volcanic Islands.- Continental intraplate volcanoes.- Island ares and active continental margins.- volcanic Mounts and volc\',\'description\' => \'Volcanic eruptions are the clear and dramatic expression of dynamic processes going on in planet Earth. The author, one of the most profound specialists in the field of volcanology, explains in a concise and easy to understand manner the basics and most r\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 336,
+           isbn     => 3540436502,
+           price    => 79.95,
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Volcanism',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:04'
+         };

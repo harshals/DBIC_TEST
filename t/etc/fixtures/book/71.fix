@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:46',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Preface.- Experiments.- Random Variables and Random Vectors.- Random Walk.- Limit Theorems.- Intermezzo.- Continuous Random Variables and Vectors.- Infinitely Many Repetitions.- The Poisson Process.- Limit Theorems.- Extending the Probabilities.- Interpre\',\'description\' => \'In this introduction to probability theory, we deviate from the route usually taken. We do not take the axioms of probability as our starting point, but re-discover these along the way. First, we discuss discrete probability, with only probability mass fu\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 71,
+           isbn     => 3764321881,
+           price    => 34.95,
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'A Natural Introduction to Probability Theory',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:46'
+         };

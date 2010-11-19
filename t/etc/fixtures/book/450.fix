@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:13',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'A Practical Guide to Management\',\'toc\' => \'<P>*Anatomy and Biomechanics of the Knee *Initial Assessment: Physical Examination and Imaging Studies *Classification of Knee Dislocations *Nonoperative Treatment of the Acutely Dislocated Knee *Graft Selection *Surgical Treatment of the Acute and Chroni\',\'description\' => \'<P><I>The Multiple Ligament Injured Knee: A Practical Guide to Management</I> presents the orthopaedic surgeon with an unprecedented review of the most recent and advanced knowledge needed to successfully diagnose and treat knee ligament injuries. This co\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 450,
+           isbn     => '0387405488',
+           price    => '199.00',
+           publish_date
+                    => '2004-02-26',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'The Multiple Ligament Injured Knee',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:13'
+         };

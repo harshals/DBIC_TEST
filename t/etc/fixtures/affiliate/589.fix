@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => 'Royal Melbourne Institute of Technology, Melbourne, Australia',
+           created_on
+                    => '2010-11-18 07:13:09',
+           data     => '',
+           id       => 589,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:13:09'
+         };

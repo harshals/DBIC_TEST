@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:55',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Advances in Petri Nets\',\'toc\' => \'\',\'description\' => \'This state-of-the-art survey in the Advances in Petri Nets series reports how various well-established and novel Petri net notions and techniques can be employed for modeling communication-based systems, with a particular focus on workflow management and \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 199,
+           isbn     => 3540205381,
+           price    => '79.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Petri Net Technology for Communication-Based Systems',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:55'
+         };

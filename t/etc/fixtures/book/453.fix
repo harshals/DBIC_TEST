@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 10,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:13',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'This book presents a comprehensive coverage of the two interrelated and interdisciplinary fields of seismic microzonation and earthquake geotechnical engineering. The introduction and the first chapter by two prominent researchers in the field of earthqua\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 453,
+           isbn     => 1402018274,
+           price    => '105.00',
+           publish_date
+                    => '2004-02-29',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Recent Advances in Earthquake Geotechnical Engineering and Microzonation',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:13'
+         };

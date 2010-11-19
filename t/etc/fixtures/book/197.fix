@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:55',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Preface.- Part I: Theoretical Foundations.- 1. Multimodularity, Convexity and Optimization.- 2. Balanced Sequences.- 3. Stochastic Event Graphs.- Part II: Admission and Routing Control.- 4. Admission Control in Stochastic Event Graphs.- 5. Applications in\',\'description\' => \'Opening new directions in research in both discrete event dynamic systems as well as in stochastic control this volume focuses on a wide class of control and of optimization problems over sequences of integer numbers. This is a counterpart of convex optim\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 197,
+           isbn     => 3540203583,
+           price    => 74.95,
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Discrete-Event Control of Stochastic Networks: Multimodularity and Regularity',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:55'
+         };

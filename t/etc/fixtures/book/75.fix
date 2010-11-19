@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:47',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P>Introduction.- Agent-Based Applications in Health Care.- Building an Agent-Based Community Care Demonstrator on a Worldwide Agent Platform.- Agent-Based User Interface Adaptivity in a Medical Decision Support System.- A Multi-Agent System for Organ Tra\',\'description\' => \'This volume contains a collection of papers that provides a unique, novel and up-to-date overview of how software agents technology is being applied in very diverse problems in health care, ranging from community care to management of organ transplants. I\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 75,
+           isbn     => '376432662X',
+           price    => 49.95,
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Applications of Software Agent Technology in the Health Care Domain',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:47'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:14',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'A number of recent significant developments in the theory of differential equations are presented in an elementary fashion, many of which are scattered throughout the literature and have not previously appeared in book form, the common denominator being t\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 467,
+           isbn     => 1402019297,
+           price    => '84.00',
+           publish_date
+                    => '2004-02-29',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Normal Forms, Bifurcations and Finiteness Problems in Differential Equations',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:14'
+         };

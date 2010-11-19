@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 16,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:15',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Shifting Perspectives to Learning, Instruction, and Teaching\',\'toc\' => \'\',\'description\' => \'This book shows the importance of a more socially grounded account on learning, instruction and teaching at and between different levels: meta-theory, theory, methods and educational practices. Three main questions are dealt with in the research presented\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 480,
+           isbn     => 1402019300,
+           price    => '116.00',
+           publish_date
+                    => '2004-02-29',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Dialogic Learning',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:15'
+         };

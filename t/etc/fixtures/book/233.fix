@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:58',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'16th Australian Conference on AI, Perth, Australia, December 3-5, 2003, Proceedings\',\'toc\' => \'\',\'description\' => \'This book constitutes the refereed proceedings of the 16th Australian Conference on Artificial Intelligence, AI 2003, held in Perth, Australia in December 2003. The 87 revised full papers presented together with 4 keynote papers were carefully reviewed an\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 233,
+           isbn     => 3540206469,
+           price    => '129.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'AI 2003: Advances in Artificial Intelligence',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:58'
+         };

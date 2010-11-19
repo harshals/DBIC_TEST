@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:04',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P>The Beginnings; Ancient Egypt; Ancient Near East; Other Ancient Beer-drinking Peoples; The British Isles and North-west Europe; From the Norman Conquest to the End of the Tudors; The Start of Large-scale Brewing; Some Beer Styles and Some Breweries; Th\',\'description\' => \'<P>A History of Beer and Brewing provides a comprehensive account of the history of beer. Research carried out during the last quarter of the 20th century has permitted us to re-think the way in which some ancient civilizations went about their beer produ\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 325,
+           isbn     => '0854046305',
+           price    => '99.00',
+           publish_date
+                    => '2004-02-06',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'A History of Beer and Brewing',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:04'
+         };

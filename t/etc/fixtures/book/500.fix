@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 15,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:16',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Towards Embodied Teaching and Learning\',\'toc\' => \'\',\'description\' => \'This book aims to define new theoretical, practical, and methodological directions in educational research centered on the role of the body in teaching and learning. Based on our phenomenological experience of the world, it draws on perspectives from arts\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 500,
+           isbn     => 1402020236,
+           price    => '158.00',
+           publish_date
+                    => '2004-02-29',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Knowing Bodies, Moving Minds',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:16'
+         };

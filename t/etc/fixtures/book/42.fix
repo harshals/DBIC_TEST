@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:12:45',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'How are we going to get to Mars\',\'toc\' => \'Preface.- Acknowledgements.- List of Illustrations, colour plates and tables.- Return to Space.- Werner Von Braun and the Martian Dream.- Getting There. - Human Exploration using Chemical Rockets.- Electric Thrusters: Propulsion of the Future - Now.- Fiss\',\'description\' => \'The technical challenges of a human expedition to Mars are the principal theme to be explored by Martin Turner in Expedition Mars. The author begins by describing how the very latest rocket propulsion and spacecraft technology, and planned developments in\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 42,
+           isbn     => 1852337354,
+           price    => 39.95,
+           publish_date
+                    => '2004-01-09',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Expedition Mars',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:45'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:07',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'From the Contents: (preliminary) Particle Astrophysics.- Dark Matter Searches.- The Cosmic Microwave Background.- The Early Universe.- Large-Scale Structure of the Universe.- Evolution and Morphology of Galaxies.- Active Galaxies and Black Holes.- The Cos\',\'description\' => \'It is intended that the target readership of this Astrophysics Yearbook will be professional astronomers and postgraduate students working in those areas of astronomy, astrophysics and cosmology which are covered by review articles included. It is also in\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 380,
+           isbn     => 3540406425,
+           price    => '119.00',
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Astrophysics Update',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:07'
+         };

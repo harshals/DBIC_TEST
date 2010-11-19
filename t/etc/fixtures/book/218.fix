@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:56',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Current Trends\',\'toc\' => \'1. Preface; 2. Physiopathology; 3. Rehabilitation of dead bone; 4. Conservative treatment with electromagnetic fields; 5. The role of extracorporeal shock waves; 6. Forage biopsy and autologous bone grafting: indications and limits; 7. Fibular vascularize\',\'description\' => \'Avascular Necrosis (AVN) is a disease resulting from temporary or permanent loss od blood supply. It frequently affects the femoral head and in this area, if left untreated, routinely evolves in premature joint destruction. In the USA, 5 to 10% of cases o\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 218,
+           isbn     => 8847002338,
+           price    => '99.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Avascular Necrosis of the Femoral Head',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:56'
+         };

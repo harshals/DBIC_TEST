@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => 'Johns Hopkins Bloomberg School of Public Health, Depts. of Molecular Microbiology and Immunology, Ba',
+           created_on
+                    => '2010-11-18 07:13:02',
+           data     => '',
+           id       => 444,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:13:02'
+         };

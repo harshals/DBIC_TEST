@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 5,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:44',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'An Introduction\',\'toc\' => \'Introduction to ithink * Modeling Dynamic Business Systems * Measuring Process Performance * Single Step Processes * Multi-step Serial Workflow Processes * Multi-step Parallel Workflow Processes * The Supplier Interface: Managing Risk * Customer Interface\',\'description\' => \'Modeling is a tool used by savvy business managers to understand the processes of their business and to estimate the impact of changes. Dynamic Modeling for Business Management applies dynamic modeling to business management, using accessible modeling tec\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 27,
+           isbn     => '0387404619',
+           price    => '98.00',
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Dynamic Modeling for Business Management',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:44'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 3,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:59',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Challenges and Perspectives\',\'toc\' => \'Generics.- Hybrid Techniques for Electromagnetic Propagation and Simulation.- Nonconventional Modeling.- Ultrawideband Techniques.- Inverse Modeling.- Degree Award Ceremonials.\',\'description\' => \'This monograph contains the ceremonials and proceedings of the Workshop/Minisymposium on\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 245,
+           isbn     => 3540202358,
+           price    => '198.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Electromagnetics in a Complex World',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:59'
+         };

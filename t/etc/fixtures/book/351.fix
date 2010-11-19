@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:05',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'On the Frontier of Probability and Dynamical Systems\',\'toc\' => \'<P>Preface.- Introduction.- 1. Circulation Distribution, Entropy Production and Irreversibility of Denumerable Markov Chains.- 2. Circulation Distribution, Entropy Production and Irreversibility of Finite Markov Chains with Continuous Parameter.- 3. Gener\',\'description\' => \'<P>This&nbsp;volume provides a systematic mathematical exposition of the conceptual problems of nonequilibrium statistical physics, such as entropy production, irreversibility, and ordered phenomena. Markov chains, diffusion processes, and hyperbolic dyna\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 351,
+           isbn     => 3540206116,
+           price    => 59.95,
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Mathematical Theory of Nonequilibrium Steady States',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:05'
+         };

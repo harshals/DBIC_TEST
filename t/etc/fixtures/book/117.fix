@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:50',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'The HST Key Project on the Extragalactic Distance Scale: A Search for Three Number.- Calibration of the Distance Scale From Cepheids.- Currents Uncertainties in the Use of Cepheids as Distance Indicators.- The Cepheid Calibration of Type Ia Supernovae as \',\'description\' => \'This volume reviews the current status with respect to both theory and observation of the extragalactic distance scale. A sufficient accuracy is required both for a precise determination of the cosmological parameters and also in order to achieve a better\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 117,
+           isbn     => 3540201289,
+           price    => 99.95,
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Stellar Candles for the Extragalactic Distance Scale',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:50'
+         };

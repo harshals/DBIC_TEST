@@ -1,0 +1,38 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:51',
+           data     => "\$VAR1 = bless( {'subtitle' => '5th International Conference, Witten-Bomm".
+	"erholz (Germany), September 2002','toc' => 'Contributions by H. Albreche".
+	"r/J. Hartinger/R.F. Tichy, J.S. Brauchart, M. Charina/C. Conti, C.K. Chu".
+	"i/Q. Jiang, D.P. Dryanov, N. Dyn/D. Levin/A. Luzzatto, K. Dziedziul/K. J".
+	"etter, A. Iske, L. Karp/H.S. Shapiro, A. Kunoth, A. Le M\303\251haut\303\251, G. N\303\274".
+	"rnberger/F. Ze','description' => 'This volume contains a selection of ei".
+	"ghteen peer-reviewed articles that were presented at the 5th Internation".
+	"al Conference on Multivariate Approximation, held in Witten-Bommerholz i".
+	"n September 2002. The contributions cover recent developments of constru".
+	"c'}, 'DBIx::Class::FrozenColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 130,
+           isbn     => 3764321954,
+           price    => '129.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Modern Developments in Multivariate Approximation',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:51'
+         };

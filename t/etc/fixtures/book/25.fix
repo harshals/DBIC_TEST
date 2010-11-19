@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:44',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Introduction: The McNugget Problem&nbsp;* Induction and the Division Theorem * The Euclidean Algorithm * Congruences * Prime Numbers * Rings * Euler\\\'s Theorem * Binomial Coefficients * Polynomials and Roots * Polynomials with Real Coefficients * Polynomia\',\'description\' => \'Mathematics is often regarded as the study of calculation, but in fact, mathematics is much more. It combines creativity and logic in order to arrive at abstract truths. This book is intended to illustrate how calculation, creativity, and logic can be com\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 25,
+           isbn     => '0387403973',
+           price    => 79.95,
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Integers, Polynomials, and Rings',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:44'
+         };

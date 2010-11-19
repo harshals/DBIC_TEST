@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:13:12',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'<P><STRONG>Part I</STRONG>: Understanding the XML Capabilities of FrameMaker; Introduction to XML; Introduction to Adobe FrameMaker; Understanding and Creating FrameMaker Templates; Reviewing the FrameMaker Connection to XML; Reviewing Multichannel Publis\',\'description\' => \'<P>This book is designed to teach anyone working in data-intensive publishing how XML can be leveraged to make the job of presenting data easier. While the XML discussions within the book are general, FrameMaker is used for all of the examples since it su\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 442,
+           isbn     => '159059276X',
+           price    => 49.99,
+           publish_date
+                    => '2004-02-26',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'XML and FrameMaker',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:12'
+         };

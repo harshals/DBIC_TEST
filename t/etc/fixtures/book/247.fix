@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:59',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Respiratory System, Mononuclear Phagocyte System - Hypoxia and Reoxygenation - Pneumoconioses and other Granulomatoses - Cancer\',\'toc\' => \'Introduction.- Protagonists of industrial medicine.- Aetiology and pathogenesis of pulmonary fibrosis.- Formulation of the problems.- Material and methods.- Reactive oxygen and nitrogen species.- Tracheo-bronchial epithelium.- Pneumocytes.- Alveolar macro\',\'description\' => \'This book summarizes highlights in the field of free radicals in medicine and biology, with a detailed analysis of the extensive recent literature. It describes results from experimental research work on dust inhalation, hypoxia, and environmental toxicol\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 247,
+           isbn     => 3540002014,
+           price    => '225.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Free Radicals and Inhalation Pathology',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:59'
+         };

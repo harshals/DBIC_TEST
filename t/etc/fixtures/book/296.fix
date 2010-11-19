@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:02',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Volume 2: Plant Mineral Nutrition and Pesticide Management\',\'toc\' => \'\',\'description\' => \'Nutrients are essential for plant growth, development and completion of their life cycle. Mineral fertilizers are keys to the world food supplies. However, there is a growing concern about the safety and quality of food due to over fertilization. Their ex\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 296,
+           isbn     => 1402016999,
+           price    => '132.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Production Practices and Quality Assessment of Food Crops',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:02'
+         };

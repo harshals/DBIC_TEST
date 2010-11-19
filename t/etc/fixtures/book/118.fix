@@ -1,0 +1,35 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:50',
+           data     => "\$VAR1 = bless( {'subtitle' => '6th International Conference, Montr\303\251al, ".
+	"Canada, November 15-18, 2003, Proceedings, Part I','toc' => '','descript".
+	"ion' => 'The two-volume set LNCS 2878 and LNCS 2879 constitute the refer".
+	"eed proceedings of the 6th International Conference on Medical Image Com".
+	"puting and Computer-Assisted Intervention, MICCAI 2003, held in Montr\303\251a".
+	"l, Canada in November 2003. The 206 revised full '}, 'DBIx::Class::Froze".
+	"nColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 118,
+           isbn     => 3540204628,
+           price    => '109.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Medical Image Computing and Computer-Assisted Intervention - MICCAI 2003',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:50'
+         };

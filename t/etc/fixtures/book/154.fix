@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:53',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Introduction: Fundamental Aspects.- Electron States and Optical Properties in Confined Silicon Structures.- Porous Silicon.- Silicon Nanostructures: Wells, Wires, and Dots.- Light Emission of Er3+ in Silicon.- Silicon Based Photonic Crystals.- Conclusions\',\'description\' => \'Light Emitting Silicon for Microphotonics offers fascinating insight the state-of-the-art in silicon microphotonics and what we can expect in the near future. The book presents an overview of the current understanding of obtaining light from silicon. It c\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 154,
+           isbn     => 3540402330,
+           price    => '199.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Light Emitting Silicon for Microphotonics',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:53'
+         };

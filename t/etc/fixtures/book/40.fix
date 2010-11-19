@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:45',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'A Clinical Perspective\',\'toc\' => \'1.Minimally Invasive Orthopedic Surgery. PART I, The Hip: 2.Minimally Invasive Total Hip Arthroplasty: The Two-Incision Approach 3.Miniincision Total Hip Arthroplasty. PART II, The Knee: 4.Miniinvasive Unicompartmental Arthroplasty: Indications and Techni\',\'description\' => \'This is the first comprehensive reference on minimally invasive techniques in orthopedic surgery of the hip and knee. MIS techniques are gaining popularity worldwide because they are associated with lower morbidities and quicker recoveries than older, inv\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 40,
+           isbn     => '0387403531',
+           price    => '125.00',
+           publish_date
+                    => '2004-01-09',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'MIS of the Hip and the Knee',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:45'
+         };

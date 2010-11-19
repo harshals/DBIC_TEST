@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 8,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:43',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Introduction and the Shrinkage Argument * Matching Priors for&nbsp;Posterior Quantiles&nbsp;* Matching Priors for Distribution Functions * Matching Priors for Highest Posterior Density Regions * Matching Priors for Other Credible Regions * Matching Priors\',\'description\' => \'Probability matching priors, ensuring frequentist validity of posterior credible sets up to the desired order of asymptotics, are of substantial current interest. They can form the basis of an objective Bayesian analysis. In addition, they provide a route\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 14,
+           isbn     => '038720329X',
+           price    => 59.95,
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Probability Matching Priors: Higher Order Asymptotics',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:43'
+         };

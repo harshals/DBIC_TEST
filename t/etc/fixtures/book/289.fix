@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:01',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'<em>Bioinformatics of Genome Regulation and Structure covers:</em> <ul> <li>regulatory genomic sequences: databases, knowledge bases, computer analysis, modeling, and recognition; </li> <li>large-scale genome analysis and functional annotation; </li> <li>\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 289,
+           isbn     => 1402077351,
+           price    => '120.00',
+           publish_date
+                    => '2004-01-31',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Bioinformatics of Genome Regulation and Structure',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:01'
+         };

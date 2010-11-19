@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 10,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:57',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'From the Contents: Impacts into Marine and Icy Environments.- Marine Impacts and Ejecta.- Biotic Responses to the Mjolnir Meteorite Impact, Barents Sea.- Near-field Erosional Features at the Mjolnir Impact Crater.- Global Effects of the Chicxulub Impact o\',\'description\' => \'Despite their global importance, little is known about the few existing examples of impacts into marine environments and icy targets. They are among the least understood and studied parts of impact crater geology The icy impacts are also of great importan\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 223,
+           isbn     => 3540406689,
+           price    => '109.00',
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Cratering in Marine Environments and on Ice',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:57'
+         };

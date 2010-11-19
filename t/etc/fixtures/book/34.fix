@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 2,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:44',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Understanding the Tropospheric Transport and Fate of Agricultural Pesticides.- Environmental Lead in Mexico, 1990 - 2002.- Pesticides in Uruguay.- Mercury Hazards from Gold Mining to Humans, Plants, and Animals.\',\'description\' => \'Reviews of Environmental Contamination and Toxicology attempts to provide concise, critical reviews of timely advances, philosophy, and significant areas of accomplished or needed endeavor in the total field of xenobiotics in any segment of the environmen\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 34,
+           isbn     => '0387205195',
+           price    => '129.00',
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Reviews of Environmental Contamination and Toxicology',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:44'
+         };

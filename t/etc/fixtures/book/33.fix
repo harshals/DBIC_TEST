@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:44',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Part I: Introduction to Electron Transport - Electrical conductance: historical account from Ohm to the semiclassical Drude-Boltzmann theory, Towards the microscopic understanding of conductance on a quantum mechanical basis - Part II: Conductance in Stro\',\'description\' => \'This book treats three topics of electronic quantum transport in mesoscopic semiconductor structures: the conductance in strongly interacting and disordered two-dimensional systems and the metal insulator transition, electron transport through quantum dot\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 33,
+           isbn     => '0387400966',
+           price    => '129.00',
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Electronic Quantum-Transport in Mesoscopic Semiconductor Structures',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:44'
+         };

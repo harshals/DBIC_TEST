@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => 'Griffith University, Brisbane, Qld., Australia',
+           created_on
+                    => '2010-11-18 07:13:15',
+           data     => '',
+           id       => 700,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:13:15'
+         };

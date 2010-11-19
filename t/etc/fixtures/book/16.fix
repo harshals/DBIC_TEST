@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 8,
+           classification
+                    => 'A',
+           created_on
+                    => '2010-11-18 07:12:43',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Introduction * DNA Microarray Technology * Design of DNA Microarray Experiments * Image Analysis * Quality Control * Array Normalization * Class Comparison * Class Prediction * Class Discovery\',\'description\' => \'This book discusses the analysis of gene expression profile data from DNA micorarray studies and the design of such studies. The book will address design and analysis issues for both of the major classes of DNA microarrays, the cDNA microarrays and the ol\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 16,
+           isbn     => '0387001352',
+           price    => 59.95,
+           publish_date
+                    => '2004-01-08',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Design and Analysis of DNA Microarray Investigations',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:43'
+         };

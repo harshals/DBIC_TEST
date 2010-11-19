@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:14',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'\',\'description\' => \'The study of heat and fluid flow in fluid-saturated porous media is applicable in a very wide range of fields, with practical applications in modern industry and environmental areas, such as nuclear waste management, the construction of thermal insulators\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 466,
+           isbn     => 1402018746,
+           price    => '80.00',
+           publish_date
+                    => '2004-02-29',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Emerging Technologies and Techniques in Porous Media',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:14'
+         };

@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:52',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Next Generation Photovoltaics and Its Applications\',\'toc\' => \'Introduction.- Recent Advances and Future Opportunities for Thin-Film Solar Cells.- Electrical and Optical Properties of Amorphous Silicon and its Alloys.- Fundamental Processes of Nano-Crystalline Silicon Growth.- Key Issues of Efficiency Improvement of \',\'description\' => \'This is the first comprehensive book on thin-film solar cells which might become a key technology to solve the energy production problem in the 21st century in an environmentally friendly way. It covers a wide range of scienctific and technologic aspects \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 140,
+           isbn     => 3540439455,
+           price    => '139.00',
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Thin-Film Solar Cells',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:52'
+         };

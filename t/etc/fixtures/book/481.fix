@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 3,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:15',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'From System Architecture to Hardware Testing through VLSI Design\',\'toc\' => \'\',\'description\' => \'The key of a successful approach to the complex issue of designing wireless terminals for present and future communication systems (usually addressed to as \\\'3rd Generation and beyond\\\') lies in a single \\\'magic\\\' word: multidisciplinarity. This was actually \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 481,
+           isbn     => 1402077238,
+           price    => '120.00',
+           publish_date
+                    => '2004-02-29',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'An Experimental Approach to CDMA and Interference Mitigation',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:15'
+         };

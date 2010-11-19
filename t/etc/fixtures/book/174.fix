@@ -1,0 +1,37 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 4,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:53',
+           data     => "\$VAR1 = bless( {'subtitle' => '','toc' => 'Introduction.- Part I Constru".
+	"cting minimal resolutions.- 1. Bases for finite-dimensional algebras and".
+	" modules.- 2. The Buchberger Algorithm for modules.- 3. Constructing min".
+	"imal resolutions.- Part II Cohomology ring structure.- 4. Gr\303\266bner bases".
+	" for graded','description' => 'This monograph develops the Gr\303\266bner basi".
+	"s methods needed to perform efficient state of the art calculations in t".
+	"he cohomology of finite groups. Results obtained include the first count".
+	"erexample to the conjecture that the ideal of essential classes squares'".
+	"}, 'DBIx::Class::FrozenColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 174,
+           isbn     => 3540203397,
+           price    => 44.95,
+           publish_date
+                    => '2004-01-22',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => "Gr\303\266bner Bases and the Computation of Group Cohomology",
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:53'
+         };

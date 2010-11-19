@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:10',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Japanese Conference, JCDCG 2002, Tokyo, Japan, December 6-9, 2002, Revised Papers\',\'toc\' => \'\',\'description\' => \'<P>This book constitutes the thoroughly refereed post-proceedings of the Japanese Conference on Discrete Computational Geometry, JCDCG 2002, held in Tokyo, Japan, in December 2002.</P> <P>The 29 revised full papers presented were carefully selected during\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 407,
+           isbn     => 3540207767,
+           price    => '54.00',
+           publish_date
+                    => '2004-02-20',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Discrete and Computational Geometry',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:10'
+         };

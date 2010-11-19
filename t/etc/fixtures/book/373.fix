@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 10,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:07',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Project Performance and Management.- Rock Composition and Rock Types - Air Pollution to Surface Water Resources System - Surface Waters Sources of Pollution.- Topographic Maps - Surface Geological Maps - Geological Surveying Methods.- Surface Geophysical \',\'description\' => \'The authors describe project performance, methods for field study of rocks, soils, and outcrops and how to evaluate impacts of air pollution and water resources systems. Furthermore, they develop guidelines for graphic and text presentation of results of \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 373,
+           isbn     => 3540408827,
+           price    => '99.00',
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Field Methods for Geologists and Hydrogeologists',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:07'
+         };

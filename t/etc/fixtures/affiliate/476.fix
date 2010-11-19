@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => 'Vermont Orthopaedic Clinic, Rutland, VT',
+           created_on
+                    => '2010-11-18 07:13:03',
+           data     => '',
+           id       => 476,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:13:03'
+         };

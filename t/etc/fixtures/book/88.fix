@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 5,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:48',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Part 1: The phenomenon of the dot com crash.- Part 2: Business models.- Part 3: The challenge of new applications.- Part 4: Mobile technology moves on.- Part 5: Policy challenges.\',\'description\' => \'After the dramatic failures of the dot.coms in 2000 and 2001, many observers were quick to report on the death of electronic commerce. Investor confidence sagged, stock prices of technology firms in nearly all of the related sectors suffered. In reality, \'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 88,
+           isbn     => '379080083X',
+           price    => 64.95,
+           publish_date
+                    => '2004-01-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'E-Life after the Dot Com Bust',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:48'
+         };

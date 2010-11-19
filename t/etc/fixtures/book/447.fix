@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 1,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:13',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'Theory, Technology, and Applications\',\'toc\' => \'<P>&nbsp;</P>{ There are&nbsp;47 short, contributed technical papers that form the Contents:&nbsp; Every major active international researcher in the field is represented in the book.&nbsp;}\',\'description\' => \'<P>&nbsp; An invited collection of peer-reviewed papers surveying key areas of Roger Needham\\\'s distinguished research career at Cambridge University and Microsoft Research.</P> <P>&nbsp; From operating systems to distributed computing, many of the world\\\'s\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 447,
+           isbn     => '038720170X',
+           price    => '99.00',
+           publish_date
+                    => '2004-02-26',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Computer Systems',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:13'
+         };

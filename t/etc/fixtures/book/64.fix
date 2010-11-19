@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 7,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:12:46',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'From Materials Synthesis to Device Applications\',\'toc\' => \'The Concepts of Intelligent Macromolecules and Smart Devices.- Part I: Intelligent Macromolecules.- Conducting Polymers.- Stimuli-responsive Polymers.- Dendrimers and Fullerenes.- Carbon Nanotubes.- Part II: From Intelligent Macromolecules to Smart Device\',\'description\' => \'The age of nanotechnology is upon us. Engineering at the molecular level is no longer a computer-generated curiosity and is beginning to affect the lives of everyone. Molecules which can respond to their environment and the smart machines we can build wit\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 64,
+           isbn     => 1852335106,
+           price    => '149.00',
+           publish_date
+                    => '2004-01-09',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Intelligent Macromolecules for Smart Devices',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:12:46'
+         };

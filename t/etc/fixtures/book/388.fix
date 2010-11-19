@@ -1,0 +1,38 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 6,
+           classification
+                    => 'C',
+           created_on
+                    => '2010-11-18 07:13:08',
+           data     => "\$VAR1 = bless( {'subtitle' => 'QNP 2002','toc' => '<P>From the Contents:".
+	"&nbsp;Structure and Spectroscopy of Hadrons.- QCD-Inspired Quark Models ".
+	"of Hadrons and Nuclei.- Effective Theories.- Lattice Gauge Theories.- So".
+	"ft and Hard Hadronic Processes.- Soft and Hard Electroweak Processes.- M".
+	"edium Modification','description' => '<P>This volume contains the refere".
+	"ed and selected contributions from the International Conference on Quark".
+	" Nuclear Physics (QNP2002), held from 9 to 14 June 2002 in J\303\274lich, Germ".
+	"any.</P> <P>It covered the following topics:</P> <P>- Structure and Spec".
+	"trosco'}, 'DBIx::Class::FrozenColumns::Dumped' );",
+           description
+                    => undef,
+           id       => 388,
+           isbn     => 3540206612,
+           price    => '199.00',
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => "Refereed and selected contributions from International Conference on\nQua".
+	"rk Nuclear Physics",
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:08'
+         };

@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => "Ecole Nationale Sup\303\251rieure des T\303\251l\303\251communications, Paris, France",
+           created_on
+                    => '2010-11-18 07:12:49',
+           data     => '',
+           id       => 158,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:12:49'
+         };

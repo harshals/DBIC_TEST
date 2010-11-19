@@ -1,0 +1,16 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           affiliate
+                    => "Ludwig-Maximilians-Universit\303\244t M\303\274nchen, Germany",
+           created_on
+                    => '2010-11-18 07:12:53',
+           data     => '',
+           id       => 269,
+           status   => ',active,',
+           updated_on
+                    => '2010-11-18 07:12:53'
+         };

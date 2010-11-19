@@ -1,0 +1,29 @@
+$HASH1 = {
+           access_read
+                    => ',1,',
+           access_write
+                    => ',1,',
+           active   => 1,
+           category_id
+                    => 9,
+           classification
+                    => 'B',
+           created_on
+                    => '2010-11-18 07:13:08',
+           data     => '$VAR1 = bless( {\'subtitle\' => \'\',\'toc\' => \'Chapter 1 - The Physiological Basis of Coronary Circulation; Chapter 2 - Microbubbles: Basic Principles; Chapter 3 - Organization of the Echocardiography Contrast Laboratory: Tips and Tricks; Chapter 4 - Quantification Methods in Contrast Echocardiography\',\'description\' => \'Echocardiography has now reached its maturity and plays a key role in the clinical assessment of cardiac function. However, its ability to assess myocardial perfusion remains a clinical challenge. Myocardial contrast echocardiography is a technique that u\'}, \'DBIx::Class::FrozenColumns::Dumped\' );',
+           description
+                    => undef,
+           id       => 389,
+           isbn     => 8847002370,
+           price    => '199.00',
+           publish_date
+                    => '2004-02-12',
+           publish_year
+                    => 2004,
+           status   => ',active,',
+           subtitle => undef,
+           title    => 'Contrast Echocardiography in Clinical Practice',
+           toc      => undef,
+           updated_on
+                    => '2010-11-18 07:13:08'
+         };
