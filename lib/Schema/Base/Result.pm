@@ -10,7 +10,7 @@ use JSON::XS qw/encode_json /;
 #use base qw/DBIx::Class/;
 extends qw/DBIx::Class/;
 
-__PACKAGE__->load_components(qw/FrozenColumns InflateColumn::CSV TimeStamp  Core/);
+__PACKAGE__->load_components(qw/FrozenColumns UUIDColumns InflateColumn::CSV TimeStamp  Core/);
 
 
 sub add_base_columns {
@@ -22,6 +22,8 @@ sub add_base_columns {
     $self->add_columns(
 
 		"id", { data_type => "INTEGER", is_nullable => 0, is_base => 1},
+		
+		"_id", { data_type => "TEXT", is_nullable => 0, is_base => 1},
 		
 		"created_on", { data_type => "DATETIME" ,set_on_create => 1 , is_base => 1}, 
 
@@ -39,19 +41,18 @@ sub add_base_columns {
         "data", { data_type => "VARCHAR", is_nullable => 1}
     );
 	
-    #$self->add_json_columns(
 	
     $self->add_frozen_columns(
         data => $self->extra_columns 
     );
 	
+	$self->uuid_columns('_id');
 }
 
 sub extra_columns {
     
     return ();
 }
-
 
 # Created by DBIx::Class::Schema::Loader v0.04006 @ 2009-08-13 21:11:53
 # DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:IEbbWr9Imbum+8sUaLrAAg
