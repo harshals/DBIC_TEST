@@ -16,15 +16,16 @@ foreach my $source ($schema->sources) {
 	my $rs = $schema->resultset($source);	
 	my $table = $rs->result_source->from;
 
-	my $json;
+	my ($json, $list);
 
-	my $list = $rs->fetch_tree->serialize;
-
-	diag(Dumper($list)) if $table eq 'book';
-
-	foreach my $row  ( @$list ) {
+	foreach my $row  ( $rs->next ) {
 		
-		$json .= encode_json( $row ) . "\n";
+		diag(Dumper($row->serialize( { 
+			
+			only_links => 1
+		} ))) if $table eq 'author' ;
+
+		#$json .= encode_json( $row ) . "\n";
 	}
 	
 	my $file = "t/etc/json/$table.mongo.json";

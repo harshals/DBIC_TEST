@@ -4,24 +4,23 @@ use strict;
 use warnings;
 use Moose;
 use namespace::clean -except => 'meta';
+use Carp;
 
 extends qw/Schema::Base::ResultSet/;
 
-override 'fetch_tree' => sub {
+override 'prefetch_related' => sub {
 
     my $self = shift;
+	my $relationships = shift || [  'category' , { author_books=> 'author' }];
 
-	print STDERR "coming here";
+	croak "relatonships need to be an array ref " unless ref $relationships eq 'ARRAY';
 
-#join => [ { 'author_books' => 'author' }, 'category' ] ,
-
-	return $self->search_rs(undef, { join => [  'category' , { author_books=> 'author' }] ,
+	return $self->search_rs(undef, { prefetch =>   $relationships ,
 									
-									include_columns => [qw/category.category author.first_name/],
-
-
-
+									#include_columns => [qw/category.category author.first_name/],
 	} );
 };
+
+
 
 1;

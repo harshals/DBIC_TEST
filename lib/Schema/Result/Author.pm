@@ -42,7 +42,7 @@ __PACKAGE__->has_many(
   { "foreign.author_id" => "self.id" },
 );
 
-__PACKAGE__->many_to_many( "categorys" => "author_category", "category");
+__PACKAGE__->many_to_many( "categories" => "author_category", "category");
 
 
 
@@ -60,6 +60,23 @@ sub extra_columns {
 	return @columns;
 };
 
+augment 'serialize'=> sub {
+
+    my $self = shift;
+	my $options = shift || { 'skip_relations' => 0 , 'only_links' => 0 };
+	
+	return {} if $options->{'skip_relations'};
+	
+	my $rel_hash = {};
+
+	foreach my $rel (qw/books categories affiliations/) {
+		
+		$rel_hash->{$rel} = ($options->{'only_links'}) ?  [$self->$rel->get_column('id')->all ] : $self->$rel->serialize;
+	}
+
+	return 	$rel_hash;
+
+};
 # You can replace this text with custom content, and it will be preserved on regeneration
 
 

@@ -36,7 +36,6 @@ sub add_base_columns {
 		"active", { data_type => "INTEGER", is_base => 1 , is_nullable => 0},
 
 		"status", { data_type => "TEXT" , is_csv => 1, is_base => 1 , is_nullable => 0},
-	#	"status", { data_type => "INTEGER", bitfield => [qw/active deleted dirty log/], is_base => 1},
 		
         "data", { data_type => "VARCHAR", is_nullable => 1}
     );
@@ -162,26 +161,16 @@ sub get_expanded_columns {
 	return \%object;
 }
 
-sub serialize_to_perl {
+sub serialize {
 
 	my $self = shift;
-	my $rels = shift ; ## array of relationship names 
+	my $options = shift || { 'skip_relations' => 0 , 'only_links' => 0 };
 	
 	my $object = $self->get_expanded_columns ;
 
+	my $relationships =  inner() || {} ;
 
-	foreach my $rel ($self->relationships) {
-		
-		next unless $rels;
-		
-		## dun go deep
-		if ( $self->$rel )  {
-			
-			
-			$object->{$rel} = $self->$rel->serialize_to_perl(0) ;
-		}
-	}
-	return $object;
+	return { %$object , %$relationships };
 }
 
 	

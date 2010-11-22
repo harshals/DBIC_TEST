@@ -14,7 +14,8 @@ sub has_access{
 
 	$user = $self->result_source->schema->user unless $user;
 	$permission ||= "read";
-## do necessary user validation  
+ 	## do necessary user validation  
+	
 	croak ("need to pass the user_id ") unless $user;
 	croak ("No such column exists access_$permission") unless $self->result_source->has_column("access_$permission");
 
@@ -58,39 +59,27 @@ sub grant_access {
 	return 1;
 }
 
-sub fetch_tree {
+sub prefetch_related {
 	
 	my $self = shift;
 
-	return $self->search_rs(undef, undef);
+	return $self;
+}
+
+sub related_links {
+
+	my $self = shift;
+
+	return $self;
 }
 
 
-
-#sub serialize_to_perl {
-#
-#	my $self = shift;
-#	my $rels = shift;
-
-#	my @list = map {$_->serialize_to_perl($rels)} $self->all;
-
-#	return \@list;
-#}
-sub serialize_to_perl {
-    my $self = shift;
-    my $rels = shift;
-    #commenting out for testing
-    my @list = map {$_->serialize_to_perl($rels)} $self->all;
-    return \@list;
-    #return [$self->all];
-}
-sub serialize_to_json{
+sub to_json{
 
 	my $self = shift;
 	my $json_str ;
 
-	$self->result_class("DBIx::Class::ResultClass::HashRefInflator");
-	$json_str = encode_json([$self->all]);
+	$json_str = encode_json($self->serialize);
 
 	return $json_str;
 
@@ -100,16 +89,14 @@ sub fetch {
 
 	my $self = shift;
 	my $id = shift;
-	my $user = shift || $self->result_source->schema->user;
+	my $user = $self->result_source->schema->user;
 	
 	croak("No valid user found") unless $user;	
 	croak("Need primary key to find the object") unless $id;	
 
-	#my $object = $self->find($id)->has_access("read", $user);
 	my $attributes = {};
 
-	#my $object = $self->find($id, $attributes);
-	my $object = $self->has_access("read", $user)->find($id, $attributes);
+	my $object = $self->is_valid->has_access("read", $user)->find($id, $attributes);
 
 	croak("user object not found") unless $object;	
 
@@ -127,47 +114,33 @@ sub fetch_new {
 
 	my $object = $self->new({});
 
-    $object->status(1);
+    $object->active(1);
 	$object->grant_access("read", $user);
 	$object->grant_access("write", $user);
 
-	$object->active(1);
-	$object->log(1);
+	$object->set_status("active");
 
 	return $object;
 }
 
-sub get_next_invoice_no {
 
-	my $self = shift;
-
-	return $self->recent->[0]->{'invoice_no'} + 1;
-}
-
-sub get_prev_invoice_date {
-
-	my $self = shift;
-
-	return $self->recent->[0]->{'invoice_date'} ;
-}
 
 sub purge {
 
 	my $self = shift;
 
-	#$self->is_deleted->delete;
     $self->delete;
 }
 
 sub is_valid {
 
 	my $self = shift;
-	my $alias = shift;
 
-	$alias ||= $self->current_source_alias;
+ 	## do necessary user validation  
+	
+	my $alias ||= $self->current_source_alias;
     
-    $self;
-	#$self->search( { "$alias.status" => { '!=' , 11 } });
+	$self->search_rs( { "$alias.active" => 1 });
 }
 
 sub is_deleted {
@@ -176,8 +149,8 @@ sub is_deleted {
 	my $alias = shift;
 
 	$alias ||= $self->current_source_alias;
-	#return $self->search_bitfield( { "$alias.deleted" => 1 } );
-	return $self;
+
+	return $self->search_rs( { "$alias.active" => 0, "$alias.status" => { 'like' , '%,' . 'deleted' . ',%'} } );
 }
 sub look_for {
 	
@@ -185,8 +158,7 @@ sub look_for {
 
     ## do necessary user validation  
 	
-	return $self->has_access->is_valid->search( $search, $attributes)->serialize_to_perl(1) ;
-
+	return $self->has_access->is_valid->search_rs( $search, $attributes);
 }
 
 sub serialize {
@@ -200,12 +172,12 @@ sub serialize {
 
 sub recent {
 
-	my ($self, $limit, $search) = @_;
+	my ($self, $limit ) = @_;
 
     $limit ||= 3;
 	my $alias = $self->current_source_alias;
 
-    return $self->look_for( $search, { order_by => { -desc => "$alias.created_on" }  ,rows => $limit }  );
+    return $self->search_rs( undef, { order_by => { -desc => "$alias.created_on" }  ,rows => $limit }  );
 
 }
 
