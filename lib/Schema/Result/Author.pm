@@ -7,6 +7,9 @@ use Moose;
 use namespace::clean -except => 'meta';
 #use base qw/Schema::Base::Result/;
 extends qw/Schema::Base::Result/;
+use Data::Dumper qw/Dumper/;
+
+__PACKAGE__->load_components(qw/CustomPrefetch/);
 
 __PACKAGE__->table("author");
 __PACKAGE__->add_columns(
@@ -43,6 +46,17 @@ __PACKAGE__->has_many(
 );
 
 __PACKAGE__->many_to_many( "categories" => "author_category", "category");
+
+__PACKAGE__->custom_relation( cat2 => sub { 
+		
+			my ( $schema, $attrs ) = @_;
+			
+			return unless $attrs->{cat2};
+			
+			#return Schema::ResultSet::AuthorCategories->new 
+			return $schema->resultset('AuthorCategories');
+		} => { 'foreign.author_id' => 'self.id' }
+);
 
 
 

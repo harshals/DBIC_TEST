@@ -53,6 +53,9 @@ is($first_book->subtitle, 'The Complete Language ANSI/ISO Compliant, Third Editi
 
 is($authors->count,5 , 'This book has 5 authors');
 
+## getting stuck here
+#diag(Dumper($authors->serialize));
+
 is($authors->first->first_name, 'Connor', "Found correct fist name ");
 
 is($authors->first->country, 'China', "Found correct frozen column ");
@@ -66,7 +69,6 @@ is(scalar(@$list), 2, "Hash has two elements");
 
 is(ref $list->[0]->{'author_books'} , "ARRAY", "First element is hash reference");
 
-
 is($list->[0]->{'author_books'}->[0]->{'book_id'}, $list->[0]->{id}, "1st level relationship maintained");
 
 ok(exists $list->[0]->{'author_books'}->[0]->{'author'}->{first_name}, "going deeper");
@@ -79,4 +81,14 @@ is(scalar(@$list), 5, "Array has five elements");
 
 is(ref $list->[0], "Schema::Result::Author", "Still a blessed refernce !!");
 
+diag("Checking for custom relationships");
+
+$authors = $author_rs->search_rs( { -and => [ { 'me.id' => {'>=', 3} } , { 'me.id' => {'<=', 4}   } ] }, { 'cat2' => 1 } );
+
+diag($authors->serialize2);
+
+foreach my $at (@{ $authors->serialize2 }) {
+	
+	#diag(Dumper($at->cat2));
+}
 

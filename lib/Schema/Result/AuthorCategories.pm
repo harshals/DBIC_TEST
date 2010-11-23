@@ -8,12 +8,16 @@ use namespace::clean -except => 'meta';
 #use base qw/Schema::Base::Result/;
 extends qw/Schema::Base::Result/;
 
+__PACKAGE__->load_components(qw/CustomPrefetch/);
+
 __PACKAGE__->table("author_category");
 __PACKAGE__->add_columns(
 
 	qw/author_id category_id/
 );
 
+
+#__PACKAGE__->load_components( qw(CustomPrefetch) );
 
 __PACKAGE__->set_primary_key(qw/author_id category_id/);
 
