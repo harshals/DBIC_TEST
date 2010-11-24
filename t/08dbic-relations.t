@@ -81,14 +81,13 @@ is(scalar(@$list), 5, "Array has five elements");
 
 is(ref $list->[0], "Schema::Result::Author", "Still a blessed refernce !!");
 
-diag("Checking for custom relationships");
+diag("Checking for list with relationships");
 
-$authors = $author_rs->search_rs( { -and => [ { 'me.id' => {'>=', 3} } , { 'me.id' => {'<=', 4}   } ] }, { 'cat2' => 1 } );
+$authors = $author_rs->search_rs( { -and => [ { 'me.id' => {'>=', 3} } , { 'me.id' => {'<=', 4}   } ] }  );
 
-diag($authors->serialize2);
+#diag(Dumper($authors->serialize( { 'skip_relationships' => 0 , 'only_links' => 0} )));
 
-foreach my $at (@{ $authors->serialize2 }) {
-	
-	#diag(Dumper($at->cat2));
-}
+#diag($authors->to_json({ 'skip_relationships' => 0 , 'only_links' => 1}));
+
+
 

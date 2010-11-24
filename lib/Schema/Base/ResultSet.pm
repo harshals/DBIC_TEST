@@ -2,12 +2,18 @@
 package Schema::Base::ResultSet;
 use strict;
 use warnings;
+use Moose;
+use namespace::clean -except => 'meta';
+use Carp qw/croak confess/;
 
 use JSON::XS qw/encode_json/;
-use base qw/DBIx::Class::ResultSet/;
 use constant DEBUG => 0;
 use Carp;
 use Data::Dumper qw/Dumper/;
+
+#use base ;
+
+extends qw/DBIx::Class::ResultSet/;
 
 sub has_access{
 
@@ -75,16 +81,6 @@ sub related_links {
 }
 
 
-sub to_json{
-
-	my $self = shift;
-	my $json_str ;
-
-	$json_str = encode_json($self->serialize);
-
-	return $json_str;
-
-}
 
 sub fetch {
 
@@ -161,23 +157,35 @@ sub look_for {
 	
 	return $self->has_access->is_valid->search_rs( $search, $attributes);
 }
-sub serialize2 {
 
-	my ($self ) = @_;
-
-	$self->result_class("Schema::Base::ResultClass");
-
-	return [ $self->all2 ];
-}
 sub serialize {
 
-	my ($self ) = @_;
+	my ($self ) = shift;
+	my $options = shift || { 'skip_relations' => 1 , 'only_links' => 0 };
+	
+	## by default dun fetch relationships
+	
+	my $list;
+	unless ($options->{'skip_relations'}) {
+		
+		# at row level, relationships are fetched by defualt
+		push @$list , $_->serialize($options) foreach $self->all;
 
-	$self->result_class("Schema::Base::ResultClass");
+	}else {
 
-	return [ $self->all ];
+		$self->result_class("Schema::Base::ResultClass");
+		$list = [ $self->all ];
+	}
+
+	return $list;
 }
 
+sub to_json{
+
+	my $self = shift;
+
+	return encode_json( $self->serialize(@_) );
+}
 sub recent {
 
 	my ($self, $limit ) = @_;
@@ -187,62 +195,6 @@ sub recent {
 
     return $self->search_rs( undef, { order_by => { -desc => "$alias.created_on" }  ,rows => $limit }  );
 
-}
-
-sub _prefetch_relation {
-    my ( $self, $accessor_name, $rs_callback, $condition ) = @_;
-	warn "Inside Prefetching $accessor_name $rs_callback \n"  . Dumper($condition) if DEBUG;
-	warn "Result set is crap\n" if DEBUG && ref $rs_callback;
-    my $resultset =
-      ref $rs_callback
-      ? $rs_callback->( $self->result_source->schema, $self->{attrs} )
-      : $self->result_source->schema->resultset($rs_callback);
-    return unless $resultset;  
-    my $objects   = $self->get_cache;
-    my %ids       = ();
-    my %relations = ();
-    my ( $foreign_accessor, $source_accessor ) = %$condition;
-    $foreign_accessor =~ s/^foreign\.//;
-    $source_accessor  =~ s/^self\.//;
-
-    foreach (@$objects) {
-        next unless defined $_->{$source_accessor};
-        $ids{ $_->{$source_accessor} } = 1;
-    }
-    my $related_source_alias = $resultset->current_source_alias;
-    my @related_objects;
-    @related_objects = $resultset->search(
-        {
-            "$related_source_alias.$foreign_accessor" =>
-              { -in => [ keys %ids ] }
-        },
-    )->all if %ids;
-    push @{ $relations{ $_->$foreign_accessor } }, $_ foreach @related_objects;
-    warn "Setting accessors:\n" if DEBUG;
-    foreach (@$objects) {
-        warn "$_ $accessor_name => $source_accessor\n" if DEBUG;
-        $_->$accessor_name( $relations{ $_->{$source_accessor} || '' }[0] );
-    }
-}
-
-
-sub all2 {
-    my ( $self, @args ) = @_;
-    warn "Enter SUB: " . (ref $self) . "\n" if DEBUG;
-    my @objects = $self->all(@args);
-    $self->set_cache( \@objects );
-    foreach ( values %{ $self->result_source->{_custom_relations} } ) {
-        warn "Prefetching $_->[0]\n" if DEBUG;
-        $self->_prefetch_relation(@$_);
-    }
-    return @objects;
-}
-
-
-sub next2 {
-    my $self = shift;
-    $self->all2;
-    $self->next(@_);
 }
 
 
