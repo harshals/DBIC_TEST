@@ -53,6 +53,10 @@ sub extra_columns {
     return ();
 }
 
+sub my_relationships {
+	
+	return ();
+}
 # Created by DBIx::Class::Schema::Loader v0.04006 @ 2009-08-13 21:11:53
 # DO NOT MODIFY THIS OR ANYTHING ABOVE! md5sum:IEbbWr9Imbum+8sUaLrAAg
 
@@ -145,12 +149,22 @@ sub set_status {
 	$self->add_to_csv("status", $status);
 
 }
+
 sub get_expanded_columns {
 
 	my $self = shift;
+	my $include_base = shift;
 	my %object = $self->get_columns;
 	
-	delete $object{'data'};
+	## remove base columns
+	warn $include_base;
+	unless ($include_base) {
+		foreach my $col (qw/created_on updated_on status active access_read access_write data/) {
+		
+			delete $object{$col};
+		}
+	}
+	
 
 	## thaw the frozen columns
     unless ($self->in_storage) {
@@ -164,11 +178,16 @@ sub get_expanded_columns {
 sub serialize {
 
 	my $self = shift;
-	my $options = shift || { 'skip_relations' => 0 , 'only_links' => 0 };
+	my $options = shift ;
 	
-	my $object = $self->get_expanded_columns ;
+	## set defaults
+	foreach my $key ($self->my_relationships)
+		$options->{$key} = 0 unless ( exists $options->{$key}) ;
+	}
 
-	my $relationships =  inner() || {} ;
+	my $object = $self->get_expanded_columns($options->{'include_base'} ) ;
+
+	my $relationships =  inner($options) || {} ;
 
 	return { %$object , %$relationships };
 }

@@ -161,14 +161,18 @@ sub look_for {
 sub serialize {
 
 	my ($self ) = shift;
-	my $options = shift || { 'skip_relations' => 1 , 'only_links' => 0 };
+	my $options = shift ;
 	
 	## by default dun fetch relationships
+	foreach my $key (qw/include_relationships only_primary_keys include_base/) {
+		$options->{$key} = 0 unless ( exists $options->{$key}) ;
+	}
 	
 	my $list;
-	unless ($options->{'skip_relations'}) {
+	if ($options->{'include_relationships'}) {
 		
 		# at row level, relationships are fetched by defualt
+		# to avoid that set skip_relationships => 1 in the options
 		push @$list , $_->serialize($options) foreach $self->all;
 
 	}else {

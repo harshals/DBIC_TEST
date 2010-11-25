@@ -74,18 +74,26 @@ sub extra_columns {
 	return @columns;
 };
 
+override 'my_relationships' => {
+	
+	my $self = shift;
+
+	return qw/books categories affiliations/;
+};
+
 augment 'serialize'=> sub {
 
     my $self = shift;
-	my $options = shift || { 'skip_relations' => 0 , 'only_links' => 0 };
+	my $options = shift;
 	
-	return {} if $options->{'skip_relations'};
+	return {} if $options->{'skip_relationships'};
 	
 	my $rel_hash = {};
 
 	foreach my $rel (qw/books categories affiliations/) {
+
 		
-		$rel_hash->{$rel} = ($options->{'only_links'}) ?  [$self->$rel->get_column('id')->all ] : $self->$rel->serialize;
+		$rel_hash->{$rel} = ($options->{'only_primary_keys'}) ?  [$self->$rel->get_column('id')->all ] : $self->$rel->serialize;
 	}
 
 	return 	$rel_hash;

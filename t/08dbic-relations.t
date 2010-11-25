@@ -85,7 +85,7 @@ diag("Checking for list with relationships");
 
 $authors = $author_rs->search_rs( { -and => [ { 'me.id' => {'>=', 3} } , { 'me.id' => {'<=', 4}   } ] }  );
 
-#diag(Dumper($authors->serialize( { 'skip_relationships' => 0 , 'only_links' => 0} )));
+diag(Dumper($authors->serialize( { 'include_relationships' => 1 , 'only_primary_keys' => 1} )));
 
 #diag($authors->to_json({ 'skip_relationships' => 0 , 'only_links' => 1}));
 
