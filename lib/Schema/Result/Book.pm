@@ -48,7 +48,6 @@ sub my_relations {
 
     my $self = shift;
 	use Data::Dumper;
-	warn Dumper($self->relationship_info($_))  foreach ($self->result_source->relationships);
 	return qw/authors categories/;
 }
 

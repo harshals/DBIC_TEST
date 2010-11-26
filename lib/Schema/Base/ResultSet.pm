@@ -198,7 +198,7 @@ sub serialize {
 		
 		if ($options->{'indexed_by'}) {
 
-			push @$list , { $_->get_column($options->{indexed_by}) => $_->serialize($options) } foreach $self->all;
+			$list->{ $_->get_column($options->{indexed_by}) } =  $_->serialize($options)  foreach $self->all;
 		}else {
 
 			push @$list , $_->serialize($options) foreach $self->all;
@@ -209,7 +209,7 @@ sub serialize {
 		$self->result_class("Schema::Base::ResultClass");
 		if ($options->{'indexed_by'}) {
 			
-			push @$list , {$_->{ $options->{indexed_by} } => $_ } foreach $self->all;
+			$list->{ $_->{$options->{indexed_by}} } = $_ foreach $self->all;
 
 		}else {
 
@@ -234,7 +234,7 @@ sub recent {
     $limit ||= 3;
 	my $alias = $self->current_source_alias;
 
-    return $self->search_rs( undef, { order_by => { -desc => "$alias.created_on" }  ,rows => $limit }  );
+    return $self->search_rs( undef, { order_by => { -desc => "$alias.updated_on" }  ,rows => $limit }  );
 
 }
 
