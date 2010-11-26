@@ -74,7 +74,7 @@ sub extra_columns {
 	return @columns;
 };
 
-override 'my_relationships' => {
+override 'my_relations' => sub {
 	
 	my $self = shift;
 
@@ -91,7 +91,6 @@ augment 'serialize'=> sub {
 	my $rel_hash = {};
 
 	foreach my $rel (qw/books categories affiliations/) {
-
 		
 		$rel_hash->{$rel} = ($options->{'only_primary_keys'}) ?  [$self->$rel->get_column('id')->all ] : $self->$rel->serialize;
 	}

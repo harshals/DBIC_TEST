@@ -158,28 +158,65 @@ sub look_for {
 	return $self->has_access->is_valid->search_rs( $search, $attributes);
 }
 
+=head2 resultset->serialize ($options) 
+
+serilizes blessed DBIC resultset into plain hold perl hash
+
+accepts options hash as -
+
+$options->{
+	include_relationships , # says it all
+	only_keys, # fetch only specific key (mainly primary) from relationships
+	key , # specific key to be fetched only if only_kyes is set
+	include_base_columns , # set to null by default
+	indexed_by, # have each row indexed by key, set to null by default
+	index, # shortcut for indexed_by => id
+};
+
+=cut
+
 sub serialize {
 
 	my ($self ) = shift;
 	my $options = shift ;
 	
 	## by default dun fetch relationships
-	foreach my $key (qw/include_relationships only_primary_keys include_base/) {
+	foreach my $key (qw/include_relationships only_keys include_base_columns indexed_by/) {
 		$options->{$key} = 0 unless ( exists $options->{$key}) ;
 	}
+	$options->{'key'} ||= 'id' if $options->{only_keys};
+	$options->{'indexed_by'}  ||= 'id' if $options->{index};
 	
+	croak "Cannot index resultset by non-existant columns " 
+			if $options->{indexed_by} && !$self->result_source->has_column($options->{indexed_by});
+
 	my $list;
 	if ($options->{'include_relationships'}) {
 		
 		# at row level, relationships are fetched by defualt
 		# to avoid that set skip_relationships => 1 in the options
-		push @$list , $_->serialize($options) foreach $self->all;
+		
+		if ($options->{'indexed_by'}) {
+
+			push @$list , { $_->get_column($options->{indexed_by}) => $_->serialize($options) } foreach $self->all;
+		}else {
+
+			push @$list , $_->serialize($options) foreach $self->all;
+		}
 
 	}else {
 
 		$self->result_class("Schema::Base::ResultClass");
-		$list = [ $self->all ];
+		if ($options->{'indexed_by'}) {
+			
+			push @$list , {$_->{ $options->{indexed_by} } => $_ } foreach $self->all;
+
+		}else {
+
+			$list = [ $self->all ];
+		}
 	}
+
 
 	return $list;
 }

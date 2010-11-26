@@ -27,8 +27,10 @@ __PACKAGE__->has_many(
 );
 __PACKAGE__->many_to_many("authors" => "author_books"=> "author"); 
 
-__PACKAGE__->has_one(
-	"category",
+
+## Force Array return
+__PACKAGE__->has_many(
+	"categories",
 	"Schema::Result::Category",
 	{ "foreign.id" => "self.category_id" }
 );
@@ -42,6 +44,13 @@ sub extra_columns {
     return qw/subtitle description toc/;
 };
 
+sub my_relations {
+
+    my $self = shift;
+	use Data::Dumper;
+	warn Dumper($self->relationship_info($_))  foreach ($self->result_source->relationships);
+	return qw/authors categories/;
+}
 
 # You can replace this text with custom content, and it will be preserved on regeneration
 

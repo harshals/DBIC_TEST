@@ -31,6 +31,8 @@ is($book_rs->count,500, "found 500 books");
 
 ## find all authors of a particular book 
 
+diag("Testing traditional prefetched resultsets");
+
 my $book = $book_rs->search_rs( { -and => [ { 'me.id' => {'>=', 3} } , { 'me.id' => {'<=', 4}   } ] }, 
 								{ 
 									prefetch => { author_books => 'author'  }  ,
@@ -63,8 +65,6 @@ is($authors->first->country, 'China', "Found correct frozen column ");
 ## convert entire book hash along with authors
 my $list =  $book->serialize ;
 
-#diag(Dumper($list));
-
 is(scalar(@$list), 2, "Hash has two elements");
 
 is(ref $list->[0]->{'author_books'} , "ARRAY", "First element is hash reference");
@@ -85,9 +85,35 @@ diag("Checking for list with relationships");
 
 $authors = $author_rs->search_rs( { -and => [ { 'me.id' => {'>=', 3} } , { 'me.id' => {'<=', 4}   } ] }  );
 
-diag(Dumper($authors->serialize( { 'include_relationships' => 1 , 'only_primary_keys' => 1} )));
+## default behaviour 
 
-#diag($authors->to_json({ 'skip_relationships' => 0 , 'only_links' => 1}));
+#diag(Dumper($authors->serialize ));
+#
+#
+#default behaviour arranged by primary keys 
+#diag(Dumper($authors->serialize( { index => 1} )));
+#
+#same thing but indexed via user specified column
+#diag(Dumper($authors->serialize( { 'indexed_by' => '_id'  })));
 
+# default and simple behaviour for include relationships, fetched everything
+#diag(Dumper($authors->serialize( { 'include_relationships' => 1 } )));
 
+# include only relationship links and not the complete result.
+#diag(Dumper($authors->serialize( { 'include_relationships' => 1, only_keys => 1 } )));
+#
+#fetch same thing but via specific column links
+#diag(Dumper($authors->serialize( { 'include_relationships' => 1, only_keys => 1 , key => '_id' } )));
+#
+#combination of relationships indexed
+#diag(Dumper($authors->serialize( { 'include_relationships' => 1, index => 1 } )));
+#
+#Expanding the same combination with custom key
+#diag(Dumper($authors->serialize( { 'include_relationships' => 1, indexed_by => '_id' } )));
+#
+#Further, including only relationship links
+#diag(Dumper($authors->serialize( { 'include_relationships' => 1, indexed_by => '_id' , only_keys => 1, key => '_id' } )));
 
+$book = $book_rs->search_rs( { -and => [ { 'me.id' => {'>=', 3} } , { 'me.id' => {'<=', 4}   } ] });
+
+diag(Dumper($book->serialize({'include_relationships'=> 1, 'index' => 1, 'only_keys' => 0})));

@@ -53,7 +53,7 @@ sub extra_columns {
     return ();
 }
 
-sub my_relationships {
+sub my_relations {
 	
 	return ();
 }
@@ -153,18 +153,14 @@ sub set_status {
 sub get_expanded_columns {
 
 	my $self = shift;
-	my $include_base = shift;
+	my $include_base_columns = shift;
 	my %object = $self->get_columns;
 	
 	## remove base columns
-	warn $include_base;
-	unless ($include_base) {
-		foreach my $col (qw/created_on updated_on status active access_read access_write data/) {
-		
-			delete $object{$col};
-		}
+
+	unless ($include_base_columns) {
+		delete $object{$_} foreach (qw/created_on updated_on status active access_read access_write/) ;
 	}
-	
 
 	## thaw the frozen columns
     unless ($self->in_storage) {
@@ -172,8 +168,28 @@ sub get_expanded_columns {
 		%object = (%object, $self->frozen_columns);
     }
 	
+	delete $object{'data'};
+
 	return \%object;
 }
+
+=head2 row->serialize ($options) 
+
+serilizes blessed DBIC row into plain hold perl hash
+
+accepts options hash as -
+
+$options->{
+	include_relationships , # says it all , set to 1 by default
+	skip_relationships, # stupid, overrides previous one , set to null by default
+	only_keys, # fetch only specific key (mainly primary) from relationships
+	key , # specific key to be fetched only if only_kyes is set, default is `id`
+	include_base_columns , # set to null by default
+	indexed_by , # have row indexed by key, set to null by default
+};
+
+=cut
+
 
 sub serialize {
 
@@ -181,13 +197,20 @@ sub serialize {
 	my $options = shift ;
 	
 	## set defaults
-	foreach my $key ($self->my_relationships)
+	foreach my $key (qw/skip_relationships only_keys include_base_columns/) {
 		$options->{$key} = 0 unless ( exists $options->{$key}) ;
 	}
+	$options->{'key'} ||= 'id' if $options->{only_keys};
 
-	my $object = $self->get_expanded_columns($options->{'include_base'} ) ;
-
-	my $relationships =  inner($options) || {} ;
+	my $object = $self->get_expanded_columns($options->{'include_base_columns'} ) ;
+	
+	my $relationships = {};
+	foreach my $rel ($self->my_relations) {
+		
+		## make sure we dont go in a recurrsive loop
+		$options->{'include_relationships'} = 0;
+		$relationships->{$rel} = ($options->{'only_keys'}) ?  [$self->$rel->get_column( $options->{key} )->all ] : $self->$rel->serialize($options);
+	}
 
 	return { %$object , %$relationships };
 }
