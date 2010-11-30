@@ -7,7 +7,8 @@ use JSON::XS qw/encode_json/;
 
 use Schema;
 
-my $schema = Schema->init_schema("t/etc/large.db");
+my $dbname = "t/etc/small.db";
+my $schema = Schema->init_schema($dbname);
 
 my $user = 1;
 
@@ -15,11 +16,9 @@ $schema->user($user);
 
 my $book_rs = $schema->resultset("Book");
 
-is($book_rs->count,500, "found 500 books");
+is($book_rs->count,20, "found 20 books");
 
 ## find all authors of a particular book 
-
-diag("Testing traditional prefetched resultsets");
 
 my $book = $book_rs->search_rs( { -and => [ { 'me.id' => {'>=', 3} } , { 'me.id' => {'<=', 4}   } ] }, 
 								{ 

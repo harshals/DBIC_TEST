@@ -1,17 +1,16 @@
 use warnings;
 use strict;
-use Test::More 'no_plan';
+use Test::More tests => 2;
 use Text::CSV::Slurp;
 use Data::Dumper;
 use Schema;
 
-my $schema = Schema->init_schema("populate.db");
+my $dbname = "t/etc/small.db";
+my $schema = Schema->init_schema($dbname);
 
 my $user = 1;
 
 $schema->user($user);
-
-$schema->deploy;
 
 my $filename = "t/etc/data.csv";
 
@@ -35,12 +34,15 @@ my $author_category_rs = $schema->resultset("AuthorCategories");
 
 my %base = ( active => 1, access_read => ",$user," , access_write => ",$user,", status => ",active," , data => '');
 
-my $total_rows = scalar(@$data);
+my $total_rows  ;
 
 
 ## override $total_rows
-$total_rows = 500;
-diag("inserting $total_rows rows just for kicks");
+$total_rows = 20  if ($dbname =~ m/small/) ;
+$total_rows = 500  if ($dbname =~ m/large/) ;
+$total_rows = scalar(@$data) if ($dbname =~ m/very_large/) ;
+
+#diag("inserting $total_rows rows just for kicks");
 
 foreach my $row  (splice( @$data, 0, $total_rows)) {
 	

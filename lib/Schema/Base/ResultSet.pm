@@ -227,14 +227,16 @@ sub to_json{
 
 	return encode_json( $self->serialize(@_) );
 }
+
 sub recent {
 
-	my ($self, $limit ) = @_;
+	my ($self, $limit , $sort_by) = @_;
 
     $limit ||= 3;
 	my $alias = $self->current_source_alias;
+	$sort_by ||= 'updated_on';
 
-    return $self->search_rs( undef, { order_by => { -desc => "$alias.updated_on" }  ,rows => $limit }  );
+    return $self->search_rs( undef, { order_by => { -desc => "$alias.$sort_by" }  ,rows => $limit }  );
 
 }
 

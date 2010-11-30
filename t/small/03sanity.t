@@ -1,18 +1,15 @@
 use warnings;
 use strict;
-use Test::More 'no_plan';
+use Test::More tests => 7;
 
 BEGIN { use_ok 'Schema' }
 
-my $schema = Schema->init_schema();
+my $dbname = "t/etc/small.db";
+my $schema = Schema->init_schema($dbname);
 
 isa_ok($schema, 'DBIx::Class::Schema', "Schema initialised properly");
 
 $schema->user(1);
-
-diag("deploying in memory DB");
-
-$schema->deploy;
 
 is($schema->user, 1, "Schema user set to 1 ");
 
