@@ -41,8 +41,10 @@ sub init_schema {
     my $self = shift;
 	my $name = shift || ':memory:';
 	my $db = shift || 'SQLite';
+	my $user = shift;
+	my $password = shift;
 
-    my $schema = $self->connect("dbi:$db:dbname=$name") || die "Could no connect";
+    my $schema = $self->connect("dbi:$db:dbname=$name", $user, $password) || die "Could no connect";
 
 	return $schema;
 }
