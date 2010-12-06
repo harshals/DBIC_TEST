@@ -5,8 +5,25 @@ use Text::CSV::Slurp;
 use Data::Dumper;
 use Schema;
 
-my $dbname = "t/etc/small.db";
-my $schema = Schema->init_schema($dbname);
+
+
+my %args = ( @ARGV );
+my $size = $args{"size"}  || "small";
+my $dbname =  $args{"dbname"} || "t/etc/" . $size . ".db";
+my $dbtype = $args{"dbtype"} || "SQLite";
+my $password = $args{"p"};
+my $username = $args{"u"};
+my $host = $args{"h"};
+
+##auto correct db types
+
+$dbtype = "SQLite" if $dbtype =~ /sqlite/i;
+$dbtype = "mysql" if $dbtype =~ /mysql/i;
+$dbtype = "PostgreSQL" if $dbtype =~ /pg|postgre/i;
+
+
+
+my $schema = Schema->init_schema($dbname, $dbtype, $username, $password , $host);
 
 my $user = 1;
 
@@ -38,9 +55,9 @@ my $total_rows  ;
 
 
 ## override $total_rows
-$total_rows = 20  if ($dbname =~ m/small/) ;
-$total_rows = 500  if ($dbname =~ m/large/) ;
-$total_rows = scalar(@$data) if ($dbname =~ m/very_large/) ;
+$total_rows = 20  if ($size =~ m/small/) ;
+$total_rows = 500  if ($size =~ m/large/) ;
+$total_rows = scalar(@$data) if ($size =~ m/very_large/) ;
 
 #diag("inserting $total_rows rows just for kicks");
 

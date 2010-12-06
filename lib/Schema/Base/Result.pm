@@ -21,9 +21,9 @@ sub add_base_columns {
 
     $self->add_columns(
 
-		"id", { data_type => "INTEGER", is_nullable => 0, is_base => 1},
+		"id", { data_type => "integer", is_nullable => 0, is_base => 1, is_auto_increment => 1},
 		
-		"_id", { data_type => "TEXT", is_nullable => 0, is_base => 1},
+		"_id", { data_type => "varchar", size=> 100, is_nullable => 0, is_base => 1},
 		
 		"created_on", { data_type => "DATETIME" ,set_on_create => 1 , is_base => 1}, 
 
@@ -37,7 +37,7 @@ sub add_base_columns {
 
 		"status", { data_type => "TEXT" , is_csv => 1, is_base => 1 , is_nullable => 0},
 		
-        "data", { data_type => "VARCHAR", is_nullable => 1}
+        "data", { data_type => "BLOB", is_nullable => 1}
     );
 	
 	

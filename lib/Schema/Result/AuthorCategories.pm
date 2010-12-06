@@ -13,7 +13,8 @@ __PACKAGE__->load_components(qw/CustomPrefetch/);
 __PACKAGE__->table("author_category");
 __PACKAGE__->add_columns(
 
-	qw/author_id category_id/
+		"author_id", { data_type => "INTEGER", is_nullable => 0 },
+		"category_id", { data_type => "INTEGER", is_nullable => 0 },
 );
 
 

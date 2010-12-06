@@ -11,7 +11,7 @@ extends qw/Schema::Base::Result/;
 __PACKAGE__->table("category");
 __PACKAGE__->add_columns(
 
-	qw/category/
+		"category", { data_type => "VARCHAR(100)", is_nullable => 0 },
 );
 
 __PACKAGE__->add_base_columns;

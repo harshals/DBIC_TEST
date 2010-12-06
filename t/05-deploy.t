@@ -28,13 +28,14 @@ my $dbname = "library";
 
 `rm -f $dbname` if -f $dbname;
 
-my $schema = Schema->init_schema($dbname, "mysql", "root");
+my $schema = Schema->init_schema($dbname, "mysql", "harshal","foobar1979", "demo.mksoftware.in");
 
 isa_ok($schema, 'DBIx::Class::Schema', "Schema initialised properly");
 
 $schema->user(1);
 
 $schema->deploy;
+#$schema->create_ddl_dir;
 
 is($schema->user, 1, "Schema user set to 1 ");
 

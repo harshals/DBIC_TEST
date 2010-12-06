@@ -4,8 +4,23 @@ use Test::More tests => 7;
 
 BEGIN { use_ok 'Schema' }
 
-my $dbname = "t/etc/small.db";
-my $schema = Schema->init_schema($dbname);
+my %args = ( @ARGV );
+my $size = $args{"size"}  || "small";
+my $dbname =  $args{"dbname"} || "t/etc/" . $size . ".db";
+my $dbtype = $args{"dbtype"} || "SQLite";
+my $password = $args{"p"};
+my $username = $args{"u"};
+my $host = $args{"h"};
+
+##auto correct db types
+
+$dbtype = "SQLite" if $dbtype =~ /sqlite/i;
+$dbtype = "mysql" if $dbtype =~ /mysql/i;
+$dbtype = "PostgreSQL" if $dbtype =~ /pg|postgre/i;
+
+
+
+my $schema = Schema->init_schema($dbname, $dbtype, $username, $password , $host);
 
 isa_ok($schema, 'DBIx::Class::Schema', "Schema initialised properly");
 

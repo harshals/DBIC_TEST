@@ -11,7 +11,13 @@ extends qw/Schema::Base::Result/;
 __PACKAGE__->table("book");
 __PACKAGE__->add_columns(
 
-	qw/isbn title publish_date publish_year category_id price classification/
+		"isbn", { data_type => "VARCHAR(200)", is_nullable => 0 },
+		"title", { data_type => "VARCHAR(200)", is_nullable => 0 },
+		"publish_date", { data_type => "DATETIME", is_nullable => 0 },
+		"publish_year", { data_type => "INTEGER", is_nullable => 0 },
+		"category_id", { data_type => "INTEGER", is_nullable => 0 },
+		"price", { data_type => "REAL", is_nullable => 0 },
+		"classification", { data_type => "VARCHAR(11)", is_nullable => 0 },
 );
 
 __PACKAGE__->add_base_columns;

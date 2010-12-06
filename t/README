@@ -1,0 +1,7 @@
+## different ways to run these tests
+
+## for mysql
+prove -lr -v t/small/01deploy.t :: size small dbtype mysql dbname library u harshal p mypass h demo.mksoftware.in
+
+## for sqlite , by default it runs a small size test
+prove -lr -v t/mytest.t :: --dbtype SQLite

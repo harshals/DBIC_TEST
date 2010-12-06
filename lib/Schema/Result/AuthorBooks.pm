@@ -11,7 +11,8 @@ extends qw/Schema::Base::Result/;
 __PACKAGE__->table("author_book");
 __PACKAGE__->add_columns(
 
-	qw/author_id book_id/
+		"author_id", { data_type => "INTEGER", is_nullable => 0 },
+		"book_id", { data_type => "INTEGER", is_nullable => 0 },
 );
 
 
